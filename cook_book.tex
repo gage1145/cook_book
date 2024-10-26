@@ -12,12 +12,12 @@
     margin=0.75in,
     top=0.75in,
     bottom=0.75in,
-    %twoside
+    % twoside
     ]{geometry}
 \usepackage{xcolor}
 \usepackage{graphicx}
 
-\raggedcolumns
+\raggedcolumns{}
 \setlength{\multicolsep}{0pt}
 \setlength{\columnseprule}{1pt}
 
@@ -28,9 +28,9 @@
 %% otherwise it is put into a raggedright paragraph.
 \long\def\testoneline#1{%
   \sbox\@tempboxa{#1}%
-  \ifdim \wd\@tempboxa <0.75\linewidth
+  \ifdim\wd\@tempboxa <0.75 \linewidth
         \begingroup
-            \itshape
+            \itshape{}
             #1\par
         \endgroup
   \else
@@ -39,16 +39,16 @@
   \fi
 }
 
-\newif\if@mainmatter \@mainmattertrue
+\newif\if@mainmatter{} \@mainmattertrue{}
 
 %% Borrowed from book.cls
 \newcommand\frontmatter{%
-    \cleardoublepage
-  \@mainmatterfalse
+    \cleardoublepage{}
+  \@mainmatterfalse{}
   \pagenumbering{roman}}
 \newcommand\mainmatter{%
-    \cleardoublepage
-  \@mainmattertrue
+    \cleardoublepage{}
+  \@mainmattertrue{}
   \pagenumbering{arabic}}
 \makeatother
 
@@ -59,6 +59,7 @@
 \definecolor{dessertcolor}{rgb}{0.5,0.2,0.1}
 \definecolor{makeaheadcolor}{rgb}{0.5,0.5,0.6}
 \definecolor{breadcolor}{rgb}{0.9, 0.5, 0.2}
+\definecolor{appcolor}{rgb}{0.2, 0.5, 1.0}
 
 %% Thanks to alephzero for the excellent start:
 \newcommand{\recipe}[2][]{%
@@ -69,7 +70,7 @@
     \rhead{}%
     \lfoot{}%
     \rfoot{}%
-    \section{#2}%
+    \subsection{#2}%
     \if###1##%
     \else
         \begin{center}
@@ -90,6 +91,9 @@
 }
 \newcommand{\bread}{%
     {\large\color{breadcolor}\textbf{B}}%
+}
+\newcommand{\apps}{%
+    {\large\color{appcolor}\textbf{A}}%
 }
 \newcommand{\freeze}{%
     {\large\color{frzcolor}\textbf{F}}%
@@ -128,6 +132,12 @@
     \else
         \emph{#1}%
     \fi
+}
+
+\newcommand{\recipeSection}[1]{
+    \newpage
+    \section{#1}
+    \newpage
 }
 
 %% Use \obeylines to minimize markup
@@ -183,6 +193,8 @@
 
 \mainmatter
 
+\recipeSection{Breads}
+
 \recipe[Perfect for making Cubano sandwiches]{Cubano Bread}
 \serves{4}
 \preptime{2 hour}
@@ -218,7 +230,7 @@
 
     Place the loaves onto a parchment-lined baking sheet 4--6 inches apart. Cover with another baking sheet. Let the dough proof for about 30 minutes at room temp.
 
-    About 10 minutes before the dough is done proofing, bring a 10-inch oven-proof skillet of water to a boil. Preheat the oven to 400°F. Remove the top baking sheet. Using a food-safe spray bottle, lightly spray the dough with water. Using a razor blade or an extremely sharp knife, score a shallow seam along the length of the loaves.
+    About 10 minutes before the dough is done proofing, bring a 10" oven-proof skillet of water to a boil. Preheat the oven to 400°F. Remove the top baking sheet. Using a food-safe spray bottle, lightly spray the dough with water. Using a razor blade or an extremely sharp knife, score a shallow seam along the length of the loaves.
 
     Place the skillet of boiling water on the bottom rack of the oven. Place the baking sheet with the dough in the middle of the oven on a separate rack above the water. Spray the inside of the oven with a little water to generate steam.
 
@@ -229,6 +241,78 @@
 
 \end{method}
 
-\showit[1.25in]{example-image-b}{This is a picture}
+% \showit[1.25in]{example-image-b}{This is a picture}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\recipe[Delicious and savory.]{Browned Butter Cornbread}
+\serves{4}
+\preptime{1 hour}
+\cooktime[Cook time]{25 minutes}
+\dishtype{\vegetarian, \bread}
+\dishother{\makeahead}
+\begin{ingreds}
+    $\frac{1}{2}$ cup (112g) unsalted butter
+    $\frac{1}{2}$ bunch of sage
+    $\frac{1}{2}$ bunch of thyme
+    1$\frac{1}{4}$ cups (188g) all-purpose flour
+    $\frac{1}{3}$ cup (67g) sugar
+    3$\frac{1}{2}$ tbsp (47g) brown sugar
+    1$\frac{1}{4}$ tsp (8g) kosher salt
+    1 tbsp (13)g baking powder
+    1$\frac{1}{4}$ cups (175g) finely ground yellow cornmeal
+    2 large eggs
+    1$\frac{1}{2}$ cups buttermilk
+\end{ingreds}
+
+\begin{method}[Preheat an 8” cast-iron skillet in the oven at \temp{400}]
+    
+    In a small pot, melt the butter over medium heat. Once melted, continue cooking to brown the butter until it turns dark brown. Then turn off the heat.
+
+    Add the sage and thyme, stir to combine, transfer the butter-herb mixture to a separate container, and set aside to cool.
+    In a bowl, whisk together the flour, sugar, brown sugar, salt, baking powder, and cornmeal.
+
+    In a separate bowl, whisk the eggs, then whisk in the buttermilk.
+
+    Discard the herbs from the slightly cooled butter. In a slow stream, whisk the butter into the buttermilk mixture. Then whisk the wet mixture into the dry mixture until completely smooth and combined.
+
+    Remove the hot pan from the oven, and lightly grease it with cooking spray. Add the batter to the pan, and spread it evenly.
+    
+    Bake for 20--25 min, or until a toothpick inserted into the center comes out clean. 
+    
+    Cool for a few minutes in the pan and then remove to a cooling rack to cool completely.
+\end{method}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\recipeSection{Appetizers \& Snacks}
+
+\recipe[Made at every family get-together.]{Boss' Guacamole}
+\serves{4}
+\preptime{15 minutes}
+\cooktime[Cook time]{0 minutes}
+\dishtype{\vegetarian, \apps}
+\begin{ingreds}
+    4 Avocados
+    $\frac{1}{3}$ onion
+    $\frac{1}{2}$ jalapeno
+    $\frac{1}{4}$ cup cilantro
+    1 tbsp mayo
+    2 tsp vinegar
+    $\frac{1}{2}$ lemon
+    garlic salt
+    pepper
+    tomatoes (optional)
+    stuffed olives (optional)
+    cucumbers (optional)
+\end{ingreds}
+
+\begin{method}
+    
+    Mix and mash all the ingredients together.
+
+\end{method}
+
 
 \end{document}

@@ -65,17 +65,10 @@ INPUT C:\Users\gage1\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx10.tf
 OUTPUT cook_book.toc
 OUTPUT cook_book.pdf
 INPUT C:\Users\gage1\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
-INPUT C:\Users\gage1\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti10.tfm
-INPUT C:\Users\gage1\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1000.tfm
 INPUT C:\Users\gage1\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Users\gage1\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
-INPUT C:\Users\gage1\AppData\Local\Programs\MiKTeX\tex\latex\mwe\example-image-b.tex
-INPUT C:\Users\gage1\AppData\Local\Programs\MiKTeX\tex\latex\mwe\example-image-b.tex
-INPUT C:\Users\gage1\AppData\Local\Programs\MiKTeX\tex\latex\mwe\example-image-b.pdf
-INPUT C:\Users\gage1\AppData\Local\Programs\MiKTeX\tex\latex\mwe\example-image-b.pdf
-INPUT C:\Users\gage1\AppData\Local\Programs\MiKTeX\tex\latex\mwe\example-image-b.pdf
-INPUT C:\Users\gage1\AppData\Local\Programs\MiKTeX\tex\latex\mwe\example-image-b.pdf
-INPUT C:\Users\gage1\AppData\Local\Programs\MiKTeX\tex\latex\mwe\example-image-b.pdf
+INPUT C:\Users\gage1\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti10.tfm
+INPUT C:\Users\gage1\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1000.tfm
 INPUT cook_book.aux
 INPUT C:\Users\gage1\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
 INPUT C:\Users\gage1\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
@@ -91,5 +84,3 @@ INPUT C:\Users\gage1\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\c
 INPUT C:\Users\gage1\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy7.pfb
 INPUT C:\Users\gage1\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti10.pfb
 INPUT C:\Users\gage1\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti10.pfb
-INPUT C:\Users\gage1\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmss17.pfb
-INPUT C:\Users\gage1\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmss17.pfb
