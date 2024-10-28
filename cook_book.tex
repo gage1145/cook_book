@@ -12,7 +12,7 @@
     margin=0.75in,
     top=0.75in,
     bottom=0.75in,
-    % twoside
+    twoside
     ]{geometry}
 \usepackage{xcolor}
 \usepackage{graphicx}
@@ -60,6 +60,7 @@
 \definecolor{makeaheadcolor}{rgb}{0.5,0.5,0.6}
 \definecolor{breadcolor}{rgb}{0.9, 0.5, 0.2}
 \definecolor{appcolor}{rgb}{0.2, 0.5, 1.0}
+\definecolor{saucecolor}{rgb}{0.2, 0.5, 0.1}
 
 %% Thanks to alephzero for the excellent start:
 \newcommand{\recipe}[2][]{%
@@ -94,6 +95,9 @@
 }
 \newcommand{\apps}{%
     {\large\color{appcolor}\textbf{A}}%
+}
+\newcommand{\sauce}{%
+    {\large\color{saucecolor}\textbf{S}}%
 }
 \newcommand{\freeze}{%
     {\large\color{frzcolor}\textbf{F}}%
@@ -186,14 +190,22 @@
 
 \pagestyle{plain}
 
+\title{Rowden Family Cookbook}
+
 \begin{document}
+
+\maketitle
 
 \frontmatter
 \tableofcontents
 
 \mainmatter
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \recipeSection{Breads}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \recipe[Perfect for making Cubano sandwiches]{Cubano Bread}
 \serves{4}
@@ -215,36 +227,22 @@
 %      80g butter (diced)
 %      70g demerara sugar
 \end{ingreds}
-
 \begin{method}[Preheat the oven to \temp{400}.]
     In a small bowl, stir together the warm water and yeast. Cover with plastic wrap and let sit for 10 min. The mixture should get slightly foamy, and the yeast should dissolve.
-
     In a stand mixer bowl, add the flour, sugar, and salt. Mix together thoroughly. With the dough hook attachment, start mixing on medium-low speed. Slowly add the warm yeast mixture and the lard. Mix until combined. Once a cohesive dough is formed, keep mixing for another 3 to 5 minutes, or until smooth.
-
     Shape the dough into a ball, and place in a greased bowl covered with greased plastic wrap. Let rise at room temp for 45 min to 1 hr, or until doubled in size.
-
     Punch down the dough to release the gas and place on a lightly floured surface. Divide the dough into 2 even pieces. Cover with a damp towel, and let them rest right where they are for 10 minutes.
-
     Flatten out 1 piece of dough into about a $\frac{1}{2}$-inch thick rectangle, with the long edge about 10 inches long. From the long edge, tightly roll the dough and close the seams at the bottom and sides.
     Carefully roll the log while applying pressure outward to slightly taper the ends. The log should be 15 inches long. Repeat with the other piece of dough.
-
     Place the loaves onto a parchment-lined baking sheet 4--6 inches apart. Cover with another baking sheet. Let the dough proof for about 30 minutes at room temp.
-
     About 10 minutes before the dough is done proofing, bring a 10" oven-proof skillet of water to a boil. Preheat the oven to 400°F. Remove the top baking sheet. Using a food-safe spray bottle, lightly spray the dough with water. Using a razor blade or an extremely sharp knife, score a shallow seam along the length of the loaves.
-
     Place the skillet of boiling water on the bottom rack of the oven. Place the baking sheet with the dough in the middle of the oven on a separate rack above the water. Spray the inside of the oven with a little water to generate steam.
-
     Let the bread steam for 8--10 minutes. Reduce the heat to \temp{375}, remove the skillet of water, and let the bread bake for another 20--22 minutes, or until lightly browned.
-
     Let cool completely on a wire rack. Slice and serve. Store on the counter loosely wrapped in a kitchen towel for up to 2 days and then in a resealable bag for 1 more day. Freeze in an airtight container for up to 2 months.
-
-
 \end{method}
-
 % \showit[1.25in]{example-image-b}{This is a picture}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+% Browned Butter Cornbread
 \recipe[Delicious and savory.]{Browned Butter Cornbread}
 \serves{4}
 \preptime{1 hour}
@@ -264,29 +262,23 @@
     2 large eggs
     1$\frac{1}{2}$ cups buttermilk
 \end{ingreds}
-
 \begin{method}[Preheat an 8” cast-iron skillet in the oven at \temp{400}]
-    
     In a small pot, melt the butter over medium heat. Once melted, continue cooking to brown the butter until it turns dark brown. Then turn off the heat.
-
     Add the sage and thyme, stir to combine, transfer the butter-herb mixture to a separate container, and set aside to cool.
     In a bowl, whisk together the flour, sugar, brown sugar, salt, baking powder, and cornmeal.
-
     In a separate bowl, whisk the eggs, then whisk in the buttermilk.
-
     Discard the herbs from the slightly cooled butter. In a slow stream, whisk the butter into the buttermilk mixture. Then whisk the wet mixture into the dry mixture until completely smooth and combined.
-
     Remove the hot pan from the oven, and lightly grease it with cooking spray. Add the batter to the pan, and spread it evenly.
-    
     Bake for 20--25 min, or until a toothpick inserted into the center comes out clean. 
-    
     Cool for a few minutes in the pan and then remove to a cooling rack to cool completely.
 \end{method}
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \recipeSection{Appetizers \& Snacks}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \recipe[Made at every family get-together.]{Boss' Guacamole}
 \serves{4}
@@ -307,12 +299,130 @@
     stuffed olives (optional)
     cucumbers (optional)
 \end{ingreds}
-
 \begin{method}
-    
     Mix and mash all the ingredients together.
-
 \end{method}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\recipeSection{Sauces, Jams, \& Canned Goods}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Tex-Mex Enchilada Gravy
+\recipe[White people can make it too!]{Tex-Mex Enchilada Gravy}
+\serves{4}
+\preptime{5 minutes}
+\cooktime{15 minutes}
+\dishtype{\vegetarian, \sauce}
+\begin{ingreds}
+    $\frac{1}{4}$ cup oil or butter
+    $\frac{1}{4}$ cup all purpose flour
+    $\frac{1}{2}$ tsp ground black pepper
+    $\frac{3}{4}$ tsp salt
+    2 tsp garlic powder
+    2 tsp ground cumin
+    $\frac{1}{2}$ tsp dried oregano
+    1 tbsp chili powder
+    2 cups beef broth
+    1 tbsp tomato paste
+\end{ingreds}
+\begin{method}
+    Heat the oil or butter in a medium size skillet over medium heat.
+    Add in the flour and stir to mix. Will be a thick mixture. 
+    Allow this to cook for just 1--2 minutes. The roux should be a very light brown.
+    Add in the spices. Stir to form a thick paste for no longer than 30 seconds.
+    Stir in the broth and tomato paste until smooth.
+    Continue to heat while stirring for several minutes until the sauce is slightly thickened.
+    Keep the heat to just below a simmer.
+    Pour into a jar to store or use to make enchiladas.
+\end{method}
+
+% Boss' Tartar Sauce
+\recipe[Enjoy with any fish or just by the spoonful.]{Boss' Tartar Sauce}
+\serves{4}
+\preptime{5 minutes}
+% \cooktime{0 minutes}
+\dishtype{\vegetarian, \sauce}
+\begin{ingreds}
+    1 cup real mayo
+    $\frac{1}{2}$ cup onion (finely chopped)
+    2 tsp dill relish
+    2 tsp sweet relish
+    $\frac{1}{2}$ jalapeno 
+    $\frac{1}{4}$ tsp thyme
+    $\frac{1}{2}$ lemon (juice)
+    Salt
+    Pepper
+\end{ingreds}
+\begin{method}
+    Mix all ingredients together in a bowl.
+    Season to taste.
+\end{method}
+
+% Katsu Sauce
+\recipe[Sweet, tangy, and savory. Perfect for dipping fried food!]{Katsu Sauce}
+\serves{4}
+\preptime{5 minutes}
+% \cooktime{0 minutes}
+\dishtype{\vegetarian, \sauce}
+\begin{ingreds}
+    6 tbsp ketchup
+    2 tbsp Worcestershire sauce
+    2 tbsp oyster sauce
+    2 tbsp miso paste (optional)
+    2 tsp honey
+\end{ingreds}
+\begin{method}
+    In a small bowl, stir together all of the ingredients until fully incorporated.
+    Use or store in an airtight container in the refrigerator for up to 1 month.
+\end{method}
+
+% Plum Preserves
+\recipe[For when your plum tired of life.]{Shug's Plum Preserves}
+\serves{4}
+\preptime{5 minutes}
+\cooktime{30 minutes}
+\dishtype{\vegetarian, \sauce}
+\begin{ingreds}
+    8 cups plums (pitted/cut)
+    4 cups sugar
+\end{ingreds}
+\begin{method}
+    Put plums and sugar in the instant pot.
+    Saut\'e for on medium-high for 3 minutes.
+    Pressure cook on high for 1 minute.
+    Slow release for 10 minutes, then quick release. 
+    Mash and stir on the saut\'e setting until thick but pourable (stirring every 5 minutes).
+\end{method}
+
+% Apricot Preserves
+\recipe[Perfect pairing for white bread and peanut butter.]{Shug's Apricot Preserves}
+\serves{4}
+\preptime{5 minutes}
+\cooktime{30 minutes}
+\dishtype{\vegetarian, \sauce}
+\begin{ingreds}
+    8 cups apricots (pitted/cut)
+    6 cups sugar
+    ¼ cup lemon juice
+\end{ingreds}
+\begin{method}
+    Put apricots and sugar in the instant pot. 
+    Saut\'e on medium-high for 3 minutes. 
+    Pressure cook on high for 1 minute. 
+    Slow release for 10 minutes, then quick release. 
+    Mash and stir on the saut\'e setting until thick but pourable (stirring every 5 minutes).
+\end{method}
+
+
+
+
+
+
+
+
+
 
 
 \end{document}

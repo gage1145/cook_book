@@ -3,3 +3,9 @@
 \contentsline {subsection}{\numberline {1.2}Browned Butter Cornbread}{4}{}%
 \contentsline {section}{\numberline {2}Appetizers \& Snacks}{5}{}%
 \contentsline {subsection}{\numberline {2.1}Boss' Guacamole}{6}{}%
+\contentsline {section}{\numberline {3}Sauces, Jams, \& Canned Goods}{7}{}%
+\contentsline {subsection}{\numberline {3.1}Tex-Mex Enchilada Gravy}{8}{}%
+\contentsline {subsection}{\numberline {3.2}Boss' Tartar Sauce}{9}{}%
+\contentsline {subsection}{\numberline {3.3}Katsu Sauce}{10}{}%
+\contentsline {subsection}{\numberline {3.4}Shug's Plum Preserves}{11}{}%
+\contentsline {subsection}{\numberline {3.5}Shug's Apricot Preserves}{12}{}%
