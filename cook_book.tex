@@ -1,8 +1,3 @@
-% !TEX encoding = UTF-8 Unicode
-% !TEX TS-program = XeLaTeX
-
-%% pagestyle alterations per user request 14 xii 2020
-
 \documentclass{article}
 \usepackage{fancyhdr}
 \usepackage{multicol}
@@ -16,6 +11,8 @@
     ]{geometry}
 \usepackage{xcolor}
 \usepackage{graphicx}
+
+\setlength{\headheight}{14.0pt}
 
 \raggedcolumns{}
 \setlength{\multicolsep}{0pt}
@@ -31,7 +28,7 @@
 % otherwise it is put into a raggedright paragraph.
 \long\def\testoneline#1{%
   \sbox\@tempboxa{#1}%
-  \ifdim\wd\@tempboxa <0.75 \linewidth
+  \ifdim\wd\@tempboxa<0.75 \linewidth{}
         \begingroup
             \itshape{}
             #1\par
@@ -73,7 +70,7 @@
     \rhead{}
     \lfoot{}
     \rfoot{}
-    \subsection[#2]{\LARGE#2 - \large#3}
+    \subsection[#2]{\LARGE#2 $-$ \large#3}
     \if#1
     \else
         \begin{center}
@@ -133,20 +130,20 @@
 }
 
 %% Use \obeylines to minimize markup
-\newenvironment{ingreds}{%
+\newenvironment{ingreds}{
     \parindent0pt
     \noindent
-    \ingredients
+    \ingredients{}
     \par
     \smallskip
     \begin{multicols}{2}
     \leftskip1em
     \rightskip0pt plus 3em
     \parskip=0.25em
-    \obeylines
+    \obeylines{}
     \everypar={\hangindent2em}
-}{%
-    \end{multicols}%
+}{
+    \end{multicols}
     \medskip
 }
 
@@ -157,7 +154,7 @@
 \newenvironment{method}[1][]{%
     \setcounter{stepnum}{0}
     \noindent
-    {\color{red}\Large\textbf{Instructions}}%
+    {\color{red}\Large\textbf{Instructions}}
     \par
     \smallskip
     \if#1
@@ -170,7 +167,7 @@
     \parindent0pt
     \parskip0.25em
         \leftskip2em
-    \everypar={\llap{\stepcounter{stepnum}\hbox to2em{\thestepnum.\hfill}}}
+    \everypar={\llap{\ensuremath{\stepcounter{stepnum}\hbox to2em{\thestepnum.\hfill}}}}
 }{%
     \par
     \endgroup
@@ -179,6 +176,7 @@
 \pagestyle{plain}
 
 \title{Rowden Family Cookbook}
+\author{Gage R. Rowden}
 
 \begin{document}
 
@@ -187,7 +185,7 @@
 \frontmatter
 \tableofcontents
 
-\mainmatter
+\mainmatter{}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -220,11 +218,18 @@
     In a stand mixer bowl, add the flour, sugar, and salt. Mix together thoroughly. With the dough hook attachment, start mixing on medium-low speed. Slowly add the warm yeast mixture and the lard. Mix until combined. Once a cohesive dough is formed, keep mixing for another 3 to 5 minutes, or until smooth.\par
     Shape the dough into a ball, and place in a greased bowl covered with greased plastic wrap. Let rise at room temp for 45 min to 1 hr, or until doubled in size.\par
     Punch down the dough to release the gas and place on a lightly floured surface. Divide the dough into 2 even pieces. Cover with a damp towel, and let them rest right where they are for 10 minutes.\par
-    Flatten out 1 piece of dough into about a $\frac{1}{2}$-inch thick rectangle, with the long edge about 10 inches long. From the long edge, tightly roll the dough and close the seams at the bottom and sides.\par
-    Carefully roll the log while applying pressure outward to slightly taper the ends. The log should be 15 inches long. Repeat with the other piece of dough.\par
-    Place the loaves onto a parchment-lined baking sheet 4--6 inches apart. Cover with another baking sheet. Let the dough proof for about 30 minutes at room temp.\par
-    About 10 minutes before the dough is done proofing, bring a 10" oven-proof skillet of water to a boil. Preheat the oven to 400°F. Remove the top baking sheet. Using a food-safe spray bottle, lightly spray the dough with water. Using a razor blade or an extremely sharp knife, score a shallow seam along the length of the loaves.\par
-    Place the skillet of boiling water on the bottom rack of the oven. Place the baking sheet with the dough in the middle of the oven on a separate rack above the water. Spray the inside of the oven with a little water to generate steam.\par
+    Flatten out 1 piece of dough into about a $\frac{1}{2}$-inch thick rectangle, with the long edge $\sim$10'' long.\par
+    From the long edge, tightly roll the dough and close the seams at the bottom and sides.\par
+    Carefully roll the log while applying pressure outward to \linebreak slightly taper the ends. The log should be $\sim$15'' long.\par
+    Repeat with the other piece of dough.\par
+    Place the loaves onto a parchment-lined baking sheet 4--6'' apart. Cover with another baking sheet.\par
+    Let the dough proof for $>$30 minutes at room temperature.\par
+    About 10 minutes before the dough is done proofing, bring a 10'' oven-proof skillet of water to a boil.\par
+    Using a spray bottle, lightly spray the dough with water.\par
+    Using a razor blade or an extremely sharp knife, score a shallow seam along the length of the loaves.\par
+    Place the skillet of boiling water on the bottom rack of the oven.\par
+    Place the baking sheet with the dough in the middle of the oven on a separate rack above the water.\par
+    Spray the inside of the oven with a little water to generate steam.\par
     Let the bread steam for 8--10 minutes. Reduce the heat to \temp{375}, remove the skillet of water, and let the bread bake for another 20--22 minutes, or until lightly browned.\par
     Let cool completely on a wire rack. Slice and serve. Store on the counter loosely wrapped in a kitchen towel for up to 2 days and then in a resealable bag for 1 more day. Freeze in an airtight container for up to 2 months.\par
 \end{method}
@@ -238,14 +243,14 @@
 \dishtype{\vegetarian, \bread}
 \dishother{\makeahead}
 \begin{ingreds}
-    $\frac{1}{2}$ cup (112g) unsalted butter
+    $\frac{1}{2}$ cup (112 g) unsalted butter
     $\frac{1}{2}$ bunch of sage
     $\frac{1}{2}$ bunch of thyme
-    1$\frac{1}{4}$ cups (188g) all-purpose flour
-    $\frac{1}{3}$ cup (67g) sugar
-    3$\frac{1}{2}$ tbsp (47g) brown sugar
-    1$\frac{1}{4}$ tsp (8g) kosher salt
-    1 tbsp (13)g baking powder
+    1$\frac{1}{4}$ cups (188 g) all-purpose flour
+    $\frac{1}{3}$ cup (67 g) sugar
+    3$\frac{1}{2}$ tbsp (47 g) brown sugar
+    1$\frac{1}{4}$ tsp (8 g) kosher salt
+    1 tbsp (13 g) baking powder
     1$\frac{1}{4}$ cups (175g) finely ground yellow cornmeal
     2 large eggs
     1$\frac{1}{2}$ cups buttermilk
@@ -679,12 +684,12 @@
     In a separate pan, brown the meat.\par
     Once browned, drain the grease, and add to the sauteed vegetables.\par
     Add all other ingredients.\par
-    Simmer for 2-4 hours.\par
+    Simmer for 2--4 hours.\par
     Seasoning does not have to be exact, just add to your liking. 
 \end{method}
 
-% Chili
-\recipe[Gage's rendition on Boss' chili.]{Chili}{Gage}
+% Chili 2.0
+\recipe[Gage's rendition on Boss' chili.]{Chili 2.0}{Gage}
 \serves{4}
 \preptime{5 minutes}
 \cooktime{2--4 hours}
@@ -698,7 +703,7 @@
     3 garlic cloves crushed
     3 jalape\~nos finely diced
     $\frac{1}{4}$ cup flour
-    $\frac{1}{3}$ cup red wine(optional)
+    $\frac{1}{3}$ cup red wine (optional)
     1 large can crushed tomatoes
     $\geq$3 tbsp chili powder
     1 tbsp pepper
@@ -724,6 +729,197 @@
     Mix thoroughly, and add water to desired thickness.\par
     Cover, reduce heat to low, and simmer for 2--4 hours. 
 \end{method}
+
+% Blackened Catfish
+\recipe[Simple, easy, delicious.]{Blackened Catfish}{Boss}
+\serves{4}
+\preptime{5 minutes}
+\cooktime{10 minutes}
+\dishtype{}
+\begin{ingreds}
+    2 catfish filets
+    1$\frac{1}{2}$ tsp garlic salt
+    1$\frac{1}{2}$ tsp paprika  
+    black pepper (to taste)  
+\end{ingreds}
+\begin{method}
+    Season fish to your liking on both sides. Use pepper generously.\par
+    Cook on medium-high heat in olive oil for approximately 3 minutes on each side, or until done. Cast iron skillet will produce the best results. 
+\end{method}
+
+% Tomato Soup
+\recipe[Of course you have to eat it with a grilled cheese!]{Tomato Soup}{Shug}
+\serves{4}
+\preptime{10 minutes}
+\cooktime{30 minutes}
+\dishtype{}
+\begin{ingreds}
+    $\frac{1}{2}$ onion
+    6 tbsp butter
+    1 can diced tomatoes
+    1 can tomato sauce
+    $\frac{1}{4}$ cup chicken broth
+    3 tbsp sugar
+    1 cup half \& half
+    salt and pepper (to taste)
+    1$\frac{1}{2}$ tsp parsley
+    1$\frac{1}{2}$ tsp basil    
+\end{ingreds}
+\begin{method}
+    Saut\'e onions in the butter.\par
+    Process the sauteed onions and diced tomatoes in a food processor.\par
+    Put back in the pot to mix with tomato sauce and chicken broth.\par
+    Bring soup to almost a simmer.\par
+    Add sugar, spices, and half \& half.
+\end{method}
+
+% Tomato Bisque
+\recipe[If you liked the last one, you'll love this!]{Tomato Bisque}{Gage}
+\serves{4}
+\preptime{20 minutes}
+\cooktime{40 minutes}
+\dishtype{}
+\begin{ingreds}
+    6 tbsp butter
+    1 tbsp olive oil
+    1 medium onion, diced
+    1 carrot, diced
+    1 stick of celery, diced
+    1 red bell pepper, diced
+    3 cloves of garlic, diced
+    1 can of San Marzano crushed tomatoes (28 oz)
+    chicken stock (to desired thickness)
+    1 cup heavy cream
+    $\frac{1}{2}$ cup sherry (optional)
+    1 tsp black pepper
+    salt to taste
+    sugar to taste
+    basil (chiffonade)
+    $\frac{1}{2}$ cup balsamic vinegar   
+\end{ingreds}
+\begin{method}
+    Add the butter and oil to a saut\'e pan.\par
+    Saut\'e (with a pinch of salt) the onion, carrot, celery, and bell pepper on medium-high heat until the onions are translucent.\par
+    Add the garlic and cook for an additional 30 seconds.\par
+    Deglaze the pan with the sherry (or chicken stock).\par
+    Add the tomatoes and chicken stock and bring to a simmer.\par
+    Add the black pepper and sugar until the desired taste is reached.\par
+    Simmer for $>$30 min.\par
+    Transfer to a blender and blend on high until completely \linebreak smooth.\par
+    Transfer back to the saut\'e pan and add in the heavy cream.\par
+    Add the balsamic vinegar to a non-stick pan on medium heat to make a reduction.\par
+    Serve with the chiffonade basil and the balsamic reduction.
+\end{method}
+
+% Chicken Enchilada Soup
+\recipe[This just might cure your cold.]{Chicken Enchilada Soup}{Shug}
+\serves{4}
+\preptime{15 minutes}
+\cooktime{1 minutes}
+\dishtype{}
+\begin{ingreds}
+    2 tbsp olive oil
+    1 small onion (diced)
+    2 stalks celery (diced)
+    1 garlic clove (sliced)
+    1 can green chilis (4 oz)
+    1 can Rotel tomatoes
+    1 can beef broth (16 oz)
+    1 can chicken broth (16 oz)
+    1 can cream of chicken soup
+    1$\frac{1}{2}$ cups water
+    1 tbsp A1 steak sauce
+    $\frac{1}{4}$ tsp pepper
+    2 tbsp Worcestershire sauce
+    1 tbsp cumin
+    1 tbsp chili powder
+    2--3 cups cooked white rice 
+    1 rotisserie chicken (pulled) 
+\end{ingreds}
+\begin{method}[For cooked rice, see the recipe in the side dish section.]
+    In a large pot, saut\'e the onion and garlic in olive oil.\par
+    Add all of the ingredients to the pot, excluding the rice.\par
+    Bring to a boil, then lower the heat and simmer for 1 hour.\par
+    Add the cooked rice, and serve.
+\end{method}
+
+% Chicken Orzo Soup
+\recipe[Why fuss with rice, if you can just use orzo?]{Chicken Orzo Soup}{Gage}
+\serves{4}
+\preptime{20 minutes}
+\cooktime{45 minutes}
+\dishtype{}
+\begin{ingreds}
+    1 tbsp olive oil
+    6 garlic cloves (minced)
+    1 yellow onion (diced)
+    2 carrots (thinly sliced)
+    2 celery stalks (chopped)
+    1 tbsp fresh ginger
+    1 tsp cayenne
+    1 tsp ground turmeric
+    6 cups chicken broth
+    1 lb chicken breast/thighs
+    1 tsp chopped rosemary
+    1 tsp chopped thyme
+    $\frac{1}{2}$ tsp salt
+    black pepper (to taste)
+    1 cup orzo pasta
+    $\frac{2}{3}$ cup frozen peas
+\end{ingreds}
+\begin{method}[Feel free to substitute with pre-cooked chicken.]
+    Place a large dutch oven over medium high heat.\par
+    Add the olive oil once the pot is ripping hot and add in the chicken making sure not to crowd the pot.\par
+    Get a good sear on all sides of the chicken and save for later. There should be a nice fond in the pan at this point.\par
+    Add in the onion, carrots and celery.\par
+    Cook for a few minutes until the onion becomes translucent.\par
+    Add in the ginger, garlic, and turmeric and saut\'e for 30 seconds.\par
+    Add in chicken broth, chicken breast from earlier, and seasonings.\par
+    Bring soup to a boil then reduce heat to low and simmer until chicken is fully cooked.\par
+    Once chicken is cooked, remove and transfer to a cutting board to shred.\par
+    Add chicken back to the pot and stir in frozen peas and orzo.\par
+    Cook for another 7--8 minutes until orzo is just barely tender.
+\end{method}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\recipeSection{Desserts}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Creme Brulee
+\recipe[There's something wrong with you if you don't like this dish.]{Cr\'eme Br\^ul\'ee}{Gage}
+\serves{4}
+\preptime{20 minutes}
+\cooktime{30--60 minutes}
+\dishtype{}
+\begin{ingreds}
+    2 cups heavy cream
+    5 egg yolks
+    $\frac{1}{2}$ cup granulated sugar
+    1 tsp vanilla extract
+    $\frac{1}{4}$ tsp kosher salt
+    sugar for topping
+    Fruit of choice for topping
+\end{ingreds}
+\begin{method}[Preheat oven to 325 degrees. A torch will work better than a broiler for caramelizing the sugar topping.]
+    In a saucepan, combine cream, vanilla bean, and salt, and cook over low heat just until beginning to steam. Let sit for 5--10 minutes.\par
+	In a bowl, beat yolks and sugar together until light.\par
+    Stir about a quarter of the cream into this mixture, then pour sugar-egg mixture into cream and stir.\par
+    Pour into four 6-ounce ramekins and place ramekins in a baking dish\par
+    Fill dish with water halfway up the sides of the dishes.\par
+    Bake for 30 min to 1 hour, or until centers are barely set.\par
+    Cool completely. Refrigerate for several hours or up to two days.\par
+	When ready to serve, top each custard with about a teaspoon of sugar in a thin layer.\par
+    Place ramekins in a broiler 2--3'' from heat source.\par
+    Turn on the broiler and cook until the sugar melts and browns or even blackens a bit, about 5 minutes.\par
+    Serve within two hours.
+\end{method}
+
+
 
 
 

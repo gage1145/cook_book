@@ -23,4 +23,11 @@
 \contentsline {section}{Mains}{24}{}%
 \contentsline {subsection}{Fettuccine Alfredo}{25}{}%
 \contentsline {subsection}{Chili}{26}{}%
-\contentsline {subsection}{Chili}{27}{}%
+\contentsline {subsection}{Chili 2.0}{27}{}%
+\contentsline {subsection}{Blackened Catfish}{28}{}%
+\contentsline {subsection}{Tomato Soup}{29}{}%
+\contentsline {subsection}{Tomato Bisque}{30}{}%
+\contentsline {subsection}{Chicken Enchilada Soup}{31}{}%
+\contentsline {subsection}{Chicken Orzo Soup}{32}{}%
+\contentsline {section}{Desserts}{33}{}%
+\contentsline {subsection}{Cr\'eme Br\^ul\'ee}{34}{}%
