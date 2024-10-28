@@ -1,11 +1,26 @@
-\contentsline {section}{\numberline {1}Breads}{1}{}%
-\contentsline {subsection}{\numberline {1.1}Cubano Bread}{2}{}%
-\contentsline {subsection}{\numberline {1.2}Browned Butter Cornbread}{4}{}%
-\contentsline {section}{\numberline {2}Appetizers \& Snacks}{5}{}%
-\contentsline {subsection}{\numberline {2.1}Boss' Guacamole}{6}{}%
-\contentsline {section}{\numberline {3}Sauces, Jams, \& Canned Goods}{7}{}%
-\contentsline {subsection}{\numberline {3.1}Tex-Mex Enchilada Gravy}{8}{}%
-\contentsline {subsection}{\numberline {3.2}Boss' Tartar Sauce}{9}{}%
-\contentsline {subsection}{\numberline {3.3}Katsu Sauce}{10}{}%
-\contentsline {subsection}{\numberline {3.4}Shug's Plum Preserves}{11}{}%
-\contentsline {subsection}{\numberline {3.5}Shug's Apricot Preserves}{12}{}%
+\contentsline {section}{Breads}{1}{}%
+\contentsline {subsection}{Cubano Bread}{2}{}%
+\contentsline {subsection}{Browned Butter Cornbread}{4}{}%
+\contentsline {subsection}{Banana Bread}{5}{}%
+\contentsline {section}{Appetizers \& Snacks}{6}{}%
+\contentsline {subsection}{Guacamole}{7}{}%
+\contentsline {section}{Sauces, Jams, \& Canned Goods}{8}{}%
+\contentsline {subsection}{Tex-Mex Enchilada Gravy}{9}{}%
+\contentsline {subsection}{Boss' Tartar Sauce}{10}{}%
+\contentsline {subsection}{Katsu Sauce}{11}{}%
+\contentsline {subsection}{Plum Preserves}{12}{}%
+\contentsline {subsection}{Apricot Preserves}{13}{}%
+\contentsline {subsection}{Raspberry Jam}{14}{}%
+\contentsline {subsection}{Jalape\~no Jelly}{15}{}%
+\contentsline {section}{Breakfast}{16}{}%
+\contentsline {subsection}{Buttermilk Pancakes}{17}{}%
+\contentsline {section}{Side Dishes}{18}{}%
+\contentsline {subsection}{Thanksgiving Dressing}{19}{}%
+\contentsline {subsection}{Carrots \& Kale}{20}{}%
+\contentsline {subsection}{Brussels Sprouts}{21}{}%
+\contentsline {subsection}{Coleslaw}{22}{}%
+\contentsline {subsection}{White Rice}{23}{}%
+\contentsline {section}{Mains}{24}{}%
+\contentsline {subsection}{Fettuccine Alfredo}{25}{}%
+\contentsline {subsection}{Chili}{26}{}%
+\contentsline {subsection}{Chili}{27}{}%

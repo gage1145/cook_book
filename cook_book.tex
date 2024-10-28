@@ -6,8 +6,8 @@
 \documentclass{article}
 \usepackage{fancyhdr}
 \usepackage{multicol}
-\usepackage[%
-    %a5paper,
+\usepackage[
+    % a5paper,
     papersize={5.5in,8.5in},
     margin=0.75in,
     top=0.75in,
@@ -23,9 +23,12 @@
 
 \makeatletter
 
-%% Used for the headnote and in \showit
-%% If the text is small it is placed on one line;
-%% otherwise it is put into a raggedright paragraph.
+% Decide if you want numbered sections or not.
+\setcounter{secnumdepth}{0}
+
+% Used for the headnote and in \showit
+% If the text is small it is placed on one line;
+% otherwise it is put into a raggedright paragraph.
 \long\def\testoneline#1{%
   \sbox\@tempboxa{#1}%
   \ifdim\wd\@tempboxa <0.75 \linewidth
@@ -34,14 +37,14 @@
             #1\par
         \endgroup
   \else
-    \parbox{0.75\linewidth}{\raggedright\itshape#1}%
+    \parbox{0.75\linewidth}{\raggedright\itshape#1}
     \par
   \fi
 }
 
 \newif\if@mainmatter{} \@mainmattertrue{}
 
-%% Borrowed from book.cls
+% Borrowed from book.cls
 \newcommand\frontmatter{%
     \cleardoublepage{}
   \@mainmatterfalse{}
@@ -52,8 +55,7 @@
   \pagenumbering{arabic}}
 \makeatother
 
-%% Vary the colors at will
-
+% Vary the colors at will
 \definecolor{vegcolor}{rgb}{0,0.5,0.2}
 \definecolor{frzcolor}{rgb}{0,0,1}
 \definecolor{dessertcolor}{rgb}{0.5,0.2,0.1}
@@ -63,85 +65,71 @@
 \definecolor{saucecolor}{rgb}{0.2, 0.5, 0.1}
 
 %% Thanks to alephzero for the excellent start:
-\newcommand{\recipe}[2][]{%
+\newcommand{\recipe}[3][]{
     \newpage
     \thispagestyle{fancy}
-    \lhead{}%
-    \chead{}%
-    \rhead{}%
-    \lfoot{}%
-    \rfoot{}%
-    \subsection{#2}%
-    \if###1##%
+    \lhead{}
+    \chead{}
+    \rhead{}
+    \lfoot{}
+    \rfoot{}
+    \subsection[#2]{\LARGE#2 - \large#3}
+    \if#1
     \else
         \begin{center}
-            \testoneline{#1}%
+            \testoneline{#1}
         \end{center}
     \fi
 }
-\newcommand{\serves}[2][Serves]{%
-    \chead{#1 #2}}
-\newcommand{\dishtype}[1]{%
-    \rhead{#1}%
-}
-\newcommand{\dishother}[1]{%
-    \lhead{#1}%
-}
-\newcommand{\vegetarian}{%
-    {\large\color{vegcolor}\textbf{V}}%
-}
-\newcommand{\bread}{%
-    {\large\color{breadcolor}\textbf{B}}%
-}
-\newcommand{\apps}{%
-    {\large\color{appcolor}\textbf{A}}%
-}
-\newcommand{\sauce}{%
-    {\large\color{saucecolor}\textbf{S}}%
-}
-\newcommand{\freeze}{%
-    {\large\color{frzcolor}\textbf{F}}%
-}
-\newcommand{\dessert}{%
-    {\large\color{dessertcolor}\textbf{D}}%
-}
-\newcommand{\makeahead}{%
-    {\large\color{makeaheadcolor}\textbf{M}}%
-}
-%% Optional arguments for alternate names for these:
-\newcommand{\preptime}[2][Prep time]{%
-    \lfoot{#1: #2}%
-}
-\newcommand{\cooktime}[2][Cook time]{%
-    \rfoot{#1: #2}%
-}
-\newcommand{\temp}[1]{%
-    $#1^\circ$F}
+\newcommand{\serves}[1]{\chead{Serves #1}}
+\newcommand{\dishtype}[1]{\rhead{#1}}
+\newcommand{\dishother}[1]{\lhead{#1}}
+\newcommand{\vegetarian}{\large\color{vegcolor}\textbf{V}}
+\newcommand{\bread}{\large\color{breadcolor}\textbf{B}}
+\newcommand{\apps}{\large\color{appcolor}\textbf{A}}
+\newcommand{\sauce}{\large\color{saucecolor}\textbf{S}}
+\newcommand{\freeze}{\large\color{frzcolor}\textbf{F}}
+\newcommand{\dessert}{\large\color{dessertcolor}\textbf{D}}
+\newcommand{\makeahead}{\large\color{makeaheadcolor}\textbf{M}}
+
+% Optional arguments for alternate names for these:
+\newcommand{\preptime}[2][Prep time]{\lfoot{#1: #2}}
+\newcommand{\cooktime}[2][Cook time]{\rfoot{#1: #2}}
+\newcommand{\temp}[1]{$#1^\circ$F}
+
 %% Optional argument is the width of the graphic, default = 1in
-\newcommand{\showit}[3][1in]{%
+\newcommand{\showit}[3][1in]{
     \begin{center}
         \bigskip
-            \includegraphics[width=#1]{#2}%
+            \includegraphics[width=#1]{#2}
             \par
             \medskip
-            \testoneline{#3}%
+            \testoneline{#3}
             \par
-    \end{center}%
+    \end{center}
 }
 
 %% Optional argument for a  heading within the ingredients section
 \newcommand{\ingredients}[1][]{%
-    \if###1##%
-        {\color{red}\Large\textbf{Ingredients}}%
+    \if###1##{
+        \color{red}\Large\textbf{Ingredients}
+    }
     \else
-        \emph{#1}%
+        \emph{#1}
     \fi
 }
 
 \newcommand{\recipeSection}[1]{
-    \newpage
-    \section{#1}
-    \newpage
+    \clearpage
+    \begin{center}
+        \hspace{0pt}\vfill
+        \begin{minipage}{\textwidth}
+            \centering
+            \section[#1]{\huge#1}
+        \end{minipage}
+        \vfill\hspace{0pt}
+    \end{center}
+    \clearpage
 }
 
 %% Use \obeylines to minimize markup
@@ -172,7 +160,7 @@
     {\color{red}\Large\textbf{Instructions}}%
     \par
     \smallskip
-    \if###1##%
+    \if#1
     \else
         \noindent
         \emph{#1}
@@ -186,7 +174,7 @@
 }{%
     \par
     \endgroup
-    }
+}
 
 \pagestyle{plain}
 
@@ -207,7 +195,7 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\recipe[Perfect for making Cubano sandwiches]{Cubano Bread}
+\recipe[Perfect for making Cubano sandwiches.]{Cubano Bread}{Gage}
 \serves{4}
 \preptime{2 hour}
 \cooktime[Cook time]{28--35 minutes}
@@ -228,22 +216,22 @@
 %      70g demerara sugar
 \end{ingreds}
 \begin{method}[Preheat the oven to \temp{400}.]
-    In a small bowl, stir together the warm water and yeast. Cover with plastic wrap and let sit for 10 min. The mixture should get slightly foamy, and the yeast should dissolve.
-    In a stand mixer bowl, add the flour, sugar, and salt. Mix together thoroughly. With the dough hook attachment, start mixing on medium-low speed. Slowly add the warm yeast mixture and the lard. Mix until combined. Once a cohesive dough is formed, keep mixing for another 3 to 5 minutes, or until smooth.
-    Shape the dough into a ball, and place in a greased bowl covered with greased plastic wrap. Let rise at room temp for 45 min to 1 hr, or until doubled in size.
-    Punch down the dough to release the gas and place on a lightly floured surface. Divide the dough into 2 even pieces. Cover with a damp towel, and let them rest right where they are for 10 minutes.
-    Flatten out 1 piece of dough into about a $\frac{1}{2}$-inch thick rectangle, with the long edge about 10 inches long. From the long edge, tightly roll the dough and close the seams at the bottom and sides.
-    Carefully roll the log while applying pressure outward to slightly taper the ends. The log should be 15 inches long. Repeat with the other piece of dough.
-    Place the loaves onto a parchment-lined baking sheet 4--6 inches apart. Cover with another baking sheet. Let the dough proof for about 30 minutes at room temp.
-    About 10 minutes before the dough is done proofing, bring a 10" oven-proof skillet of water to a boil. Preheat the oven to 400°F. Remove the top baking sheet. Using a food-safe spray bottle, lightly spray the dough with water. Using a razor blade or an extremely sharp knife, score a shallow seam along the length of the loaves.
-    Place the skillet of boiling water on the bottom rack of the oven. Place the baking sheet with the dough in the middle of the oven on a separate rack above the water. Spray the inside of the oven with a little water to generate steam.
-    Let the bread steam for 8--10 minutes. Reduce the heat to \temp{375}, remove the skillet of water, and let the bread bake for another 20--22 minutes, or until lightly browned.
-    Let cool completely on a wire rack. Slice and serve. Store on the counter loosely wrapped in a kitchen towel for up to 2 days and then in a resealable bag for 1 more day. Freeze in an airtight container for up to 2 months.
+    In a small bowl, stir together the warm water and yeast. Cover with plastic wrap and let sit for 10 min. The mixture should get slightly foamy, and the yeast should dissolve.\par
+    In a stand mixer bowl, add the flour, sugar, and salt. Mix together thoroughly. With the dough hook attachment, start mixing on medium-low speed. Slowly add the warm yeast mixture and the lard. Mix until combined. Once a cohesive dough is formed, keep mixing for another 3 to 5 minutes, or until smooth.\par
+    Shape the dough into a ball, and place in a greased bowl covered with greased plastic wrap. Let rise at room temp for 45 min to 1 hr, or until doubled in size.\par
+    Punch down the dough to release the gas and place on a lightly floured surface. Divide the dough into 2 even pieces. Cover with a damp towel, and let them rest right where they are for 10 minutes.\par
+    Flatten out 1 piece of dough into about a $\frac{1}{2}$-inch thick rectangle, with the long edge about 10 inches long. From the long edge, tightly roll the dough and close the seams at the bottom and sides.\par
+    Carefully roll the log while applying pressure outward to slightly taper the ends. The log should be 15 inches long. Repeat with the other piece of dough.\par
+    Place the loaves onto a parchment-lined baking sheet 4--6 inches apart. Cover with another baking sheet. Let the dough proof for about 30 minutes at room temp.\par
+    About 10 minutes before the dough is done proofing, bring a 10" oven-proof skillet of water to a boil. Preheat the oven to 400°F. Remove the top baking sheet. Using a food-safe spray bottle, lightly spray the dough with water. Using a razor blade or an extremely sharp knife, score a shallow seam along the length of the loaves.\par
+    Place the skillet of boiling water on the bottom rack of the oven. Place the baking sheet with the dough in the middle of the oven on a separate rack above the water. Spray the inside of the oven with a little water to generate steam.\par
+    Let the bread steam for 8--10 minutes. Reduce the heat to \temp{375}, remove the skillet of water, and let the bread bake for another 20--22 minutes, or until lightly browned.\par
+    Let cool completely on a wire rack. Slice and serve. Store on the counter loosely wrapped in a kitchen towel for up to 2 days and then in a resealable bag for 1 more day. Freeze in an airtight container for up to 2 months.\par
 \end{method}
 % \showit[1.25in]{example-image-b}{This is a picture}
 
 % Browned Butter Cornbread
-\recipe[Delicious and savory.]{Browned Butter Cornbread}
+\recipe[Delicious and savory.]{Browned Butter Cornbread}{Gage}
 \serves{4}
 \preptime{1 hour}
 \cooktime[Cook time]{25 minutes}
@@ -263,14 +251,39 @@
     1$\frac{1}{2}$ cups buttermilk
 \end{ingreds}
 \begin{method}[Preheat an 8” cast-iron skillet in the oven at \temp{400}]
-    In a small pot, melt the butter over medium heat. Once melted, continue cooking to brown the butter until it turns dark brown. Then turn off the heat.
-    Add the sage and thyme, stir to combine, transfer the butter-herb mixture to a separate container, and set aside to cool.
-    In a bowl, whisk together the flour, sugar, brown sugar, salt, baking powder, and cornmeal.
+    In a small pot, melt the butter over medium heat. Once melted, continue cooking to brown the butter until it turns dark brown. Then turn off the heat.\par
+    Add the sage and thyme, stir to combine, transfer the butter-herb mixture to a separate container, and set aside to cool.\par
+    In a bowl, whisk together the flour, sugar, brown sugar, salt, baking powder, and cornmeal.\par
     In a separate bowl, whisk the eggs, then whisk in the buttermilk.
-    Discard the herbs from the slightly cooled butter. In a slow stream, whisk the butter into the buttermilk mixture. Then whisk the wet mixture into the dry mixture until completely smooth and combined.
-    Remove the hot pan from the oven, and lightly grease it with cooking spray. Add the batter to the pan, and spread it evenly.
+    Discard the herbs from the slightly cooled butter. In a slow stream, whisk the butter into the buttermilk mixture. Then whisk the wet mixture into the dry mixture until completely smooth and combined.\par
+    Remove the hot pan from the oven, and lightly grease it with cooking spray. Add the batter to the pan, and spread it evenly.\par
     Bake for 20--25 min, or until a toothpick inserted into the center comes out clean. 
-    Cool for a few minutes in the pan and then remove to a cooling rack to cool completely.
+    Cool for a few minutes in the pan and then remove to a cooling rack to cool completely.\par
+\end{method}
+
+% Banana Bread
+\recipe[This will make anyone's day batter.]{Banana Bread}{Shug}
+\serves{4}
+\preptime{5 minutes}
+\cooktime{15 minutes}
+\dishtype{\vegetarian, \sauce}
+\begin{ingreds}
+    1 red bell pepper
+    1 green bell pepper
+    10 jalape\~nos
+    1$\frac{1}{2}$ cups white vinegar
+    $\frac{1}{2}$ tsp salt
+    6 cups sugar
+    1 pouch liquid fruit pectin   
+\end{ingreds}
+\begin{method}
+    In food processor, finely chop the peppers.\par
+    Place peppers in large pot with vinegar, salt, and sugar.\par
+    Boil for 10 minutes, stirring often (be careful…it will boil over QUICK!).\par
+    Add pectin pouch and boil 1 more minute.\par
+    Fill canning jars.\par
+    Add to boiling hot water bath for 10 minutes.\par
+    Wait a day or so for jelly to set.
 \end{method}
 
 
@@ -280,7 +293,7 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\recipe[Made at every family get-together.]{Boss' Guacamole}
+\recipe[Made at every family get-together.]{Guacamole}{Boss}
 \serves{4}
 \preptime{15 minutes}
 \cooktime[Cook time]{0 minutes}
@@ -310,7 +323,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % Tex-Mex Enchilada Gravy
-\recipe[White people can make it too!]{Tex-Mex Enchilada Gravy}
+\recipe[White people can make it too!]{Tex-Mex Enchilada Gravy}{Gage}
 \serves{4}
 \preptime{5 minutes}
 \cooktime{15 minutes}
@@ -329,17 +342,17 @@
 \end{ingreds}
 \begin{method}
     Heat the oil or butter in a medium size skillet over medium heat.
-    Add in the flour and stir to mix. Will be a thick mixture. 
+    Add in the flour and stir to mix. Will be a thick mixture.\par
     Allow this to cook for just 1--2 minutes. The roux should be a very light brown.
     Add in the spices. Stir to form a thick paste for no longer than 30 seconds.
-    Stir in the broth and tomato paste until smooth.
-    Continue to heat while stirring for several minutes until the sauce is slightly thickened.
-    Keep the heat to just below a simmer.
+    Stir in the broth and tomato paste until smooth.\par
+    Continue to heat while stirring for several minutes until the sauce is slightly thickened.\par
+    Keep the heat to just below a simmer.\par
     Pour into a jar to store or use to make enchiladas.
 \end{method}
 
 % Boss' Tartar Sauce
-\recipe[Enjoy with any fish or just by the spoonful.]{Boss' Tartar Sauce}
+\recipe[Enjoy with any fish or just by the spoonful.]{Boss' Tartar Sauce}{Boss}
 \serves{4}
 \preptime{5 minutes}
 % \cooktime{0 minutes}
@@ -361,7 +374,7 @@
 \end{method}
 
 % Katsu Sauce
-\recipe[Sweet, tangy, and savory. Perfect for dipping fried food!]{Katsu Sauce}
+\recipe[Sweet, tangy, and savory. Perfect for dipping fried food!]{Katsu Sauce}{Gage}
 \serves{4}
 \preptime{5 minutes}
 % \cooktime{0 minutes}
@@ -374,12 +387,12 @@
     2 tsp honey
 \end{ingreds}
 \begin{method}
-    In a small bowl, stir together all of the ingredients until fully incorporated.
+    In a small bowl, stir together all of the ingredients until fully incorporated.\par
     Use or store in an airtight container in the refrigerator for up to 1 month.
 \end{method}
 
 % Plum Preserves
-\recipe[For when your plum tired of life.]{Shug's Plum Preserves}
+\recipe[For when your plum tired of life.]{Plum Preserves}{Shug}
 \serves{4}
 \preptime{5 minutes}
 \cooktime{30 minutes}
@@ -389,15 +402,15 @@
     4 cups sugar
 \end{ingreds}
 \begin{method}
-    Put plums and sugar in the instant pot.
-    Saut\'e for on medium-high for 3 minutes.
-    Pressure cook on high for 1 minute.
-    Slow release for 10 minutes, then quick release. 
+    Put plums and sugar in the instant pot.\par
+    Saut\'e for on medium-high for 3 minutes.\par
+    Pressure cook on high for 1 minute.\par
+    Slow release for 10 minutes, then quick release.\par
     Mash and stir on the saut\'e setting until thick but pourable (stirring every 5 minutes).
 \end{method}
 
 % Apricot Preserves
-\recipe[Perfect pairing for white bread and peanut butter.]{Shug's Apricot Preserves}
+\recipe[Perfect pairing for white bread and peanut butter.]{Apricot Preserves}{Shug}
 \serves{4}
 \preptime{5 minutes}
 \cooktime{30 minutes}
@@ -408,19 +421,309 @@
     ¼ cup lemon juice
 \end{ingreds}
 \begin{method}
-    Put apricots and sugar in the instant pot. 
-    Saut\'e on medium-high for 3 minutes. 
-    Pressure cook on high for 1 minute. 
-    Slow release for 10 minutes, then quick release. 
+    Put apricots and sugar in the instant pot.\par
+    Saut\'e on medium-high for 3 minutes.\par
+    Pressure cook on high for 1 minute.\par
+    Slow release for 10 minutes, then quick release.\par
     Mash and stir on the saut\'e setting until thick but pourable (stirring every 5 minutes).
 \end{method}
 
+% Raspberry Jam
+\recipe[Try it with chocolate sauce and ice cream.]{Raspberry Jam}{Shug}
+\serves{4}
+\preptime{5 minutes}
+\cooktime{30 minutes}
+\dishtype{\vegetarian, \sauce}
+\begin{ingreds}
+    5 cups raspberries (4 small containers)
+    2 cups sugar (more or less to taste)
+    Juice from 2 large lemons
+    2 tbsp cornstarch
+    2 tbsp water    
+\end{ingreds}
+\begin{method}
+    Add the raspberries, sugar, and lemon juice to the instant pot and mix.\par
+    Pressure cook on high for 3 minutes.\par
+    Slow release for 10 minutes, then quick release. Saut\'e and stir until you reach your desired consistency.\par
+    While releasing the pressure, make a slurry with the cornstarch and water.\par
+    Add the slurry in small portions to the mixture while stirring until desired viscosity is reached.
+\end{method}
 
+% Jalapeno Jam
+\recipe[Delicious with cream cheese and crackers!]{Jalape\~no Jelly}{Shug}
+\serves{4}
+\preptime{5 minutes}
+\cooktime{15 minutes}
+\dishtype{\vegetarian, \sauce}
+\begin{ingreds}
+    1 red bell pepper
+    1 green bell pepper
+    10 jalape\~nos
+    1$\frac{1}{2}$ cups white vinegar
+    $\frac{1}{2}$ tsp salt
+    6 cups sugar
+    1 pouch liquid fruit pectin   
+\end{ingreds}
+\begin{method}
+    In food processor, finely chop the peppers.\par
+    Place peppers in large pot with vinegar, salt, and sugar.\par
+    Boil for 10 minutes, stirring often (be careful…it will boil over QUICK!).\par
+    Add pectin pouch and boil 1 more minute.\par
+    Fill canning jars.\par
+    Add to boiling hot water bath for 10 minutes.\par
+    Wait a day or so for jelly to set.
+\end{method}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\recipeSection{Breakfast}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+% Buttermilk Pancakes
+\recipe[Make these every Christmas morning.]{Buttermilk Pancakes}{Shug}
+\serves{4}
+\preptime{5 minutes}
+\cooktime{15 minutes}
+\dishtype{\vegetarian}
+\begin{ingreds}
+    2 eggs, separated
+    2 cups buttermilk
+    2 cups flour
+    $\frac{1}{4}$ tsp salt
+    $\frac{1}{2}$ cup sugar
+    3 tsp baking powder
+    $\frac{1}{4}$ tsp baking soda
+    2 tbsp vegetable oil
+    1 tsp vanilla 
+\end{ingreds}
+\begin{method}
+    Separate eggs, beat egg whites until stiff, and set aside.\par
+    Mix egg yolks with buttermilk.\par
+    Mix dry ingredients and oil.\par
+    Add egg yolks and buttermilk to the dry mixture. Mix well.\par
+    Stir in vanilla.\par
+    Fold in the egg whites.\par
+    Cook on medium-high griddle.
+\end{method}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\recipeSection{Side Dishes}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Thanksgiving Dressing
+\recipe[Throwback to the OG Shug.]{Thanksgiving Dressing}{Great Shug}
+\serves{4}
+\preptime{15 minutes}
+\cooktime{45 minutes}
+\dishtype{\vegetarian}
+\begin{ingreds}
+    1 cup chopped onion
+    1 cup chopped celery
+    1 stick butter (melted)
+    2--3 packages baked cornbread
+    1 can baked biscuits
+    1 container chicken broth
+    1 can cream of celery, mushroom, or chicken soup 
+\end{ingreds}
+\begin{method}[Preheat oven to \temp{375}.]
+    Mix cornbread, biscuits, onion, celery, and butter together.\par
+    Add chicken broth and soup to get the consistency you want.\par
+    Bake until golden brown on top (use the broiler if desired).
+\end{method}
+
+% Carrots & Kale
+\recipe[For the rabbits in the family.]{Carrots \& Kale}{Shug}
+\serves{4}
+\preptime{15 minutes}
+\cooktime{15 minutes}
+\dishtype{\vegetarian}
+\begin{ingreds}
+    3 large carrots (sliced)
+    1 bushel of kale (chopped)
+    1 onion (sliced)
+    2 tsp garlic salt
+    1 tsp lemon pepper
+    1 tbsp olive oil
+    1 tbsp butter    
+\end{ingreds}
+\begin{method}
+    Sear carrots in olive oil and butter for about 5 minutes.\par
+    Add the onion and continue searing with the lid on the pan, without stirring, until carrots are dark and carmelized.\par
+    Stir, then add chopped kale, turn off the burner, and cover until kale is wilted.\par
+    Add the seasonings to taste.
+\end{method}
+
+% Brussels Sprouts
+\recipe[These will give lasting luck if consumed on New Year's Eve.]{Brussels Sprouts}{Boss}
+\serves{4}
+\preptime{15 minutes}
+\cooktime{30 minutes}
+\dishtype{\vegetarian}
+\begin{ingreds}
+    2 lbs Brussels sprouts (halved or quartered)
+    1 onion (sliced) 
+    1 tbsp olive oil
+    1 tbsp butter
+    2 tsp garlic salt
+    1 tsp lemon pepper        
+\end{ingreds}
+\begin{method}
+    Place brussel sprouts flat side down in pan of olive oil and butter.\par
+    Add the onion.\par
+    Season with garlic salt and lemon pepper.\par
+    Cover and sear until brussel sprouts are dark and carmelized.
+\end{method}
+
+% Brussels Sprouts
+\recipe[For when you want to get slawpy.]{Coleslaw}{Boss}
+\serves{4}
+\preptime{15 minutes}
+% \cooktime{30 minutes}
+\dishtype{\vegetarian}
+\begin{ingreds}
+    1 small head red cabbage
+    4 carrots (thinly sliced)
+    1 jalapeño (finely diced)
+    4 green onions (cut in ribbons)
+    1 bunch cilantro (roughly chopped)
+    1 cup REAL mayo
+    1 tsp cumin
+    1 tsp smoked paprika
+    2 tsp garlic salt
+    black pepper (to taste)
+    1 tsp vinegar       
+\end{ingreds}
+\begin{method}
+    Mix all the ingredients together in a bowl.
+\end{method}
+
+% White Rice
+\recipe[Simple and goes with literally everything.]{White Rice}{Gage}
+\serves{4}
+\preptime{5 minutes}
+\cooktime{25 minutes}
+\dishtype{\vegetarian}
+\begin{ingreds}
+    1 cup white rice
+    2 cups water
+    1 tsp Kosher salt          
+\end{ingreds}
+\begin{method}
+    In a fine mesh strainer add the rice.\par
+    Place the strainer into a bowl, and fill with water.\par
+    Mix the rice in the water and dispose of the water.\par
+    Repeat this process until the water no longer becomes cloudy.\par
+    Add the rice to a medium sauce-pot along with 2 cups of room temperature water and salt.\par
+    On the smallest burner, bring to a boil, then reduce the heat to low and cover.\par Simmer for 20 minutes.
+\end{method}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\recipeSection{Mains}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Fettuccine Alfredo
+\recipe[It slaps.]{Fettuccine Alfredo}{Jacy}
+\serves{4}
+\preptime{5 minutes}
+\cooktime{25 minutes}
+\dishtype{}
+\begin{ingreds}
+    $\frac{1}{2}$ cup butter
+    1 $\frac{1}{2}$ cup heavy whipping cream
+    2 tsp minced garlic
+    $\frac{1}{2}$ tsp italian seasoning
+    $\frac{1}{2}$ tsp salt
+    $\frac{1}{4}$ tsp pepper
+    2 cups grated parmesan cheese
+    1 bag fettuccine noodles
+    1 lb chicken breast or shrimp
+\end{ingreds}
+\begin{method}
+    Add butter and cream to a large skillet.\par
+    Simmer over low for 2 minutes.\par
+    Whisk in garlic and seasonings for one minute.\par
+    Whisk in parmesan until melted.\par
+    Mix in with noodles and your choice of chicken or shrimp.\par
+    Simmer until the meat is cooked.
+\end{method}
+
+% Chili
+\recipe[Make this every fall.]{Chili}{Boss}
+\serves{4}
+\preptime{5 minutes}
+\cooktime{2--4 hours}
+\dishtype{}
+\begin{ingreds}
+    1 lb ground beef
+    1 onion
+    3 garlic cloves
+    2 jalapenos 
+    1 can stewed tomatoes (16 oz.)
+    1 can tomato sauce (16 oz.)
+    3 tbsp chili powder (at least)
+    1 tbsp pepper
+    1 tbsp cumin
+    1 tbsp garlic salt
+    1 tsp paprika
+    $\frac{1}{4}$ tsp coriander
+    2 tsp rosemary
+    2 cups water
+\end{ingreds}
+\begin{method}
+    Saute onion, garlic, and jalapenos with olive oil.\par
+    In a separate pan, brown the meat.\par
+    Once browned, drain the grease, and add to the sauteed vegetables.\par
+    Add all other ingredients.\par
+    Simmer for 2-4 hours.\par
+    Seasoning does not have to be exact, just add to your liking. 
+\end{method}
+
+% Chili
+\recipe[Gage's rendition on Boss' chili.]{Chili}{Gage}
+\serves{4}
+\preptime{5 minutes}
+\cooktime{2--4 hours}
+\dishtype{}
+\begin{ingreds}
+    1 tbsp peanut oil
+    1 lb ground beef
+    1 lb breakfast sausage
+    4 strips of bacon sliced 
+    1 onion finely diced
+    3 garlic cloves crushed
+    3 jalape\~nos finely diced
+    $\frac{1}{4}$ cup flour
+    $\frac{1}{3}$ cup red wine(optional)
+    1 large can crushed tomatoes
+    $\geq$3 tbsp chili powder
+    1 tbsp pepper
+    1 tbsp cumin
+    1 tbsp garlic powder
+    1 tsp paprika
+    $\frac{1}{4}$ tsp coriander
+    2 tsp rosemary
+    Salt (to taste)
+    2 cups water
+\end{ingreds}
+\begin{method}
+    In a large pot, add the oil and heat over high until shimmering.\par
+    Add the bacon and cook until lightly browned.\par
+    Add the beef and breakfast sausage.\par
+    Cook over high until browned.\par
+    Remove the meat and add the onions and jalape\~nos.\par
+    Cook until translucent.\par
+    Add the flour and thoroughly mix.\par
+    Cook until lightly browned.\par
+    Add the garlic, and continue to mix for another 30 sec.\par
+    Deglaze with the wine or beef stock, then add the crushed tomatoes and all the spices.\par
+    Mix thoroughly, and add water to desired thickness.\par
+    Cover, reduce heat to low, and simmer for 2--4 hours. 
+\end{method}
 
 
 

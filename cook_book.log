@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.18)  28 OCT 2024 09:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.18)  28 OCT 2024 13:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -165,20 +165,20 @@ File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 ) (cook_book.aux)
 \openout1 = `cook_book.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 195.
-LaTeX Font Info:    ... okay on input line 195.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 195.
-LaTeX Font Info:    ... okay on input line 195.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 195.
-LaTeX Font Info:    ... okay on input line 195.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 195.
-LaTeX Font Info:    ... okay on input line 195.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 195.
-LaTeX Font Info:    ... okay on input line 195.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 195.
-LaTeX Font Info:    ... okay on input line 195.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 195.
-LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 183.
+LaTeX Font Info:    ... okay on input line 183.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 183.
+LaTeX Font Info:    ... okay on input line 183.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 183.
+LaTeX Font Info:    ... okay on input line 183.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 183.
+LaTeX Font Info:    ... okay on input line 183.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 183.
+LaTeX Font Info:    ... okay on input line 183.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 183.
+LaTeX Font Info:    ... okay on input line 183.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 183.
+LaTeX Font Info:    ... okay on input line 183.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -234,11 +234,11 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 197.
+(Font)              <12> on input line 185.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 197.
+(Font)              <8> on input line 185.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 197.
+(Font)              <6> on input line 185.
 
 
 LaTeX Warning: No \author given.
@@ -268,46 +268,229 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 ]
 
-[1]
+[1
 
-[2]
+]
+Overfull \hbox (4.28166pt too wide) in paragraph at lines 224--224
+ [][]\OT1/cmr/m/n/10 Carefully roll the log while ap-ply-ing pres-sure out-ward to slightly
+ []
+
+
+Overfull \hbox (1.80936pt too wide) in paragraph at lines 225--225
+ [][]\OT1/cmr/m/n/10 Place the loaves onto a parchment-lined bak-ing sheet 4--6 inches
+ []
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.0pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
+
+[2
+
+]
 
 [3]
 
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.0pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
+
 [4]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.0pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
 
 [5]
 
-[6]
+[6
 
-[7]
+]
 
-[8]
 
-[9]
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.0pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
+
+[7
+
+]
+
+[8
+
+]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.0pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
+
+[9
+
+]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.0pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
 
 [10]
 
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.0pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
+
 [11]
 
-[12] (cook_book.aux)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.0pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
+
+[12]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.0pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
+
+[13]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.0pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
+
+[14]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.0pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
+
+[15]
+
+[16
+
+]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.0pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
+
+[17
+
+]
+
+[18
+
+]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.0pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
+
+[19
+
+]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.0pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
+
+[20]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.0pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
+
+[21]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.0pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
+
+[22]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.0pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
+
+[23]
+
+[24
+
+]
+
+[25
+
+]
+
+[26]
+
+[27] (cook_book.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 2741 strings out of 473899
- 43213 string characters out of 5726500
- 452341 words of memory out of 5000000
- 25613 multiletter control sequences out of 15000+600000
- 563005 words of font info for 52 fonts, out of 8000000 for 9000
+ 2745 strings out of 473899
+ 43318 string characters out of 5726500
+ 451409 words of memory out of 5000000
+ 25617 multiletter control sequences out of 15000+600000
+ 563619 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,12n,65p,399b,359s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\gage1\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on cook_book.pdf (16 pages, 134088 bytes).
+ 57i,12n,65p,439b,364s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\gage1\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on cook_book.pdf (31 pages, 164478 bytes).
 PDF statistics:
- 100 PDF objects out of 1000 (max. 8388607)
+ 153 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

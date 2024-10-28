@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1730127168.73698 "c:/Users/gage1/Documents/cook_book/cook_book.tex" "cook_book.pdf" "cook_book" 1730127169.19461 0
-  "C:/Users/gage1/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1729959725 156603 06599aed3f9eb503a6faf7fdef8bb126 ""
+["pdflatex"] 1730141193.46896 "c:/Users/gage1/Documents/cook_book/cook_book.tex" "cook_book.pdf" "cook_book" 1730141193.95614 0
+  "C:/Users/gage1/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1730137145 156603 06599aed3f9eb503a6faf7fdef8bb126 ""
   "C:/Users/gage1/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1729960717 11548 f4167bf6ff300cfb802e3705a44fc514 ""
   "C:/Users/gage1/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1726683668 11948197 5b127fce0bdc9ac8bcfc513d268863ce ""
   "C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/tcrm1000.tfm" 993062508 1436 c7f957a372ef2fbe93c0982f96625e12 ""
@@ -23,6 +23,7 @@
   "C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1247596667 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb" 1247596666 32362 bc3f3eec7ab7d65fe700963d4017d32c ""
   "C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb" 1247596667 32762 7fee39e011c23b3589931effd97b9702 ""
+  "C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1247596667 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb" 1247596666 32716 08e384dc442464e7285e891af9f45947 ""
   "C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb" 1247596667 37944 359e864bd06cde3b1cf57bb20757fb06 ""
   "C:/Users/gage1/AppData/Local/Programs/MiKTeX/tex/context/base/mkii/supp-pdf.mkii" 1580390158 71627 94eb9990bed73c364d7f53f960cc8c5b ""
@@ -46,10 +47,10 @@
   "C:/Users/gage1/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backend-pdftex.def" 1716480499 29785 9f93ab201fe5dd053afcc6c1bcf7d266 ""
   "C:/Users/gage1/AppData/Local/Programs/MiKTeX/tex/latex/tools/multicol.sty" 1718356376 32621 00e86c03dbf6e71d7ea7ebac2bd4fcaf ""
   "C:/Users/gage1/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
-  "c:/Users/gage1/Documents/cook_book/cook_book.tex" 1730127168 13671 fc947bf74737a1343bfa2f393519ddd6 ""
-  "cook_book.aux" 1730127169 1247 11ee388ce12cd9e1e8cdc393c1609d4a "pdflatex"
-  "cook_book.tex" 1730127168 13671 fc947bf74737a1343bfa2f393519ddd6 ""
-  "cook_book.toc" 1730127169 763 6acd5934ead8f8c96057efe2bb6f7356 "pdflatex"
+  "c:/Users/gage1/Documents/cook_book/cook_book.tex" 1730141192 24054 4b9bcc0a9a6a09208735ece6c0ec866e ""
+  "cook_book.aux" 1730141193 2375 719478cda715f3027f77163ae0c32602 "pdflatex"
+  "cook_book.tex" 1730141192 24054 4b9bcc0a9a6a09208735ece6c0ec866e ""
+  "cook_book.toc" 1730141193 1276 06285b9fcca2135e4a60c5874016f0f8 "pdflatex"
   (generated)
   "cook_book.aux"
   "cook_book.log"
