@@ -1,4 +1,5 @@
 \documentclass{article}
+\usepackage{enumitem}
 \usepackage{fancyhdr}
 \usepackage{multicol}
 \usepackage[
@@ -70,8 +71,8 @@
     \rhead{}
     \lfoot{}
     \rfoot{}
-    \subsection[#2]{\LARGE#2 $-$ \large#3}
-    \if#1
+    \subsection[#2]{\Large#2 $-$ \large#3}
+    \if###1##
     \else
         \begin{center}
             \testoneline{#1}
@@ -112,7 +113,7 @@
         \color{red}\Large\textbf{Ingredients}
     }
     \else
-        \emph{#1}
+        \emph{\textbf{#1:}}
     \fi
 }
 
@@ -151,7 +152,7 @@
 
 %% Optional argument for an italicized pre-step
 %% Also use obeylines to minimize markup here as well
-\newenvironment{method}[1][]{%
+\newenvironment{method}[1][]{
     \setcounter{stepnum}{0}
     \noindent
     {\color{red}\Large\textbf{Instructions}}
@@ -356,6 +357,60 @@
     Pour into a jar to store or use to make enchiladas.
 \end{method}
 
+% Japanese Curry
+\recipe[Try it with the pork katsu.]{Japanese Curry}{Gage}
+\serves{4}
+\preptime{20 minutes}
+\cooktime{}1 hour
+\dishtype{\vegetarian}
+\begin{ingreds}
+    $\frac{1}{4}$ cup of butter (1st)
+	$\frac{1}{2}$ cup butter (2nd)
+	1$\frac{1}{2}$ tbsp butter (3rd)
+	3 onions (julienned)
+	1-quart chicken stock
+	4 dried shiitake mushroom 
+	1 apple (peeled \& grated)
+	1 tbsp tomato paste
+	$\frac{1}{2}$ cup all-purpose flour
+	1 tbsp garam masala
+	$\frac{1}{4}$ cup curry powder
+	2 tsp MSG
+	1 tbsp soy sauce
+	2 tbsp Worcestershire sauce
+	1 tbsp honey or granulated sugar        
+\end{ingreds}
+\begin{method}
+    Add the 1st butter measurement to a large saucepot and melt over medium-high.\par
+    Add the julienned onions and cook for 30 to 45 minutes, stirring often, and adjusting the temperature between medium and low accordingly; if onions start to stick to the bottom, add a splash of water to deglaze.\par
+	Bring 1 cup of the chicken stock to a boil and add the shitake mushrooms; after two minutes, remove your mushrooms or until entirely hydrated. Set aside.\par
+    Once the onions are done (medium-dark caramel color) add the grated apple to the onions with the tomato paste, stir it and cook for 3 to 4 minutes or until the apple softened. Remove and place it aside.\par
+	Over medium-high heat (using the same pot),  add the 2nd butter measurement.\par
+    Once melted, add the flour, constantly whisk for 30 seconds.\par
+    Add the garam masala (optional), curry powder, and MSG.\par
+    Whisk vigorously, and let toast for about 1 minute.\par
+	Add back the onions along with the soy sauce, Worcestershire sauce, honey (or sugar), and one quart of chicken shiitake stock, stirring often until thickened\par
+    Let simmer for 2 minutes.\par
+	Blend the mix until completely smooth, then add the 3rd butter measurement while blending.\par
+    Serve with rice and pork katsu.
+\end{method}
+
+% Creamy Mexican Dipping Sauce
+\recipe[Perfect for dipping a quesadilla.]{Creamy, Spicy Dipping Sauce}{Gage}
+\serves{4}
+\preptime{5 minutes}
+% \cooktime{}
+\dishtype{\vegetarian, \sauce}
+\begin{ingreds}
+    $\frac{2}{3}$ cup of Mexican cream
+    hot sauce (I use Valentina\textsuperscript{\textregistered})
+    1 lime (juice)
+\end{ingreds}
+\begin{method}
+    Mix all the ingredients together.\par
+    Add hot sauce to your desired spice level.
+\end{method}
+
 % Boss' Tartar Sauce
 \recipe[Enjoy with any fish or just by the spoonful.]{Boss' Tartar Sauce}{Boss}
 \serves{4}
@@ -479,6 +534,27 @@
     Wait a day or so for jelly to set.
 \end{method}
 
+% Pickled Red Cabbage
+\recipe[Simple slaw, great for dressing up any recipe.]{Pickled Red Cabbage}{Gage}
+\serves{4}
+\preptime{15 minutes}
+% \cooktime{}
+\dishtype{}
+\begin{ingreds}
+    $\frac{1}{2}$ red cabbage (thinly sliced)
+    1$\frac{1}{2}$ cups rice vinegar
+    1 cup water
+    2 tbsp sugar
+    1 tbsp salt
+    1 tbsp furikake (optional)
+\end{ingreds}
+\begin{method}
+    Place the sliced cabbage into a large container.\par
+    In a medium saucepot, place the vinegar, water, sugar, furikake, and salt.\par
+    Bring it to a boil and pour it over the cabbage.\par
+    Seal the jar and refrigerate.
+\end{method}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \recipeSection{Breakfast}
@@ -582,7 +658,7 @@
     Cover and sear until brussel sprouts are dark and carmelized.
 \end{method}
 
-% Brussels Sprouts
+% Coleslaw
 \recipe[For when you want to get slawpy.]{Coleslaw}{Boss}
 \serves{4}
 \preptime{15 minutes}
@@ -624,6 +700,8 @@
     Add the rice to a medium sauce-pot along with 2 cups of room temperature water and salt.\par
     On the smallest burner, bring to a boil, then reduce the heat to low and cover.\par Simmer for 20 minutes.
 \end{method}
+
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -881,8 +959,514 @@
     Cook for another 7--8 minutes until orzo is just barely tender.
 \end{method}
 
+% Chicken Tacos
+\recipe[No need to stress yourself out with these other fancy recipes.]{Chicken Tacos}{Shug}
+\serves{4}
+\preptime{5 minutes}
+\cooktime{4--6 hours}
+\dishtype{}
+\begin{ingreds}
+    4 chicken breasts
+    1 chicken taco seasoning packet
+    1 jar Kylito's salsa
+    1 can corn, drained (optional)
+    2 small cans green chiles (optional)
+\end{ingreds}
+\begin{method}[Feel free to substitute with pre-cooked chicken.]
+    Place chicken in a crockpot.\par
+    Sprinkle chicken taco seasoning packet over all the chicken.\par
+    Pour in salsa, corn, and green chiles.\par
+    Cook on high for 4 hours, or low for 6 hours.\par
+    Shred and stir. Serve with tortillas.
+\end{method}
 
+% Carne Asada
+\recipe[Throw these on a quesadilla, and you'll be in heaven.]{Carne Asada}{Gage}
+\serves{4}
+\preptime{20 minutes}
+\cooktime{10--15 minutes}
+\dishtype{}
+\begin{ingreds}
+    2 lbs skirt steak
+    olive oil (to coat the steak)
+    2 tbsp soy sauce
+    1 orange (juice and zest)
+    2 limes (juice and zest)
+    6 cloves garlic (crushed)
+    1 handful of cilantro (chopped)
+    $\frac{2}{3}$ tbsp chili powder
+    1 tbsp garlic powder
+    2 tsp cumin
+    1 heavy pinch oregano
+    $\frac{2}{3}$ tbsp kosher salt
+\end{ingreds}
+\begin{method}[A flame grill is ideal, but a ripping hot flat iron will also work.]
+    In a bowl, add the skirt steak, and coat with olive oil.\par
+    Add the soy sauce, citrus, garlic, cilantro, and seasonings, and mix together to fully coat the steak.\par
+    Marinate in the refrigerator for $>$1 hour.\par
+    Add the steaks to the grill, and allow each side to get some char marks ($~$5 minutes on each side).\par
+    Remove the steaks from the grill and let rest for $>$5 minutes.\par
+    Cut the steaks against the grain, and serve. 
+\end{method}
 
+% Chicken Spaghetti
+\recipe[Always a popular choice in our house.]{Chicken Spaghetti}{Shug}
+\serves{4}
+\preptime{10 minutes}
+\cooktime{45 minutes}
+\dishtype{}
+\begin{ingreds}
+    1 package of spaghetti
+    3 chicken breasts
+    2 cups chicken broth
+    $\frac{1}{2}$ stick butter 
+    1 buttermilk ranch packet
+    $\frac{1}{2}$ onion, diced
+    1 can rotel tomatoes 
+    1 can cream of chicken soup
+    garlic salt
+    black pepper
+    1 block cream cheese
+    $\frac{1}{3}$ block Velveeta\textsuperscript{\textregistered} cheese
+\end{ingreds}
+\begin{method}
+    Add all ingredients to the crock pot, excluding the cream cheese and Velveeta\textsuperscript{\textregistered}.\par
+    Cook on high for 3$\frac{1}{2}$ hours.\par
+    Add cream cheese and Velveeta\textsuperscript{\textregistered}, then cook an additional 30 minutes.\par
+    Shred and stir.\par
+    Boil the spaghetti to desired tenderness, strain, and add to the mixture in the crock pot. 
+\end{method}
+
+% Spaghetti-Stuffed Sandwiches
+\recipe[As delicious as it is unhinged.]{Spaghetti-Stuffed Sandwiches}{Jacy}
+\serves{4}
+\preptime{10 minutes}
+\cooktime{30 minutes}
+\dishtype{}
+\begin{ingreds}
+    1 pound ground beef
+    1 can tomato sauce
+    2$\frac{1}{2}$ cups beef broth
+    16 oz spaghetti 
+    Italian loaf bread
+    $\frac{1}{4}$ cup butter
+    $\frac{1}{2}$ tbsp minced garlic (for compound butter)
+    1 tbsp minced garlic (for sauce)
+    garlic salt
+    black pepper
+    Italian seasoning
+\end{ingreds}
+\begin{method}[Preheat the oven to a broil.]
+    Cut the ends off of the Italian loaf bread and hollow them out.\par
+    Melt the butter, and add $\frac{1}{2}$ tbsp of minced garlic, italian seasoning, and salt and pepper to the melted butter.\par
+    Use a brush to spread the butter mixture on the outside of the hollowed out Italian loaf, and set aside.\par
+    Brown the ground beef in a pot on high heat.\par
+    Add the tomato sauce, beef broth, 1 tbsp minced garlic, and seasonings, and stir.\par
+    Add the spaghetti, and cover the pot.\par
+    Cook on a simmer until spaghetti is done.\par
+    Stir every now and then to ensure it doesn't stick.\par
+    Break up the pieces of spaghetti when you stir.\par
+    Put your Italian loaves under the broiler, cut-side-up, to toast them.\par
+    Stuff the hollowed out loafs with the spaghetti. 
+\end{method}
+
+% Spaghetti and Meatballs
+\recipe[A more classic use of spaghetti.]{Spaghetti and Meatballs}{Gage}
+\serves{4}
+\preptime{30 minutes}
+\cooktime{30 minutes}
+\dishtype{}
+\begin{ingreds}
+    \ingredients[Meatballs]
+        $\frac{1}{4}$ lb chopped mortadella
+        1 lb ground beef
+        1 tsp (2g) finely ground fennel
+        1$\frac{3}{4}$ tsp (12g) fine sea salt
+        3 cloves garlic (diced)
+        $\frac{1}{4}$ cup (20g) freshly grated parmesan
+        black pepper to taste
+        $\frac{1}{2}$ cup (35g) panko bread crumbs
+        1 whole egg
+    \columnbreak{}
+    \ingredients[Sauce]
+        $\frac{1}{4}$ cup extra virgin olive oil
+        4 cloves garlic, thinly sliced
+        1 tsp (2g) red pepper flakes
+        1 can crushed tomatoes (28 oz)
+        1 bunch of basil
+        freshly grated Parmigiano for serving
+        chiffonade basil for serving
+        1 package spaghetti
+    
+\end{ingreds}
+\begin{method}[Prepare the meatballs before making the sauce.]
+    In a bowl, place your chopped mortadella, combine it with the ground beef, fennel seed, salt, garlic, parmesan cheese, and black pepper, mix it well, and add the panko and eggs and mix again until emulsified and tacky.\par
+    Use a large cookie scoop to make the meatballs, around twenty, place them on a sheet tray and roll them into balls.\par
+    In a large saut\'ee pan, over medium-high, pour enough olive oil to cover the bottom of the pan; once the oil is hot, add all the meatballs in one single layer, and sear for about two minutes, flip and sear one or two more sides, until golden brown (it's okay if there are not cooked all the way).\par
+    Remove the meatballs from the pan and reserve.\par
+
+    In the same pan where the meatballs were cooked, reduce the heat to medium, add the garlic, and saut\'e for about 5 minutes.\par
+    Add the pepper flakes, saut\'e for thirty seconds and add your crushed tomatoes.\par
+    Stir in a pinch of sugar (or to desired sweetness).\par
+    Add the meatballs back into the pan, bring to a simmer, and reduce the heat to medium-low and simmer for five to eight minutes.\par
+    Halfway through this process, add the basil leaves and let simmer until the meatballs cook all the way through.\par
+
+    Place spaghetti in a pot of boiling water that has been seasoned generously with salt.\par
+    Cook according to package instructions or until done.\par
+    Using tongs, pick up the pasta, let it drain slightly, add it to your sauce until all your pasta has been added.\par
+    Place one portion of pasta in a shallow bowl, pour some sauce on top and two or three meatballs, grate some fresh parmesan, and finally, some chiffonade fresh basil.
+\end{method}
+
+% Lemon Garlic Shrimp Pasta
+\recipe[Lemon, garlic, shrimp? Name a better combo!]{Lemon Garlic Shrimp Pasta}{Boss}
+\serves{4}
+\preptime{5--15 minutes}
+\cooktime{15 minutes}
+\dishtype{}
+\begin{ingreds}
+    1 lb shrimp
+    1 lemon (juice)
+    1 tbsp minced garlic (or 4 garlic cloves)
+    2 tbsp butter (for saut\'eing)
+    4 tbsp butter (for sauce)
+    2 tbsp water
+    pasta of choice
+    salt (to taste)
+    black pepper (to taste)    
+\end{ingreds}
+\begin{method}
+    Melt 2 tbsp butter in a large skillet on medium-high heat.\par
+    Add the garlic and cook for about 1 minute.\par
+    Fry the shrimp, cooking for 2 minutes on each side.\par
+    Add salt and pepper to taste and stir occasionally.\par
+    Add in the remaining butter, lemon juice, and water.\par
+    Cook until the butter melts and the shrimp have cooked fully.\par
+    Take off heat, add more salt and pepper if needed, and serve on your preferred pasta.
+\end{method}
+
+% This recipe needs more detail.
+% % Fish Tacos
+% \recipe[Eat it on the go! I don't care!]{Fish Tacos}{Boss}
+% \serves{4}
+% \preptime{5--15 minutes}
+% \cooktime{15 minutes}
+% \dishtype{}
+% \begin{ingreds}
+%     Catfish 
+%     Garlic salt
+%     Pepper
+%     Cumin
+%     Cayenne pepper
+%     Paprika
+%     Dried onion
+%     Olive oil
+%     Butter      
+% \end{ingreds}
+% \begin{method}
+% Season catfish with all seasonings except dried onion, and sear in olive oil - 4 minutes on each side.  Chop up in the pan, mixing in butter and dried onion.  Garnish with Boss’s cole slaw, fresh chopped onion, and fresh cilantro.
+% \end{method}
+
+% Chorizo Tacos with Plantains
+\recipe[This one is worth the effort. I promise!]{Chorizo Tacos with Plantains}{Gage}
+\serves{4}
+\preptime{15 minutes}
+\cooktime{30 minutes}
+\dishtype{}
+\begin{ingreds}
+    1 link of chorizo
+    1 plantain
+    1 lime (juice)
+    $\frac{1}{2}$ onion (diced)
+    $\frac{1}{2}$ onion (Julienned)
+    1 bunch cilantro (chopped)
+    queso Oaxaca (or mozzarella)
+    6--8 corn tortillas
+    vegetable oil
+    $\frac{1}{4}$ cup apple cider vinegar
+    hot sauce (like Cholula\textsuperscript{\textregistered})
+    Mexican lager (like Corona\textsuperscript{\textregistered}) (or water)  
+\end{ingreds}
+\begin{method}
+    In a small container, add the apple cider vinegar, juice of half a lime, and the Julienned onions. Seal and shake briefly and set aside to pickle.\par
+    Shred the queso Oaxaca or mozzarella. You won't need much.\par
+    Slice the plantain at a bias into $\frac{1}{4}$'' slices.\par
+    Heat a non-stick skillet over medium-high heat and add the chorizo. Cook until browned.\par
+    Remove the chorizo, and add the onions until translucent.\par
+    Deglaze with a $\frac{1}{4}$ cup of the lager (or water) until it boils off, then add back the chorizo.\par
+    Mix briefly, then set on the back burner.\par
+    In a large deep skillet add the oil so that it just covers the bottom and then some.\par
+    Once the oil is shimmering, add the plantain slices in batches, making sure not to overcrowd the pan.\par
+    Cook until one side is browned then flip. Once done, set aside.\par
+    Heat a non-stick skillet over medium heat until just smoking.\par
+    Add the tortillas, and cook both sides so that they are just slightly burned in a few spots.\par
+    Store in a bowl covered with a rag, or they will get stale.\par
+    Now plate. Add the tortillas, then the cheese. You can melt with a blowtorch or in the microwave. Add the chorizo, then 2--3 slices of plantains, then the pickled onions. Cut a few leaves of cilantro on top with scissors, and spritz with a quarter of lime. Optionally, top with a few dabs of hot sauce.
+\end{method}
+
+% Cheesy, Bacon Chicken
+\recipe[This is just sinful, but we can keep it between us.]{Cheesy Bacon Chicken}{Boss}
+\serves{4}
+\preptime{15 minutes}
+\cooktime{40 minutes}
+\dishtype{}
+\begin{ingreds}
+    Cheddar cheese (slices \& grated)
+    2 large chicken breasts
+    1 block cream cheese (softened)
+    1 can corn
+    1 jalape\~no (chopped)
+    $\frac{1}{2}$ onion (chopped)
+    1 clove garlic (chopped)
+    6 strips bacon
+\end{ingreds}
+\begin{method}[Preheat oven to \temp{375}.]
+    Cut several deep slits lengthwise into the chicken breasts.\par
+    Insert bacon and cheddar slices inside each slit.\par
+    Mix all other ingredients.\par
+    Cover chicken with mixture.\par
+    Bake for 40 minutes in a cast iron skillet.
+\end{method}
+
+% Ground Beef Bulgogi
+\recipe[Sweet and savory, and good in a pinch.]{Ground Beef Bulgogi}{Gage}
+\serves{4}
+\preptime{15 minutes}
+\cooktime{20 minutes}
+\dishtype{}
+\begin{ingreds}
+    \ingredients[Bulgogi Sauce]
+        $\frac{1}{2}$ cup soy sauce
+        2 tbsp rice wine vinegar
+        1 tbsp + 2 tsp brown sugar
+        2 tsp sesame oil
+        1 tsp ginger (minced)
+        1 tsp garlic (minced)    
+    \columnbreak{}
+    \ingredients[Ground Beef]
+        1 lb ground beef
+        $\frac{1}{2}$ yellow onion (diced)
+    \smallbreak{}
+    \ingredients[Toppings]
+        1 tbsp scallion (diced)
+        1 tsp sesame seeds
+        4 large soft boiled eggs
+\end{ingreds}
+\begin{method}[Prepare the meatballs before making the sauce.]
+    In a medium bowl combine the ingredients for the bulgogi sauce.\par
+    Mix well to combine and set aside.\par
+    In a skillet over medium-high heat, add ground beef and onion and cook until browned (about 5 minutes). The meat will still be a little pink.\par
+    Add the Bulgogi sauce and mix well.\par
+    Simmer for 6--10 more minutes, and remove from heat.\par
+    Serve on top of rice.\par
+    Top with scallions, toasted sesame seeds, and a soft boiled egg.
+\end{method}
+
+% Pork Katsu
+\recipe[It's deep-fried pork. What else needs to be said?]{Pork Katsu}{Gage}
+\serves{4}
+\preptime{20 minutes}
+\cooktime{10 minutes}
+\dishtype{}
+\begin{ingreds}
+    4 boneless pork loin chops
+    salt to taste
+    1 pinch MSG
+    $\frac{1}{2}$ cup all-purpose flour
+    2 eggs plus a splash of water
+    1$\frac{1}{2}$ cups panko breadcrumbs
+    3--4 cups oil for frying
+\end{ingreds}
+\begin{method}
+    Cut the meat off the bone, and score the fat cap down, so the meat does not curl while cooking.\par
+    With a sharp knife, score the meat lightly, on the exposed flesh, in a crosshatch pattern, no more than $\frac{1}{4}$'' deep.\par
+	With a meat mallet, flatten the pork loin portions until they are $\frac{1}{2}$'' thick; season with salt and a pinch of MSG.\@\par
+    Place in the fridge for 30 minutes or overnight.\par
+	Set up your breading station by placing the flour, beaten eggs and panko, in separate bowls.\par
+    Toss the meat in the flour, coating completely, and shake off the excess\par
+    Dip in the egg wash and let it drain slightly\par
+    Press it into the panko and make sure everything is well covered.\par
+    Repeat with all the chops.
+	Fill up a large pot with 2$\frac{1}{2}$'' of vegetable oil and heat to \temp{340}.\par
+    Fry the pork chops, one or two at a time for 4--6 minutes or until golden brown and crisp ($>$\temp{140} internal).
+\end{method}
+
+% Mojo Pulled Pork
+\recipe[Make this for every party you throw.]{Mojo Pulled Pork}{Gage}
+\serves{4}
+\preptime{20 minutes}
+\cooktime{3$\frac{1}{2}$--4 hours}
+\dishtype{}
+\begin{ingreds}
+    1 pork shoulder
+    Chicken stock (if needed)
+    Kosher salt (to taste)
+    1 onion (quartered)
+    2 heads of garlic (peeled)
+    2 oranges (juice and zest)
+    3 limes (juice and zest)
+    2 tbsp (7g) oregano leaves
+    $\frac{1}{2}$ bunch of mint leaves
+    1 tbsp (5g) ground cumin
+    2 serrano chilies
+    1 cup extra virgin olive oil
+    1$\frac{1}{2}$ tbsp kosher salt
+    1 cup fresh lime juice
+    1 cup fresh orange juice or pineapple juice
+\end{ingreds}
+\begin{method}[Marinate overnight; Preheat the oven to \temp{400} on day of cooking.]
+    In a blender, add the onion, garlic, orange zest, lime zest, oregano leaves, mint leaves, cumin, serranos, olive oil, salt, lime juice, and orange juice.\par
+    Blend together on high speed until completely smooth.\par
+    Reserve 1 cup of the marinade to use for dipping.\par
+    With a paring knife, poke deep holes all over the pork shoulder.\par
+    In a large resealable bag, place the pork shoulder, and pour in the remaining mojo marinade to cover the meat. Seal the bag and marinate in the refrigerator overnight.\par
+    Remove the pork from the marinade and place in a dutch oven.\par
+    Pour in all of the marinade. The marinade should come about halfway up the pot, but if not, add a little bit of chicken stock.\par
+    Braise the pork, uncovered, for 20 minutes. Then reduce the temperature to 350°F and cook until the internal temperature of the pork is 200°F ($~$3$\frac{1}{2}$--4 hours) flipping occasionally.\par
+    Remove the pork from the dutch oven and place on a cutting board to cool.\par
+    In a large bowl, using two forks, shred the meat.\par
+    Toss together using the braising liquid to coat the meat to your desired level of fattiness.\par
+    Season to taste with salt.    
+\end{method}
+
+% Chicken Katsu
+\recipe[It's fried chicken my boy.]{Chicken Katsu}{Gage}
+\serves{4}
+\preptime{20 minutes}
+\cooktime{15 minutes}
+\dishtype{}
+\begin{ingreds}
+    1$\frac{1}{2}$ cups all-purpose flour
+    3 large eggs
+    2 tbsp water
+    2 cups panko
+    4 boneless, skinless chicken breasts/thighs
+    2 cups high-heat oil
+    kosher salt
+\end{ingreds}
+\begin{method}
+    Place the chicken breasts between two pieces of plastic wrap and pound to an even thickness of $~\frac{1}{2}$''. Season with salt.\par
+    Prepare 3 separate shallow bowls for the breading station. In the first, place the flour. In the second, whisk together the eggs and water. In the last, place the panko.\par
+    Thoroughly coat each piece of chicken in the flour, shaking off any excess.\par
+    Coat evenly in the egg, making sure no dry spots remain.\par
+    Finally, coat the chicken on all sides in the panko, pressing to make sure it's thoroughly coated.\par
+    Set aside on a piece of parchment paper, and separate each breast with a new layer of parchment.\par
+    Fill a large deep cast-iron skillet or heavy-bottomed pot with the oil, and heat over high heat until just shimmering, or about \temp{325--350}.\par
+    Carefully place the chicken breast in the oil one at a time.\par
+    Fry for 3--5 minutes, or until crispy golden brown.\par
+    Flip and fry for an additional 3--5 minutes, or until it reaches an internal temp of 165°F.\par
+    Place on a wire rack in a rimmed baking sheet, season again with salt and let drain and cool.\par Repeat with the remaining chicken breasts.\par
+    Serve sliced, with a side of spicy cabbage slaw, and drizzled with katsu sauce and Sriracha.
+\end{method}
+
+% Butter Chicken
+\recipe[Raleigh's favorite meal of all time.]{Butter Chicken}{Gage}
+\serves{4}
+\preptime{30 minutes}
+\cooktime{30 minutes}
+\dishtype{}
+\begin{ingreds}
+    \ingredients[Marinade]
+        1$\frac{1}{2}$ lbs chicken thighs (1'' pieces)
+        $\frac{3}{4}$ cup (145g) yogurt
+        2$\frac{1}{2}$ tsp (6g) chili powder
+        1 tsp (2g) turmeric
+        2 tsp lemon juice
+        1 tsp (2g) cumin
+        1 tbsp (7g) Garam masala
+        2 teaspoons (10g) fine sea salt
+        2-inch knob ginger
+    \columnbreak{}
+    \ingredients[Curry Sauce]
+        1 onion, thinly sliced
+        5 garlic cloves, chopped
+        1 tsp (2g) garam masala
+        1 tsp (2g) chili powder
+        $\frac{1}{2}$ tsp (1g) turmeric
+        $\frac{1}{2}$ tsp (1g) fenugreek
+        1 tbsp (13g) sugar
+        2 tbsp (28g) ghee
+        1 tbsp (15g) grated ginger
+        1 large can crushed tomatoes
+        $\frac{3}{4}$ cup (177ml) heavy cream
+        2 tbsp (28g) unsalted butter
+        fresh cilantro for garnish
+        salt to taste
+\end{ingreds}
+\begin{method}[Requires $>$30 minutes of marination.]
+    Place your chicken thighs in a bowl along with the rest of the marinade ingredients and mix thoroughly, ensuring the chicken gets completely coated with the marinade.\par
+    Cover with plastic wrap and reserve in the refrigerator.\par
+    Heat a 12'' nonstick skillet over medium-high heat and add the ghee.\par
+    Once melted, add your marinated chicken pieces and sear them on all sides until golden brown. It is okay if it does not get cooked all the way through.\par
+    Remove your chicken, place it in a large bowl, and reserve.\par
+    Add the onions, season with salt, and cook until just translucent.\par
+    Add the garlic and ginger and cook for another 30 seconds.\par
+    Stirring often, add the garam masala, chili powder, turmeric, fenugreek, and sugar.\par
+    Add in your crushed tomatoes and reduce for 2 minutes.\par
+    Place the onion mix in the blender and blend on high until smooth.\par
+    Place the sauce back in the pan, add your chicken, cover with a lid and simmer for seven minutes.\par
+    Add the heavy cream and simmer until thickened.\par
+    Cut the heat, stir in butter, and season with salt to taste.\par
+    Serve your chicken over rice, and garnished with cilantro.    
+\end{method}
+
+% Oven Swiss Steak
+\recipe[A classic enjoyed during harvest.]{Oven Swiss Steak}{Gran}
+\serves{4}
+\preptime{20 minutes}
+\cooktime{1 hour}
+\dishtype{}
+\begin{ingreds}
+    4 round steaks
+    2 carrots (chopped)
+    2 celery stalks (chopped)
+    $\frac{1}{2}$ onion (chopped)
+    1 can stewed tomatoes
+    1--2 cloves garlic (minced)
+    1 can cream of mushroom soup
+    beef broth (or water)
+    flour with favorite seasonings mixed in
+\end{ingreds}
+\begin{method}[Preheat oven to \temp{300}.]
+    Coat the steaks evenly with the seasoned flour.\par
+    Add the steaks to a ripping hot pan and brown on each side in olive oil (about 5 minute each side).`\ '\par
+    Place in a Pyrex\textsuperscript{\textregistered} dish.\par
+    Mix the fresh vegetables together and pour over the steaks.\par
+    Stir the tomatoes and soup together then pour over steaks and veggies.\par
+    Add a little water or beef broth.\par
+    Cover with foil and cook at 350 degrees about an hour or until veggies are soft.\par
+    \emph{Note: Boss likes to brown the steak in a cast iron skillet then transfer it to the oven.}
+\end{method}
+
+% Chicken & Dumplings
+\recipe[Perfect for those cold dreadful days.]{Chicken \& Dumplings}{Shug}
+\serves{4}
+\preptime{10 minutes}
+\cooktime{8--9 hours}
+\dishtype{}
+\begin{ingreds}
+    3--4 chicken breasts
+    1 medium onion (diced)
+    2 stalks of celery (chopped)
+    3--4 carrots (sliced or diced)
+    2 cans cream of chicken soup
+    1 box chicken broth
+    3 tbsp butter
+    garlic powder
+    parsley
+    poultry seasoning
+    black pepper
+    1 cup half \& half
+    1 can Pillsbury\textsuperscript{\textregistered} buttermilk biscuits
+\end{ingreds}
+\begin{method}
+    Place chicken in the crockpot.\par
+    Stir together all other ingredients except for the half \& half and biscuits and pour over the chicken.\par
+    Cook on low for 7--8 hours.\par
+    Take out the chicken and pull apart.\par
+    Cut the raw biscuits into small $\frac{3}{4}$'' pieces and place in the crockpot.\par
+    Add the half \& half.`\ '\emph{You can add how ever much you want.}\par
+    Put the chicken back in and cook on high for another hour.
+\end{method}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -919,9 +1503,151 @@
     Serve within two hours.
 \end{method}
 
+% Raspberry Lemon Ice Cream
+\recipe[Try it with a chocolate sauce. Trust me.]{Raspberry Lemon Ice Cream}{Boss}
+\serves{4}
+\preptime{5 minutes}
+\cooktime{1--2 hours}
+\dishtype{}
+\begin{ingreds}
+    1 can Eagle Brand\textsuperscript{\textregistered} sweetened condensed milk
+    2 eggs
+    2 cups half \& half
+    1 small lemon (juice and zest)
+    1 tsp vanilla
+    $\frac{1}{8}$ tsp almond extract
+    1 cup fresh raspberries
+\end{ingreds}
+\begin{method}
+    Put the raspberries in the freezer (they don’t have to be frozen, just cold).\par
+    Mix together all the ingredients, excluding the raspberries.\par
+    Pour mixture into your ice cream maker and turn it on.\par
+    About halfway through, when the ice cream is starting to thicken, add the raspberries.\par
+    \emph{Note: also works with strawberries.}
+\end{method}
 
+% Sopapilla Cheesecake
+\recipe[The most addicting thing ever devised.]{Sopapilla Cheesecake}{Shug}
+\serves{4}
+\preptime{30 minutes}
+\cooktime{1 hour}
+\dishtype{}
+\begin{ingreds}
+    2 packages cream cheese (softened)
+    1$\frac{1}{4}$ sticks butter (softened, divided)
+    1$\frac{1}{2}$ cups sugar (divided)
+    2 tsp vanilla (divided)
+    2 packages Pillsbury\textsuperscript{\textregistered} crescent rolls 
+    $\frac{1}{2}$ tsp ground cinnamon
+\end{ingreds}
+\begin{method}[Preheat the oven to \temp{350}.]
+    Grease a 13$\times$9'' pan and set aside.\par
+    Combine cream cheese and 4 tbsp butter in large bowl.\par
+    Beat until mixture is creamy.\par
+    Gradually beat in 1 cup of sugar and 1 tsp vanilla.\par
+    Unroll the package of crescent rolls and lay in the prepared pan (do not separate the rolls).\par
+    Stretch the dough to the edges of the pan and seal the perforations.\par
+    Spread the cream cheese mixture evenly over the dough.\par
+    Place the remaining package of crescent rolls on the top of the cream cheese mixture.\par
+    Pinch the dough together at the perforations to seal.\par
+    Melt the remaining 6 tbsp butter.\par
+    Stir in the remaining sugar and vanilla as well as the cinnamon.\par
+    Pour mixture evenly over dough.\par
+    Bake for 30 minutes or until the cheesecake is slightly puffed and golden brown.
+\end{method}
 
+% Frosted Brownies
+\recipe[Ok, maybe this is the most addicting thing ever devised?]{Frosted Brownies}{Mimi}
+\serves{4}
+\preptime{20 minutes}
+\cooktime{1 hour}
+\dishtype{}
+\begin{ingreds}
+    \ingredients[Brownie Mix]
+        2 cups sugar
+        1$\frac{1}{2}$ cups flour
+        $\frac{1}{3}$ cup cocoa 
+        1 tsp salt
+        4 eggs
+        2 sticks butter
+        2 tsp vanilla
+    \columnbreak{}
+    \ingredients[Icing]
+        1 stick butter
+        $\frac{1}{4}$ cup cocoa
+        3$\frac{1}{2}$ cups powdered sugar
+        $\frac{1}{4}$ cup half \& half
+\end{ingreds}
+\begin{method}[Preheat the oven to \temp{350}.]
+    Grease and flour 9$\times$13'' dish and set aside.\par
+    Add the sugar, flour, and salt to a large mixing bowl.\par
+    Melt the butter and cocoa in the microwave.\par
+    While mixing, add the eggs to the dry ingredients. Once incorporated, add the butter/cocoa mixture and the vanilla.\par
+    Bake for 30 minutes. Let cool completely.\par
+    For the icing, melt the butter and cocoa.\par
+    Add the half \& half.\par
+    Sift in the powdered sugar. Add more half \& half if needed.\par
+    Layer the icing on top of the cooled brownies.    
+\end{method}
 
+% Browned Butter Brownies
+\recipe[It has coffee, so eat it for the energy.]{Browned Butter Brownies}{Gage}
+\serves{4}
+\preptime{30 minutes}
+\cooktime{30 minutes}
+\dishtype{}
+\begin{ingreds}
+    1$\frac{1}{2}$ sticks unsalted butter
+    4 oz (113 grams) semisweet chocolate (chopped)
+    $\frac{1}{2}$ cup (100 grams) sugar
+    $\frac{1}{2}$ cup (100 grams) light brown sugar
+    3 large eggs
+    1 tsp vanilla extract
+    $\frac{1}{2}$ cup (64 grams) all-purpose flour
+    $\frac{1}{2}$ cup (43 grams) unsweetened cocoa powder
+    $\frac{1}{2}$ teaspoon instant espresso powder
+    $\frac{1}{2}$ teaspoon fine salt
+    1 cup (170 grams) semisweet chocolate chips
+\end{ingreds}
+\begin{method}[Preheat the oven to \temp{350}.]
+    Grease a glass 8'' square pan.
+    In a small saucepan set over medium low heat, melt the butter.\par
+    Swirling the pan occasionally, continue to cook the butter, increasing the heat to medium. It should become foamy with audible crackling and popping noises.\par
+    Once the crackling stops, continue to swirl the pan until the butter develops a nutty aroma and brown bits start to form at the bottom. Do not allow the bits to burn!\par
+    Once the bits are amber in color, ($\sim$2--3 minutes after the popping stops) remove from heat and pour into a mixing bowl, scraping the brown bits into the bowl.\par
+    Immediately add in the chopped chocolate and stir until melted.\par
+    In the bowl of an electric mixer fitted with the whisk attachment, combine the sugar, brown sugar, eggs, and vanilla.\par
+    Beat on high speed until completely thickened and fluffy in texture and lightened in color, $\sim$8 minutes.\par
+    On low speed, gradually pour in the butter/chocolate mixture.\par
+    Use a rubber spatula to fold in the flour, cocoa powder, espresso powder, and salt until just combined.\par
+    Fold in the chocolate chips.\par
+    Pour into the prepared pan and smooth out with a spatula.\par
+    Bake for 22--25 minutes, or until set but not overbaked.\par
+    Let cool completely before slicing and serving.       
+\end{method}
 
+% Vanilla Pudding
+\recipe[It's vanilla pudding!]{Vanilla Pudding}{Shug}
+\serves{4}
+\preptime{10 minutes}
+\cooktime{15 minutes}
+\dishtype{}\begin{ingreds}
+    $\frac{1}{2}$ cup sugar
+    2 tbsp cornstarch
+    $\frac{1}{2}$ tsp salt
+    2 cups milk
+    2 large egg yolks (slightly beaten)
+    2 tbsp butter (softened)
+    2 tsp vanilla
+\end{ingreds}
+\begin{method}
+    In a 2-quart saucepan, mix the sugar, cornstarch, and salt.\par
+    Gradually stir in the milk.\par
+    Cook over medium heat, stirring constantly, until mixture thickens and boils.\par
+    Boil and stir for 1 minute.\par
+    Gradually stir $\geq\frac{1}{2}$ of the hot mixture into the egg yolks to temper them, then stir back into hot mixture in saucepan.\par
+    Boil and stir for another minute.\par
+    Remove from heat and stir in the butter and vanilla.       
+\end{method}
 
 \end{document}
