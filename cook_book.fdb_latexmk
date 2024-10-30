@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1730254458.80105 "c:/Users/gage1/Documents/cook_book/cook_book.tex" "cook_book.pdf" "cook_book" 1730254459.49292 0
+["pdflatex"] 1730254710.80203 "c:/Users/gage1/Documents/cook_book/cook_book.tex" "cook_book.pdf" "cook_book" 1730254711.71852 0
   "C:/Users/gage1/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1730137145 156603 06599aed3f9eb503a6faf7fdef8bb126 ""
   "C:/Users/gage1/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm0700.pk" 1730232038 8268 1b86cbdcb972c5c1c246251a1bf19591 ""
   "C:/Users/gage1/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1729960717 11548 f4167bf6ff300cfb802e3705a44fc514 ""
@@ -53,10 +53,10 @@
   "C:/Users/gage1/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backend-pdftex.def" 1716480499 29785 9f93ab201fe5dd053afcc6c1bcf7d266 ""
   "C:/Users/gage1/AppData/Local/Programs/MiKTeX/tex/latex/tools/multicol.sty" 1718356376 32621 00e86c03dbf6e71d7ea7ebac2bd4fcaf ""
   "C:/Users/gage1/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
-  "c:/Users/gage1/Documents/cook_book/cook_book.tex" 1730254458 63163 d2de05753f8096212bd5b74d5875d2b8 ""
-  "cook_book.aux" 1730254459 5224 782844d571c5d6ca46ac2b4ae495daa9 "pdflatex"
-  "cook_book.tex" 1730254458 63163 d2de05753f8096212bd5b74d5875d2b8 ""
-  "cook_book.toc" 1730254459 2895 eed00ccf47de55050b9006b16c77cf95 "pdflatex"
+  "c:/Users/gage1/Documents/cook_book/cook_book.tex" 1730254710 63209 a7b87de545d05674529594acab2d04e3 ""
+  "cook_book.aux" 1730254711 5224 782844d571c5d6ca46ac2b4ae495daa9 "pdflatex"
+  "cook_book.tex" 1730254710 63209 a7b87de545d05674529594acab2d04e3 ""
+  "cook_book.toc" 1730254711 2895 eed00ccf47de55050b9006b16c77cf95 "pdflatex"
   (generated)
   "cook_book.aux"
   "cook_book.log"
