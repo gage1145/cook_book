@@ -12,6 +12,9 @@
     ]{geometry}
 \usepackage{xcolor}
 \usepackage{graphicx}
+\usepackage{caption}
+\usepackage{float}
+
 
 \setlength{\headheight}{14.0pt}
 
@@ -97,14 +100,20 @@
 
 %% Optional argument is the width of the graphic, default = 1in
 \newcommand{\showit}[3][1in]{
-    \begin{center}
-        \bigskip
-            \includegraphics[width=#1]{#2}
-            \par
-            \medskip
-            \testoneline{#3}
-            \par
-    \end{center}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=#1]{#2}
+        \caption*{#3}
+    \end{figure}
+
+    % \begin{center}
+    %     \bigskip
+    %         \includegraphics[width=#1]{#2}
+    %         \par
+    %         \medskip
+    %         \testoneline{#3}
+    %         \par
+    % \end{center}
 }
 
 %% Optional argument for a  heading within the ingredients section
@@ -318,6 +327,8 @@
 \input{recipes/butter_chicken.tex}
 % Oven Swiss Steak
 \input{recipes/oven_swiss_steak.tex}
+% Poverty Meatloaf
+\input{recipes/poverty_meatloaf.tex}
 % Chicken & Dumplings
 \input{recipes/chicken_and_dumplings.tex}
 

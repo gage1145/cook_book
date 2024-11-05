@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.18)  5 NOV 2024 12:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.18)  5 NOV 2024 14:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -165,29 +165,52 @@ Package graphics Info: Driver file: pdftex.def on input line 106.
 )
 \Gin@req@height=\dimen160
 \Gin@req@width=\dimen161
+) (C:\Users\gage1\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+ (C:\Users\gage1\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen162
+\captionmargin=\dimen163
+\caption@leftmargin=\dimen164
+\caption@rightmargin=\dimen165
+\caption@width=\dimen166
+\caption@indent=\dimen167
+\caption@parindent=\dimen168
+\caption@hangindent=\dimen169
+Package caption Info: Standard document class detected.
 )
-\c@stepnum=\count283
+\c@caption@flags=\count283
+\c@continuedfloat=\count284
+) (C:\Users\gage1\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count285
+\float@exts=\toks21
+\float@box=\box99
+\@float@everytoks=\toks22
+\@floatcapt=\box100
+)
+\c@stepnum=\count286
  (C:\Users\gage1\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count284
-\l__pdf_internal_box=\box99
+\l__color_backend_stack_int=\count287
+\l__pdf_internal_box=\box101
 ) (cook_book.aux)
 \openout1 = `cook_book.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 196.
-LaTeX Font Info:    ... okay on input line 196.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 196.
-LaTeX Font Info:    ... okay on input line 196.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 196.
-LaTeX Font Info:    ... okay on input line 196.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 196.
-LaTeX Font Info:    ... okay on input line 196.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 196.
-LaTeX Font Info:    ... okay on input line 196.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 196.
-LaTeX Font Info:    ... okay on input line 196.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 196.
-LaTeX Font Info:    ... okay on input line 196.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 205.
+LaTeX Font Info:    ... okay on input line 205.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 205.
+LaTeX Font Info:    ... okay on input line 205.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 205.
+LaTeX Font Info:    ... okay on input line 205.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 205.
+LaTeX Font Info:    ... okay on input line 205.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 205.
+LaTeX Font Info:    ... okay on input line 205.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 205.
+LaTeX Font Info:    ... okay on input line 205.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 205.
+LaTeX Font Info:    ... okay on input line 205.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -225,29 +248,32 @@ LaTeX Font Info:    ... okay on input line 196.
 
 (C:\Users\gage1\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count285
-\scratchdimen=\dimen162
-\scratchbox=\box100
-\nofMPsegments=\count286
-\nofMParguments=\count287
-\everyMPshowfont=\toks21
-\MPscratchCnt=\count288
-\MPscratchDim=\dimen163
-\MPnumerator=\count289
-\makeMPintoPDFobject=\count290
-\everyMPtoPDFconversion=\toks22
+\scratchcounter=\count288
+\scratchdimen=\dimen170
+\scratchbox=\box102
+\nofMPsegments=\count289
+\nofMParguments=\count290
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count291
+\MPscratchDim=\dimen171
+\MPnumerator=\count292
+\makeMPintoPDFobject=\count293
+\everyMPtoPDFconversion=\toks24
 ) (C:\Users\gage1\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (C:\Users\gage1\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 198.
+(Font)              <12> on input line 207.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 198.
+(Font)              <8> on input line 207.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 198.
+(Font)              <6> on input line 207.
 
 
 [1
@@ -411,68 +437,76 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 [56]) (recipes/oven_swiss_steak.tex
 
-[57]) (recipes/chicken_and_dumplings.tex
+[57]
+<images/gran/IMG_7447.jpg, id=208, 1013.7875pt x 760.8425pt>
+File: images/gran/IMG_7447.jpg Graphic file (type jpg)
+<use images/gran/IMG_7447.jpg>
+Package pdftex.def Info: images/gran/IMG_7447.jpg  used on input line 27.
+(pdftex.def)             Requested size: 180.67499pt x 135.58742pt.
+) (recipes/poverty_meatloaf.tex
 
-[58]) (recipes/mexican_corn_casserole.tex
+[58 <./images/gran/IMG_7447.jpg>]) (recipes/chicken_and_dumplings.tex
 
-[59]) (recipes/broccolli_casserole.tex
+[59]) (recipes/mexican_corn_casserole.tex
 
-[60])
+[60]) (recipes/broccolli_casserole.tex
 
-[61]
+[61])
 
-[62
-
-] (recipes/creme_brulee.tex) (recipes/chocolate_chip_cookies.tex
+[62]
 
 [63
 
+] (recipes/creme_brulee.tex) (recipes/chocolate_chip_cookies.tex
+
+[64
+
 ]) (recipes/popcorn_balls.tex
 
-[64]) (recipes/raspberry_lemon_ice_cream.tex
+[65]) (recipes/raspberry_lemon_ice_cream.tex
 
-[65]) (recipes/sopapilla_cheesecake.tex
+[66]) (recipes/sopapilla_cheesecake.tex
 
-[66]) (recipes/frosted_brownies.tex
+[67]) (recipes/frosted_brownies.tex
 
-[67]) (recipes/browned_butter_brownies.tex
+[68]) (recipes/browned_butter_brownies.tex
 
-[68]) (recipes/vanilla_pudding.tex
+[69]) (recipes/vanilla_pudding.tex
 
-[69]) (recipes/pecan_pie.tex
+[70]) (recipes/pecan_pie.tex
 
-[70]) (recipes/apple_pie.tex
+[71]) (recipes/apple_pie.tex
 
-[71]) (recipes/never-fail_meringue.tex
+[72]) (recipes/never-fail_meringue.tex
 
-[72]) (recipes/best-ever_lemon_pie.tex
+[73]) (recipes/best-ever_lemon_pie.tex
 
-[73]) (recipes/buttermilk_pie.tex
+[74]) (recipes/buttermilk_pie.tex
 
-[74]) (recipes/lemon_jello_cake.tex
+[75]) (recipes/lemon_jello_cake.tex
 
-[75]) (recipes/sour_cream_pound_cake.tex
+[76]) (recipes/sour_cream_pound_cake.tex
 
-[76])
+[77])
 
-[77] (cook_book.aux)
+[78] (cook_book.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 3479 strings out of 473899
- 63408 string characters out of 5726500
- 462138 words of memory out of 5000000
- 26145 multiletter control sequences out of 15000+600000
+ 4904 strings out of 473899
+ 90915 string characters out of 5726500
+ 486637 words of memory out of 5000000
+ 27557 multiletter control sequences out of 15000+600000
  564625 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,13n,65p,419b,373s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\gage1\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\gage1\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0700.pk><C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on cook_book.pdf (81 pages, 287134 bytes).
+Output written on cook_book.pdf (82 pages, 359572 bytes).
 PDF statistics:
- 329 PDF objects out of 1000 (max. 8388607)
+ 333 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
