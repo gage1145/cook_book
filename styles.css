@@ -1,0 +1,101 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #444;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #444;
+    color: #fff;
+}
+
+#recipe-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#recipe-list ul li {
+    margin: 5px 0;
+}
+
+#recipe-list ul li a {
+    color: #444;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#recipe-list ul li a:hover {
+    text-decoration: underline;
+}
+
+.nav-logo img {
+    max-width: 100%;
+}
+
+/* Basic button styling for navigation */
+.nav-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #ff7043;  /* Nice warm color for the buttons */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.nav-button:hover {
+    background-color: #d65a31;  /* Slightly darker shade on hover */
+    transform: scale(1.05);  /* Grow the button slightly */
+}
+
+.nav-button:active {
+    background-color: #ff7043;
+    transform: scale(0.95);  /* Slightly shrink on click for a tactile feel */
+}
+
+/* Center the navigation */
+header nav {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    background-color: #438a66;
+}
+
+header {
+    background-color: #c0f7d9;
+    padding: 20px 0;
+    color: #fff;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 2em;
+    color: #ffeb3b;  /* Accent color for the title */
+}
