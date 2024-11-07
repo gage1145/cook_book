@@ -82,6 +82,7 @@ INPUT .\cook_book.toc
 INPUT .\cook_book.toc
 INPUT cook_book.toc
 INPUT C:\Users\gage1\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
+INPUT C:\Users\gage1\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti10.tfm
 OUTPUT cook_book.toc
 INPUT C:\Users\gage1\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT .\recipes\cubano_bread.tex
@@ -90,7 +91,6 @@ INPUT recipes\cubano_bread.tex
 INPUT C:\Users\gage1\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\gage1\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
 INPUT C:\Users\gage1\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
-INPUT C:\Users\gage1\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti10.tfm
 INPUT .\recipes\browned_butter_cornbread.tex
 INPUT .\recipes\browned_butter_cornbread.tex
 INPUT recipes\browned_butter_cornbread.tex
@@ -166,6 +166,12 @@ INPUT recipes\white_rice.tex
 INPUT .\recipes\stuffed_potatoes.tex
 INPUT .\recipes\stuffed_potatoes.tex
 INPUT recipes\stuffed_potatoes.tex
+INPUT .\recipes\mac_and_cheese.tex
+INPUT .\recipes\mac_and_cheese.tex
+INPUT recipes\mac_and_cheese.tex
+INPUT .\recipes\grape_salad.tex
+INPUT .\recipes\grape_salad.tex
+INPUT recipes\grape_salad.tex
 INPUT .\recipes\fettuccine_alfredo.tex
 INPUT .\recipes\fettuccine_alfredo.tex
 INPUT recipes\fettuccine_alfredo.tex
@@ -208,6 +214,10 @@ INPUT recipes\spaghetti-stuffed_sandwiches.tex
 INPUT .\recipes\spaghetti_and_meatballs.tex
 INPUT .\recipes\spaghetti_and_meatballs.tex
 INPUT recipes\spaghetti_and_meatballs.tex
+INPUT .\recipes\spaghetti_with_meatballs.tex
+INPUT .\recipes\spaghetti_with_meatballs.tex
+INPUT recipes\spaghetti_with_meatballs.tex
+INPUT C:\Users\gage1\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbxti10.tfm
 INPUT .\recipes\lemon_garlic_shrimp_pasta.tex
 INPUT .\recipes\lemon_garlic_shrimp_pasta.tex
 INPUT recipes\lemon_garlic_shrimp_pasta.tex
