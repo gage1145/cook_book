@@ -7,88 +7,23 @@
 
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
+    line-height: 1.5;
     background-color: #f4f4f4;
     color: #333;
-}
-
-header {
-    background-color: #444;
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
-}
-
-nav a {
-    color: #fff;
-    margin: 0 10px;
-    text-decoration: none;
-}
-
-footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #444;
-    color: #fff;
-}
-
-#recipe-list ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-#recipe-list ul li {
-    margin: 5px 0;
-}
-
-#recipe-list ul li a {
-    color: #444;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-#recipe-list ul li a:hover {
-    text-decoration: underline;
-}
-
-.nav-logo img {
-    max-width: 100%;
-}
-
-/* Basic button styling for navigation */
-.nav-button {
-    display: inline-block;
-    padding: 10px 20px;
-    margin: 5px;
-    background-color: #ff7043;  /* Nice warm color for the buttons */
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-    transition: background-color 0.3s ease, transform 0.3s ease;
-}
-
-.nav-button:hover {
-    background-color: #d65a31;  /* Slightly darker shade on hover */
-    transform: scale(1.05);  /* Grow the button slightly */
-}
-
-.nav-button:active {
-    background-color: #ff7043;
-    transform: scale(0.95);  /* Slightly shrink on click for a tactile feel */
 }
 
 /* Center the navigation */
 header nav {
     display: flex;
-    justify-content: center;
+    height: auto;
+    justify-content: left;
     gap: 10px;
     padding: 10px;
-    background-color: #438a66;
+    background-color: #9A7E6F;
 }
 
 header {
-    background-color: #c0f7d9;
+    background-color: #D8D2C2;
     padding: 20px 0;
     color: #fff;
     text-align: center;
@@ -97,5 +32,181 @@ header {
 header h1 {
     margin-bottom: 10px;
     font-size: 2em;
-    color: #ffeb3b;  /* Accent color for the title */
+    color: #ffeb3b;
+}
+
+header nav {
+    display: flex;
+    justify-content: center; /* Center the buttons */
+    flex-wrap: wrap; /* Allows buttons to wrap if they don’t fit on one line */
+    gap: 10px;
+    padding: 10px;
+    background-color: #9A7E6F;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+main {
+    text-align: center;
+    margin: 20px;
+}
+
+main h2 {
+    margin-bottom: 10px;
+    font-size: 3em;
+    color: #4A4947;
+}
+
+/* Styling for the custom <main-recipe> tag */
+main-recipe {
+    display: block; /* Make the custom tag behave like a block element */
+    max-width: 80%; /* Constrain the width for better readability */
+    margin: 2% auto; /* Center the recipe on the page */
+    padding: 5%;
+    background-color: #FAF7F0;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#recipe h1 {
+    color: #493628;
+    font-size: 3em
+}
+
+/* Styling for the recipe section */
+#recipe h2 {
+    color: #493628; /* Accent color for section titles */
+    font-size: 1.5em;
+    margin-bottom: 0px;
+    text-align: left;
+}
+
+#recipe description {
+    font-style: oblique;
+    font-size: 1.5em;
+    line-height: 2
+}
+
+#recipe ul {
+    columns: 2;
+    column-gap: 20px; /* Space between the columns */
+    list-style-type: unset;
+}
+
+/* Ingredient and instruction lists */
+#recipe ul, #recipe ol {
+    padding-left: 20px; /* Indent lists */
+    margin-bottom: 20px; /* Space below each list */
+}
+
+/* Ingredient items */
+#recipe ul li {
+    margin-bottom: 5px; /* Spacing between ingredients */
+    font-size: 1em;
+    color: #493628;
+}
+
+/* Instruction items */
+#recipe ol li {
+    margin-bottom: 10px; /* Spacing between steps */
+    font-size: 1em;
+    line-height: 1.6;
+    color: #493628;
+}
+
+#recipe pre {
+    font-size: 1.1em;
+    font-family: Arial;
+    font-style: italic;
+    line-height: 3;
+}
+
+.nav-logo img {
+    max-width: 80%;
+    margin-bottom: 10px;
+}
+
+/* Header container for logo and navigation */
+.header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #D8D2C2;
+    padding: 20px 0;
+}
+
+/* Basic button styling for navigation */
+.nav-button {
+    display: inline-block;
+    padding: 10px 10px;
+    margin: 0px;
+    background-color: #54473F;
+    color: #E9EED9;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    text-align: center;
+}
+
+.nav-button:hover {
+    background-color: #423832;  /* Slightly darker shade on hover */
+    transform: scale(1.15);  /* Grow the button slightly */
+}
+
+.nav-button:active {
+    background-color: #54473F;
+    transform: scale(0.95);  /* Slightly shrink on click for a tactile feel */
+}
+
+.download-button {
+    display: inline-block;
+    padding: 10px 10px;
+    margin: 0px;
+    background-color: #7e4624;
+    color: #E9EED9;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    text-align: center;
+}
+
+.download-button:hover {
+    background-color: #423832; /* Darker color on hover */
+    transform: scale(1.05);
+}
+
+.download-button:active {
+    background-color: #54473F;
+    transform: scale(0.95);
+}
+
+.recipe-button {
+    display: list-item;
+    padding: 1%;
+    margin: 2% 10%;
+    background-color: #54473F;
+    color: #E9EED9;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    text-align: center;
+}
+
+#recipe-items li {
+    list-style: none;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    margin: 10% 0%;
+    background-color: #444;
+    color: #fff;
 }
