@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1730905055.33612 "c:/Users/gage1/Documents/cook_book/cook_book.tex" "cook_book.pdf" "cook_book" 1730905056.17594 0
+["pdflatex"] 1731003180.34288 "c:/Users/gage1/Documents/cook_book/cook_book.tex" "cook_book.pdf" "cook_book" 1731003181.33963 0
   "C:/Users/gage1/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1730838392 156603 06599aed3f9eb503a6faf7fdef8bb126 ""
   "C:/Users/gage1/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm0700.pk" 1730232038 8268 1b86cbdcb972c5c1c246251a1bf19591 ""
   "C:/Users/gage1/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1729960717 11548 f4167bf6ff300cfb802e3705a44fc514 ""
@@ -56,10 +56,10 @@
   "C:/Users/gage1/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backend-pdftex.def" 1716480499 29785 9f93ab201fe5dd053afcc6c1bcf7d266 ""
   "C:/Users/gage1/AppData/Local/Programs/MiKTeX/tex/latex/tools/multicol.sty" 1718356376 32621 00e86c03dbf6e71d7ea7ebac2bd4fcaf ""
   "C:/Users/gage1/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
-  "c:/Users/gage1/Documents/cook_book/cook_book.tex" 1730905054 9250 2c499281161f672c07289760e24c6742 ""
-  "cook_book.aux" 1730905056 6894 4bbc083b199f5ad8ea2200e6f7a16d9a "pdflatex"
-  "cook_book.tex" 1730905054 9250 2c499281161f672c07289760e24c6742 ""
-  "cook_book.toc" 1730905056 3827 e8d37dbacbe482a2614681a3cb7dbf0d "pdflatex"
+  "c:/Users/gage1/Documents/cook_book/cook_book.tex" 1730905087 9250 2c499281161f672c07289760e24c6742 ""
+  "cook_book.aux" 1731003181 6894 4bbc083b199f5ad8ea2200e6f7a16d9a "pdflatex"
+  "cook_book.tex" 1730905087 9250 2c499281161f672c07289760e24c6742 ""
+  "cook_book.toc" 1731003181 3827 e8d37dbacbe482a2614681a3cb7dbf0d "pdflatex"
   "images/gran/IMG_7447.jpg" 1730836326 70692 857c0bedbe3106688a8de99b02803257 ""
   "recipes/apple_pie.tex" 1730828713 1131 0ba0fda7b696963da92b84bf1909e459 ""
   "recipes/apricot_preserves.tex" 1730826892 608 e2bc893636f8e4121fe6b3e97cf6c5b5 ""
@@ -122,7 +122,7 @@
   "recipes/spaghetti_and_meatballs.tex" 1730827957 2709 877a42d7ef2be8e4d18b4b252ee0895e ""
   "recipes/stuffed_potatoes.tex" 1730827456 664 e784669dfeb291f21b719960e04b141b ""
   "recipes/tartar_sauce.tex" 1730826784 525 802e6d731fbf7e3ab14afc94838502a6 ""
-  "recipes/texmex_enchilada_gravy.tex" 1730826590 1097 74240cf05992361f0c76d6ff48fe532a ""
+  "recipes/texmex_enchilada_gravy.tex" 1731003179 1109 84e7e5eef37614d5ed0ff2d2ee39c209 ""
   "recipes/thanksgiving_dressing.tex" 1730827279 674 d05815d7b0aeb583fb907bbd6dd7163d ""
   "recipes/tomato_bisque.tex" 1730827734 1468 4f9b4f62718b075010356279d509edae ""
   "recipes/tomato_soup.tex" 1730827713 753 c268bb5a7cf2d149cc339ceabfc2b24e ""
