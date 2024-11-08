@@ -1,150 +1,159 @@
-% !TEX encoding = UTF-8 Unicode
-% !TEX TS-program = XeLaTeX
-
-%% pagestyle alterations per user request 14 xii 2020
-
 \documentclass{article}
+\usepackage{enumitem}
 \usepackage{fancyhdr}
 \usepackage{multicol}
-\usepackage[%
-    %a5paper,
+\usepackage[
+    % a5paper,
     papersize={5.5in,8.5in},
     margin=0.75in,
     top=0.75in,
     bottom=0.75in,
-    %twoside
+    twoside
     ]{geometry}
 \usepackage{xcolor}
 \usepackage{graphicx}
+\usepackage{caption}
+\usepackage{float}
 
-\raggedcolumns
+
+\setlength{\headheight}{14.0pt}
+
+\raggedcolumns{}
 \setlength{\multicolsep}{0pt}
 \setlength{\columnseprule}{1pt}
 
 \makeatletter
 
-%% Used for the headnote and in \showit
-%% If the text is small it is placed on one line;
-%% otherwise it is put into a raggedright paragraph.
+% Decide if you want numbered sections or not.
+\setcounter{secnumdepth}{0}
+
+% Used for the headnote and in \showit
+% If the text is small it is placed on one line;
+% otherwise it is put into a raggedright paragraph.
 \long\def\testoneline#1{%
   \sbox\@tempboxa{#1}%
-  \ifdim \wd\@tempboxa <0.75\linewidth
+  \ifdim\wd\@tempboxa<0.75 \linewidth{}
         \begingroup
-            \itshape
+            \itshape{}
             #1\par
         \endgroup
   \else
-    \parbox{0.75\linewidth}{\raggedright\itshape#1}%
+    \parbox{0.75\linewidth}{\raggedright\itshape#1}
     \par
   \fi
 }
 
-\newif\if@mainmatter \@mainmattertrue
+\newif\if@mainmatter{} \@mainmattertrue{}
 
-%% Borrowed from book.cls
+% Borrowed from book.cls
 \newcommand\frontmatter{%
-    \cleardoublepage
-  \@mainmatterfalse
+    \cleardoublepage{}
+  \@mainmatterfalse{}
   \pagenumbering{roman}}
 \newcommand\mainmatter{%
-    \cleardoublepage
-  \@mainmattertrue
+    \cleardoublepage{}
+  \@mainmattertrue{}
   \pagenumbering{arabic}}
 \makeatother
 
-%% Vary the colors at will
-
+% Vary the colors at will
 \definecolor{vegcolor}{rgb}{0,0.5,0.2}
 \definecolor{frzcolor}{rgb}{0,0,1}
 \definecolor{dessertcolor}{rgb}{0.5,0.2,0.1}
 \definecolor{makeaheadcolor}{rgb}{0.5,0.5,0.6}
 \definecolor{breadcolor}{rgb}{0.9, 0.5, 0.2}
+\definecolor{appcolor}{rgb}{0.2, 0.5, 1.0}
+\definecolor{saucecolor}{rgb}{0.2, 0.5, 0.1}
 
 %% Thanks to alephzero for the excellent start:
-\newcommand{\recipe}[2][]{%
+\newcommand{\recipe}[3][]{
     \newpage
     \thispagestyle{fancy}
-    \lhead{}%
-    \chead{}%
-    \rhead{}%
-    \lfoot{}%
-    \rfoot{}%
-    \section{#2}%
-    \if###1##%
+    \lhead{}
+    \chead{}
+    \rhead{}
+    \lfoot{}
+    \rfoot{}
+    \subsection[#2]{\Large#2 $-$ \large#3}
+    \if###1##
     \else
         \begin{center}
-            \testoneline{#1}%
+            \testoneline{#1}
         \end{center}
     \fi
 }
-\newcommand{\serves}[2][Serves]{%
-    \chead{#1 #2}}
-\newcommand{\dishtype}[1]{%
-    \rhead{#1}%
-}
-\newcommand{\dishother}[1]{%
-    \lhead{#1}%
-}
-\newcommand{\vegetarian}{%
-    {\large\color{vegcolor}\textbf{V}}%
-}
-\newcommand{\bread}{%
-    {\large\color{breadcolor}\textbf{B}}%
-}
-\newcommand{\freeze}{%
-    {\large\color{frzcolor}\textbf{F}}%
-}
-\newcommand{\dessert}{%
-    {\large\color{dessertcolor}\textbf{D}}%
-}
-\newcommand{\makeahead}{%
-    {\large\color{makeaheadcolor}\textbf{M}}%
-}
-%% Optional arguments for alternate names for these:
-\newcommand{\preptime}[2][Prep time]{%
-    \lfoot{#1: #2}%
-}
-\newcommand{\cooktime}[2][Cook time]{%
-    \rfoot{#1: #2}%
-}
-\newcommand{\temp}[1]{%
-    $#1^\circ$F}
+\newcommand{\serves}[1]{\chead{Serves #1}}
+\newcommand{\dishtype}[1]{\rhead{#1}}
+\newcommand{\dishother}[1]{\lhead{#1}}
+\newcommand{\vegetarian}{\large\color{vegcolor}\textbf{V}}
+\newcommand{\bread}{\large\color{breadcolor}\textbf{B}}
+\newcommand{\apps}{\large\color{appcolor}\textbf{A}}
+\newcommand{\sauce}{\large\color{saucecolor}\textbf{S}}
+\newcommand{\freeze}{\large\color{frzcolor}\textbf{F}}
+\newcommand{\dessert}{\large\color{dessertcolor}\textbf{D}}
+\newcommand{\makeahead}{\large\color{makeaheadcolor}\textbf{M}}
+
+% Optional arguments for alternate names for these:
+\newcommand{\preptime}[2][Prep time]{\lfoot{#1: #2}}
+\newcommand{\cooktime}[2][Cook time]{\rfoot{#1: #2}}
+\newcommand{\temp}[1]{$#1^\circ$F}
+
 %% Optional argument is the width of the graphic, default = 1in
-\newcommand{\showit}[3][1in]{%
-    \begin{center}
-        \bigskip
-            \includegraphics[width=#1]{#2}%
-            \par
-            \medskip
-            \testoneline{#3}%
-            \par
-    \end{center}%
+\newcommand{\showit}[3][1in]{
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=#1]{#2}
+        \caption*{\emph{#3}}
+    \end{figure}
+
+    % \begin{center}
+    %     \bigskip
+    %         \includegraphics[width=#1]{#2}
+    %         \par
+    %         \medskip
+    %         \testoneline{#3}
+    %         \par
+    % \end{center}
 }
 
 %% Optional argument for a  heading within the ingredients section
 \newcommand{\ingredients}[1][]{%
-    \if###1##%
-        {\color{red}\Large\textbf{Ingredients}}%
+    \if###1##{
+        \color{red}\Large\textbf{Ingredients}
+    }
     \else
-        \emph{#1}%
+        \emph{\textbf{#1:}}
     \fi
 }
 
+\newcommand{\recipeSection}[1]{
+    \clearpage
+    \begin{center}
+        \hspace{0pt}\vfill
+        \begin{minipage}{\textwidth}
+            \centering
+            \section[#1]{\huge#1}
+        \end{minipage}
+        \vfill\hspace{0pt}
+    \end{center}
+    \clearpage
+}
+
 %% Use \obeylines to minimize markup
-\newenvironment{ingreds}{%
+\newenvironment{ingreds}{
     \parindent0pt
     \noindent
-    \ingredients
+    \ingredients{}
     \par
     \smallskip
     \begin{multicols}{2}
     \leftskip1em
     \rightskip0pt plus 3em
     \parskip=0.25em
-    \obeylines
+    \obeylines{}
     \everypar={\hangindent2em}
-}{%
-    \end{multicols}%
+}{
+    \end{multicols}
     \medskip
 }
 
@@ -152,13 +161,13 @@
 
 %% Optional argument for an italicized pre-step
 %% Also use obeylines to minimize markup here as well
-\newenvironment{method}[1][]{%
+\newenvironment{method}[1][]{
     \setcounter{stepnum}{0}
     \noindent
-    {\color{red}\Large\textbf{Instructions}}%
+    {\color{red}\Large\textbf{Instructions}}
     \par
     \smallskip
-    \if###1##%
+    \if#1
     \else
         \noindent
         \emph{#1}
@@ -168,67 +177,206 @@
     \parindent0pt
     \parskip0.25em
         \leftskip2em
-    \everypar={\llap{\stepcounter{stepnum}\hbox to2em{\thestepnum.\hfill}}}
+    \everypar={\llap{\ensuremath{\stepcounter{stepnum}\hbox to2em{\thestepnum.\hfill}}}}
 }{%
     \par
     \endgroup
-    }
+}
 
 \pagestyle{plain}
 
+\title{The Family Cookbook}
+\author{
+    Rowden, Gage\and
+    Rowden, Stacy\and
+    Rowden, J\and
+    Humphries, Jacy\and
+    Rowden, Reese\and
+    Rowden, Kelsey\and
+    Rowden, Elizabeth\and
+    Rowden, Lewayne\and
+    Pope, Cathy\and
+    Pope, Leon
+}
+% \author{Stacy M. Rowden, Lewayne J Rowden, Jacy C. Rowden}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \begin{document}
+
+\maketitle
 
 \frontmatter
 \tableofcontents
 
-\mainmatter
-
-\recipe[Perfect for making Cubano sandwiches]{Cubano Bread}
-\serves{4}
-\preptime{2 hour}
-\cooktime[Cook time]{28--35 minutes}
-\dishtype{\vegetarian, \bread}
-\dishother{\makeahead}
-\begin{ingreds}
-    1$\frac{1}{4}$ cups water (\temp{100})
-    1 tbsp instant dry yeast
-    3$\frac{1}{2}$ cups (500g) unbleached bread flour
-    1 tbsp (13g) granulated sugar
-    2 tsp (12g) fine sea salt
-    2$\frac{1}{2}$ tbsp lard, solidified
-% \columnbreak
-% \ingredients[For the Crumble Mixture:]
-%      80g wholemeal flour
-%      80g plain flour
-%      80g butter (diced)
-%      70g demerara sugar
-\end{ingreds}
-
-\begin{method}[Preheat the oven to \temp{400}.]
-    In a small bowl, stir together the warm water and yeast. Cover with plastic wrap and let sit for 10 min. The mixture should get slightly foamy, and the yeast should dissolve.
-
-    In a stand mixer bowl, add the flour, sugar, and salt. Mix together thoroughly. With the dough hook attachment, start mixing on medium-low speed. Slowly add the warm yeast mixture and the lard. Mix until combined. Once a cohesive dough is formed, keep mixing for another 3 to 5 minutes, or until smooth.
-
-    Shape the dough into a ball, and place in a greased bowl covered with greased plastic wrap. Let rise at room temp for 45 min to 1 hr, or until doubled in size.
-
-    Punch down the dough to release the gas and place on a lightly floured surface. Divide the dough into 2 even pieces. Cover with a damp towel, and let them rest right where they are for 10 minutes.
-
-    Flatten out 1 piece of dough into about a $\frac{1}{2}$-inch thick rectangle, with the long edge about 10 inches long. From the long edge, tightly roll the dough and close the seams at the bottom and sides.
-    Carefully roll the log while applying pressure outward to slightly taper the ends. The log should be 15 inches long. Repeat with the other piece of dough.
-
-    Place the loaves onto a parchment-lined baking sheet 4--6 inches apart. Cover with another baking sheet. Let the dough proof for about 30 minutes at room temp.
-
-    About 10 minutes before the dough is done proofing, bring a 10-inch oven-proof skillet of water to a boil. Preheat the oven to 400°F. Remove the top baking sheet. Using a food-safe spray bottle, lightly spray the dough with water. Using a razor blade or an extremely sharp knife, score a shallow seam along the length of the loaves.
-
-    Place the skillet of boiling water on the bottom rack of the oven. Place the baking sheet with the dough in the middle of the oven on a separate rack above the water. Spray the inside of the oven with a little water to generate steam.
-
-    Let the bread steam for 8--10 minutes. Reduce the heat to \temp{375}, remove the skillet of water, and let the bread bake for another 20--22 minutes, or until lightly browned.
-
-    Let cool completely on a wire rack. Slice and serve. Store on the counter loosely wrapped in a kitchen towel for up to 2 days and then in a resealable bag for 1 more day. Freeze in an airtight container for up to 2 months.
+\mainmatter{}
 
 
-\end{method}
+\recipeSection{Breads}
+% Cubano Bread
+\input{recipes/cubano_bread.tex}
+% Browned Butter Cornbread
+\input{recipes/browned_butter_cornbread.tex}
+% Banana Bread
+\input{recipes/banana_bread.tex}
 
-\showit[1.25in]{example-image-b}{This is a picture}
+
+\recipeSection{Appetizers \& Snacks}
+\input{recipes/boss_guac.tex}
+
+
+\recipeSection{Sauces, Jams, \& Canned Goods}
+% Tex-Mex Enchilada Gravy
+\input{recipes/texmex_enchilada_gravy.tex}
+% Pan Gravy
+\input{recipes/pan_gravy.tex}
+% Japanese Curry
+\input{recipes/japanese_curry.tex}
+% Creamy Mexican Dipping Sauce
+\input{recipes/creamy_mexican_dipping_sauce.tex}
+% Boss' Tartar Sauce
+\input{recipes/tartar_sauce.tex}
+% Katsu Sauce
+\input{recipes/katsu_sauce.tex}
+% Plum Preserves
+\input{recipes/plum_preserves.tex}
+% Apricot Preserves
+\input{recipes/apricot_preserves.tex}
+% Raspberry Jam
+\input{recipes/raspberry_jam.tex}
+% Jalapeno Jam
+\input{recipes/jalapeno_jam.tex}
+% Pickled Red Cabbage
+\input{recipes/pickled_red_cabbage.tex}
+
+
+\recipeSection{Breakfast}
+% Buttermilk Pancakes
+\input{recipes/buttermilk_pancakes.tex}
+% Huevos Rancheros
+\input{recipes/huevos_rancheros.tex}
+
+
+\recipeSection{Side Dishes}
+% Deviled Eggs
+\input{recipes/deviled_eggs.tex}
+% Onion Rings
+\input{recipes/onion_rings.tex}
+% Thanksgiving Dressing
+\input{recipes/thanksgiving_dressing.tex}
+% Carrots & Kale
+\input{recipes/carrots_and_kale.tex}
+% Brussels Sprouts
+\input{recipes/brussels_sprouts.tex}
+% Coleslaw
+\input{recipes/coleslaw.tex}
+% White Rice
+\input{recipes/white_rice.tex}
+% Stuffed Potatoes
+\input{recipes/stuffed_potatoes.tex}
+% Mac & Cheese
+\input{recipes/mac_and_cheese.tex}
+% Grape Salad
+\input{recipes/grape_salad.tex}
+
+
+\recipeSection{Mains}
+% Fettuccine Alfredo
+\input{recipes/fettuccine_alfredo.tex}
+% Chili
+\input{recipes/chili.tex}
+% Chili 2.0
+\input{recipes/chili_2.tex}
+% Pedernales River Chili
+\input{recipes/pedernales_river_chili.tex}
+% Blackened Catfish
+\input{recipes/blackened_catfish.tex}
+% Tomato Soup
+\input{recipes/tomato_soup.tex}
+% Tomato Bisque
+\input{recipes/tomato_bisque.tex}
+% Chicken Enchilada Soup
+\input{recipes/chicken_enchilada_soup.tex}
+% Chicken Orzo Soup
+\input{recipes/chicken_orzo_soup.tex}
+% Chicken Tacos
+\input{recipes/chicken_tacos.tex}
+% Carne Asada
+\input{recipes/carne_asada.tex}
+% Chicken Spaghetti
+\input{recipes/chicken_spaghetti.tex}
+% Spaghetti-Stuffed Sandwiches
+\input{recipes/spaghetti-stuffed_sandwiches.tex}
+% Spaghetti and Meatballs
+\input{recipes/spaghetti_and_meatballs.tex}
+% Spaghetti with Meatballs
+\input{recipes/spaghetti_with_meatballs.tex}
+% Lemon Garlic Shrimp Pasta
+\input{recipes/lemon_garlic_shrimp_pasta.tex}
+
+% This recipe needs more detail.
+% % Fish Tacos
+
+% Chorizo Tacos with Plantains
+\input{recipes/chorizo_tacos.tex}
+% Cheesy, Bacon Chicken
+\input{recipes/cheesy_bacon_chicken.tex}
+% Ground Beef Bulgogi
+\input{recipes/ground_beef_bulgogi.tex}
+% Pork Katsu
+\input{recipes/pork_katsu.tex}
+% Mojo Pulled Pork
+\input{recipes/mojo_pulled_pork.tex}
+% Chicken Katsu
+\input{recipes/chicken_katsu.tex}
+% Butter Chicken
+\input{recipes/butter_chicken.tex}
+% Oven Swiss Steak
+\input{recipes/oven_swiss_steak.tex}
+% Poverty Meatloaf
+\input{recipes/poverty_meatloaf.tex}
+% Chicken & Dumplings
+\input{recipes/chicken_and_dumplings.tex}
+
+% This one needs more details.
+% Mexican Casserole
+
+% Mexican Corn Casserole
+\input{recipes/mexican_corn_casserole.tex}
+% Broccolli Casserole
+\input{recipes/broccolli_casserole.tex}
+
+
+\recipeSection{Desserts}
+% Creme Brulee
+\input{recipes/creme_brulee.tex}
+% Chocolate Chip Cookies
+\input{recipes/chocolate_chip_cookies.tex}
+% Popcorn Balls
+\input{recipes/popcorn_balls.tex}
+% Raspberry Lemon Ice Cream
+\input{recipes/raspberry_lemon_ice_cream.tex}
+% Sopapilla Cheesecake
+\input{recipes/sopapilla_cheesecake.tex}
+% Frosted Brownies
+\input{recipes/frosted_brownies.tex}
+% Browned Butter Brownies
+\input{recipes/browned_butter_brownies.tex}
+% Vanilla Pudding
+\input{recipes/vanilla_pudding.tex}
+% Pecan Pie
+\input{recipes/pecan_pie.tex}
+% Apple Pie
+\input{recipes/apple_pie.tex}
+% Never-Fail Meringue
+\input{recipes/never-fail_meringue.tex}
+% Best-Ever Lemon Pie
+\input{recipes/best-ever_lemon_pie.tex}
+% Buttermilk Pie
+\input{recipes/buttermilk_pie.tex}
+% Lemon Jello Cake
+\input{recipes/lemon_jello_cake.tex}
+% Sour Cream Pound Cake
+\input{recipes/sour_cream_pound_cake.tex}
 
 \end{document}
