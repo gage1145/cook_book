@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1729962301.19693 "c:/Users/gage1/Documents/cook_book/cook_book.tex" "cook_book.pdf" "cook_book" 1729962301.67313 0
-  "C:/Users/gage1/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1729959725 156603 06599aed3f9eb503a6faf7fdef8bb126 ""
+["pdflatex"] 1731084785.76244 "c:/Users/gage1/Documents/cook_book/cook_book.tex" "cook_book.pdf" "cook_book" 1731084786.42589 0
+  "C:/Users/gage1/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1730838392 156603 06599aed3f9eb503a6faf7fdef8bb126 ""
   "C:/Users/gage1/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1729960717 11548 f4167bf6ff300cfb802e3705a44fc514 ""
   "C:/Users/gage1/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1726683668 11948197 5b127fce0bdc9ac8bcfc513d268863ce ""
   "C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/tcrm1000.tfm" 993062508 1436 c7f957a372ef2fbe93c0982f96625e12 ""
@@ -38,10 +38,10 @@
   "C:/Users/gage1/AppData/Local/Programs/MiKTeX/tex/latex/mwe/example-image-b.tex" 1522425337 466 69705384919c6dc961bf49b977dd41f4 ""
   "C:/Users/gage1/AppData/Local/Programs/MiKTeX/tex/latex/tools/multicol.sty" 1718356376 32621 00e86c03dbf6e71d7ea7ebac2bd4fcaf ""
   "C:/Users/gage1/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
-  "c:/Users/gage1/Documents/cook_book/cook_book.tex" 1729962300 7123 8566077c1a9a73770271cf3e77ed619d ""
-  "cook_book.aux" 1729962301 132 6b3a65d3632f5f92ab4d18494531e444 "pdflatex"
-  "cook_book.tex" 1729962300 7123 8566077c1a9a73770271cf3e77ed619d ""
-  "cook_book.toc" 1729962301 59 13189b35f34e445ece1428ccefd9c634 "pdflatex"
+  "c:/Users/gage1/Documents/cook_book/cook_book.tex" 1731084781 7123 8566077c1a9a73770271cf3e77ed619d ""
+  "cook_book.aux" 1731084786 132 6b3a65d3632f5f92ab4d18494531e444 "pdflatex"
+  "cook_book.tex" 1731084781 7123 8566077c1a9a73770271cf3e77ed619d ""
+  "cook_book.toc" 1731084786 59 13189b35f34e445ece1428ccefd9c634 "pdflatex"
   (generated)
   "cook_book.aux"
   "cook_book.log"
