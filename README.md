@@ -2,7 +2,7 @@
 
 ## Recipe Organization
 *   Recipes should be saved as their own $\TeX$ files.
-*   Save each file in the /recipes/ directory.
+*   Save each file in the recipes/ directory.
 
 ### Example Recipe File
 ``` LaTeX
@@ -20,8 +20,9 @@
 \cooktime{1 hour}
 
 % Optional functions for more description to include.
-% See main tex file for available args.
-\dishtype{\vegetarian}
+% See cookbook.cls for available args.
+\dishtype{\dessert}
+\dishother{\vegetarian}
 
 % Ingredient section. \ingredients function is optional if subheadings are needed.
 \begin{ingreds}
