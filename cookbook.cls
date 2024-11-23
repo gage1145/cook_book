@@ -64,14 +64,22 @@
 \makeatother
 
 % Vary the colors at will
-\definecolor{vegcolor}{rgb}{0,0.5,0.2}
+% \dishother colors
+\definecolor{vegcolor}{rgb}{0,0.4,0.2}
 \definecolor{frzcolor}{rgb}{0,0,1}
-\definecolor{dessertcolor}{rgb}{0.5,0.2,0.1}
-\definecolor{makeaheadcolor}{rgb}{0.5,0.5,0.6}
-\definecolor{breadcolor}{rgb}{0.9, 0.5, 0.2}
-\definecolor{picklecolor}{rgb}{0.0, 0.7, 0.1}
-\definecolor{appcolor}{rgb}{0.2, 0.5, 1.0}
+\definecolor{makeaheadcolor}{rgb}{0.5,0.5,0.5}
+
+% \dishtype colors
+\definecolor{breadcolor}{rgb}{0.5, 0.1, 0.2}
+\definecolor{appcolor}{rgb}{0.2, 0.05, 0.5}
 \definecolor{saucecolor}{rgb}{0.2, 0.5, 0.1}
+\definecolor{preservecolor}{rgb}{0.0, 0.2, 0.4}
+\definecolor{picklecolor}{rgb}{0.0, 0.5, 0.1}
+\definecolor{breakfastcolor}{rgb}{0.4, 0.2, 0.1}
+\definecolor{sidecolor}{rgb}{0.2, 0.5, 0.5}
+\definecolor{soupcolor}{rgb}{0, 0.05, 0.4}
+\definecolor{maincolor}{rgb}{0.5, 0.0, 0.05}
+\definecolor{dessertcolor}{rgb}{0.5,0.2,0.1}
 
 %% Thanks to alephzero for the excellent start:
 \newcommand{\recipe}[3][]{
@@ -105,12 +113,12 @@
 \newcommand{\bread}{\large\color{breadcolor}\textbf{Bread}}
 \newcommand{\apps}{\large\color{appcolor}\textbf{Appetizer}}
 \newcommand{\sauce}{\large\color{saucecolor}\textbf{Sauce}}
-\newcommand{\preserve}{\large\color{picklecolor}\textbf{Preserve}}
+\newcommand{\preserve}{\large\color{preservecolor}\textbf{Preserve}}
 \newcommand{\pickle}{\large\color{picklecolor}\textbf{Pickle}}
-\newcommand{\breakfast}{\large\color{dessertcolor}\textbf{Breakfast}}
-\newcommand{\side}{\large\color{dessertcolor}\textbf{Side}}
-\newcommand{\soup}{\large\color{dessertcolor}\textbf{Soup}}
-\newcommand{\main}{\large\color{dessertcolor}\textbf{Main}}
+\newcommand{\breakfast}{\large\color{breakfastcolor}\textbf{Breakfast}}
+\newcommand{\side}{\large\color{sidecolor}\textbf{Side}}
+\newcommand{\soup}{\large\color{soupcolor}\textbf{Soup}}
+\newcommand{\main}{\large\color{maincolor}\textbf{Main}}
 \newcommand{\dessert}{\large\color{dessertcolor}\textbf{Dessert}}
 
 % Optional arguments for alternate names for these:
