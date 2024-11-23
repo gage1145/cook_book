@@ -109,6 +109,7 @@
 \newcommand{\pickle}{\large\color{picklecolor}\textbf{Pickle}}
 \newcommand{\breakfast}{\large\color{dessertcolor}\textbf{Breakfast}}
 \newcommand{\side}{\large\color{dessertcolor}\textbf{Side}}
+\newcommand{\soup}{\large\color{dessertcolor}\textbf{Soup}}
 \newcommand{\main}{\large\color{dessertcolor}\textbf{Main}}
 \newcommand{\dessert}{\large\color{dessertcolor}\textbf{Dessert}}
 

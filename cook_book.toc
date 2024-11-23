@@ -17,62 +17,64 @@
 \contentsline {subsection}{Raspberry Jam}{18}{}%
 \contentsline {subsection}{Jalape\~no Jelly}{19}{}%
 \contentsline {subsection}{Pickled Red Cabbage}{20}{}%
-\contentsline {section}{Breakfast}{21}{}%
-\contentsline {subsection}{Buttermilk Pancakes}{22}{}%
-\contentsline {subsection}{Huevos Rancheros}{23}{}%
-\contentsline {section}{Side Dishes}{24}{}%
-\contentsline {subsection}{Deviled Eggs}{25}{}%
-\contentsline {subsection}{Onion Rings}{26}{}%
-\contentsline {subsection}{Thanksgiving Dressing}{27}{}%
-\contentsline {subsection}{Carrots \& Kale}{28}{}%
-\contentsline {subsection}{Brussels Sprouts}{29}{}%
-\contentsline {subsection}{Coleslaw}{30}{}%
-\contentsline {subsection}{White Rice}{31}{}%
-\contentsline {subsection}{Stuffed Potatoes}{32}{}%
-\contentsline {subsection}{Macaroni \& Cheese}{33}{}%
-\contentsline {subsection}{Donna's Grape Salad}{34}{}%
-\contentsline {section}{Mains}{35}{}%
-\contentsline {subsection}{Fettuccine Alfredo}{36}{}%
-\contentsline {subsection}{Chili}{37}{}%
-\contentsline {subsection}{Chili 2.0}{38}{}%
-\contentsline {subsection}{Pedernales River Chili}{39}{}%
-\contentsline {subsection}{Blackened Catfish}{40}{}%
-\contentsline {subsection}{Tomato Soup}{41}{}%
-\contentsline {subsection}{Tomato Bisque}{42}{}%
-\contentsline {subsection}{Chicken Enchilada Soup}{43}{}%
-\contentsline {subsection}{Chicken Orzo Soup}{44}{}%
-\contentsline {subsection}{Chicken Tacos}{45}{}%
-\contentsline {subsection}{Carne Asada}{46}{}%
-\contentsline {subsection}{Chicken Spaghetti}{47}{}%
-\contentsline {subsection}{Spaghetti-Stuffed Sandwiches}{48}{}%
-\contentsline {subsection}{Spaghetti \& Meatballs}{49}{}%
-\contentsline {subsection}{Spaghetti \emph {with} Meatballs}{51}{}%
-\contentsline {subsection}{Lemon Garlic Shrimp Pasta}{52}{}%
-\contentsline {subsection}{Chorizo Tacos with Plantains}{53}{}%
-\contentsline {subsection}{Cheesy Bacon Chicken}{54}{}%
-\contentsline {subsection}{Ground Beef Bulgogi}{55}{}%
-\contentsline {subsection}{Pork Katsu}{56}{}%
-\contentsline {subsection}{Mojo Pulled Pork}{57}{}%
-\contentsline {subsection}{Chicken Katsu}{58}{}%
-\contentsline {subsection}{Butter Chicken}{59}{}%
-\contentsline {subsection}{Oven Swiss Steak}{61}{}%
-\contentsline {subsection}{Poverty Meatloaf}{62}{}%
-\contentsline {subsection}{Chicken \& Dumplings}{63}{}%
-\contentsline {subsection}{Mexican Corn Casserole}{64}{}%
-\contentsline {subsection}{Broccolli Casserole}{65}{}%
-\contentsline {section}{Desserts}{66}{}%
-\contentsline {subsection}{Cr\'eme Br\^ul\'ee}{67}{}%
-\contentsline {subsection}{Chocolate Chip Cookies}{68}{}%
-\contentsline {subsection}{Popcorn Balls}{69}{}%
-\contentsline {subsection}{Raspberry Lemon Ice Cream}{70}{}%
-\contentsline {subsection}{Sopapilla Cheesecake}{71}{}%
-\contentsline {subsection}{Frosted Brownies}{72}{}%
-\contentsline {subsection}{Browned Butter Brownies}{73}{}%
-\contentsline {subsection}{Vanilla Pudding}{74}{}%
-\contentsline {subsection}{Pecan Pie}{75}{}%
-\contentsline {subsection}{Apple Pie}{76}{}%
-\contentsline {subsection}{Never-Fail Meringue}{77}{}%
-\contentsline {subsection}{Best-Ever Lemon Pie}{78}{}%
-\contentsline {subsection}{Buttermilk Pie}{79}{}%
-\contentsline {subsection}{Lemon Jello Cake}{80}{}%
-\contentsline {subsection}{Sour Cream Pound Cake}{81}{}%
+\contentsline {subsection}{Dill Pickles}{21}{}%
+\contentsline {section}{Breakfast}{22}{}%
+\contentsline {subsection}{Buttermilk Pancakes}{23}{}%
+\contentsline {subsection}{Huevos Rancheros}{24}{}%
+\contentsline {section}{Side Dishes}{25}{}%
+\contentsline {subsection}{Deviled Eggs}{26}{}%
+\contentsline {subsection}{Onion Rings}{27}{}%
+\contentsline {subsection}{Thanksgiving Dressing}{28}{}%
+\contentsline {subsection}{Carrots \& Kale}{29}{}%
+\contentsline {subsection}{Brussels Sprouts}{30}{}%
+\contentsline {subsection}{Coleslaw}{31}{}%
+\contentsline {subsection}{White Rice}{32}{}%
+\contentsline {subsection}{Stuffed Potatoes}{33}{}%
+\contentsline {subsection}{Macaroni \& Cheese}{34}{}%
+\contentsline {subsection}{Donna's Grape Salad}{35}{}%
+\contentsline {section}{Soups}{36}{}%
+\contentsline {subsection}{Tomato Soup}{37}{}%
+\contentsline {subsection}{Tomato Bisque}{38}{}%
+\contentsline {subsection}{Chicken Enchilada Soup}{39}{}%
+\contentsline {subsection}{Chicken Orzo Soup}{40}{}%
+\contentsline {subsection}{Chicken \& Dumplings}{41}{}%
+\contentsline {section}{Mains}{42}{}%
+\contentsline {subsection}{Chili}{43}{}%
+\contentsline {subsection}{Chili 2.0}{44}{}%
+\contentsline {subsection}{Pedernales River Chili}{45}{}%
+\contentsline {subsection}{Fettuccine Alfredo}{46}{}%
+\contentsline {subsection}{Blackened Catfish}{47}{}%
+\contentsline {subsection}{Chicken Tacos}{48}{}%
+\contentsline {subsection}{Carne Asada}{49}{}%
+\contentsline {subsection}{Chicken Spaghetti}{50}{}%
+\contentsline {subsection}{Spaghetti-Stuffed Sandwiches}{51}{}%
+\contentsline {subsection}{Spaghetti \& Meatballs}{52}{}%
+\contentsline {subsection}{Spaghetti \emph {with} Meatballs}{54}{}%
+\contentsline {subsection}{Lemon Garlic Shrimp Pasta}{55}{}%
+\contentsline {subsection}{Chorizo Tacos with Plantains}{56}{}%
+\contentsline {subsection}{Cheesy Bacon Chicken}{57}{}%
+\contentsline {subsection}{Ground Beef Bulgogi}{58}{}%
+\contentsline {subsection}{Pork Katsu}{59}{}%
+\contentsline {subsection}{Mojo Pulled Pork}{60}{}%
+\contentsline {subsection}{Chicken Katsu}{61}{}%
+\contentsline {subsection}{Butter Chicken}{62}{}%
+\contentsline {subsection}{Oven Swiss Steak}{64}{}%
+\contentsline {subsection}{Poverty Meatloaf}{65}{}%
+\contentsline {subsection}{Mexican Corn Casserole}{66}{}%
+\contentsline {subsection}{Broccolli Casserole}{67}{}%
+\contentsline {section}{Desserts}{68}{}%
+\contentsline {subsection}{Cr\'eme Br\^ul\'ee}{69}{}%
+\contentsline {subsection}{Chocolate Chip Cookies}{70}{}%
+\contentsline {subsection}{Popcorn Balls}{71}{}%
+\contentsline {subsection}{Raspberry Lemon Ice Cream}{72}{}%
+\contentsline {subsection}{Sopapilla Cheesecake}{73}{}%
+\contentsline {subsection}{Frosted Brownies}{74}{}%
+\contentsline {subsection}{Browned Butter Brownies}{75}{}%
+\contentsline {subsection}{Vanilla Pudding}{76}{}%
+\contentsline {subsection}{Pecan Pie}{77}{}%
+\contentsline {subsection}{Apple Pie}{78}{}%
+\contentsline {subsection}{Never-Fail Meringue}{79}{}%
+\contentsline {subsection}{Best-Ever Lemon Pie}{80}{}%
+\contentsline {subsection}{Buttermilk Pie}{81}{}%
+\contentsline {subsection}{Lemon Jello Cake}{82}{}%
+\contentsline {subsection}{Sour Cream Pound Cake}{83}{}%
