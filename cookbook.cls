@@ -69,6 +69,7 @@
 \definecolor{dessertcolor}{rgb}{0.5,0.2,0.1}
 \definecolor{makeaheadcolor}{rgb}{0.5,0.5,0.6}
 \definecolor{breadcolor}{rgb}{0.9, 0.5, 0.2}
+\definecolor{picklecolor}{rgb}{0.0, 0.7, 0.1}
 \definecolor{appcolor}{rgb}{0.2, 0.5, 1.0}
 \definecolor{saucecolor}{rgb}{0.2, 0.5, 0.1}
 
@@ -89,16 +90,27 @@
         \end{center}
     \fi
 }
+
+% Recipe header commands
 \newcommand{\serves}[1]{\chead{Serves #1}}
 \newcommand{\dishtype}[1]{\rhead{#1}}
 \newcommand{\dishother}[1]{\lhead{#1}}
-\newcommand{\vegetarian}{\large\color{vegcolor}\textbf{V}}
-\newcommand{\bread}{\large\color{breadcolor}\textbf{B}}
-\newcommand{\apps}{\large\color{appcolor}\textbf{A}}
-\newcommand{\sauce}{\large\color{saucecolor}\textbf{S}}
-\newcommand{\freeze}{\large\color{frzcolor}\textbf{F}}
-\newcommand{\dessert}{\large\color{dessertcolor}\textbf{D}}
-\newcommand{\makeahead}{\large\color{makeaheadcolor}\textbf{M}}
+
+% dishother inputs
+\newcommand{\vegetarian}{\large\color{vegcolor}\textbf{Vegetarian}}
+\newcommand{\freeze}{\large\color{frzcolor}\textbf{Freeze}}
+\newcommand{\makeahead}{\large\color{makeaheadcolor}\textbf{Make ahead}}
+
+% dishtype inputs
+\newcommand{\bread}{\large\color{breadcolor}\textbf{Bread}}
+\newcommand{\apps}{\large\color{appcolor}\textbf{Appetizer}}
+\newcommand{\sauce}{\large\color{saucecolor}\textbf{Sauce}}
+\newcommand{\preserve}{\large\color{picklecolor}\textbf{Preserve}}
+\newcommand{\pickle}{\large\color{picklecolor}\textbf{Pickle}}
+\newcommand{\breakfast}{\large\color{dessertcolor}\textbf{Breakfast}}
+\newcommand{\side}{\large\color{dessertcolor}\textbf{Side}}
+\newcommand{\main}{\large\color{dessertcolor}\textbf{Main}}
+\newcommand{\dessert}{\large\color{dessertcolor}\textbf{Dessert}}
 
 % Optional arguments for alternate names for these:
 \newcommand{\preptime}[2][Prep time]{\lfoot{#1: #2}}
