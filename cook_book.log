@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.18)  23 NOV 2024 11:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.18)  24 NOV 2024 17:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -328,206 +328,220 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 [7
 
-])
+]) (recipes/spinach_dip.tex
 
-[8]
+[8])
 
-[9
-
-] (recipes/texmex_enchilada_gravy.tex) (recipes/pan_gravy.tex
+[9]
 
 [10
 
-]) (recipes/japanese_curry.tex
+] (recipes/spaghetti_sauce.tex) (recipes/texmex_enchilada_gravy.tex
 
-[11]) (recipes/creamy_mexican_dipping_sauce.tex
+[11
 
-[12]) (recipes/tartar_sauce.tex
+]) (recipes/pan_gravy.tex
+
+[12]) (recipes/japanese_curry.tex
 
 [13]) (recipes/katsu_sauce.tex
 
-[14]) (recipes/plum_preserves.tex
+[14]) (recipes/creamy_mexican_dipping_sauce.tex
 
-[15]) (recipes/apricot_preserves.tex
+[15]) (recipes/tartar_sauce.tex
 
-[16]) (recipes/raspberry_jam.tex
+[16]) (recipes/plum_preserves.tex
 
-[17]) (recipes/jalapeno_jam.tex
+[17]) (recipes/apricot_preserves.tex
 
-[18]) (recipes/pickled_red_cabbage.tex
+[18]) (recipes/raspberry_jam.tex
 
-[19]) (recipes/dill_pickles.tex
+[19]) (recipes/jalapeno_jam.tex
 
-[20])
+[20]) (recipes/pickled_red_cabbage.tex
 
-[21]
+[21]) (recipes/dill_pickles.tex
 
-[22
+[22])
+
+[23]
+
+[24
 
 ] (recipes/buttermilk_pancakes.tex) (recipes/huevos_rancheros.tex
 
-[23
+[25
 
 ])
 
-[24]
+[26]
 
-[25
+[27
 
 ] (recipes/deviled_eggs.tex) (recipes/onion_rings.tex
 
-[26
+[28
 
 ]) (recipes/thanksgiving_dressing.tex
 
-[27]) (recipes/carrots_and_kale.tex
+[29]) (recipes/carrots_and_kale.tex
 
-[28]) (recipes/brussels_sprouts.tex
+[30]) (recipes/brussels_sprouts.tex
 
-[29]) (recipes/coleslaw.tex
+[31]) (recipes/coleslaw.tex
 
-[30]) (recipes/white_rice.tex
+[32]) (recipes/white_rice.tex
 
-[31]) (recipes/stuffed_potatoes.tex
+[33]) (recipes/stuffed_potatoes.tex
 
-[32]) (recipes/mac_and_cheese.tex
+[34]) (recipes/mac_and_cheese.tex
 
-[33]) (recipes/grape_salad.tex
+[35]) (recipes/grape_salad.tex
 
-[34])
+[36])
 
-[35]
+[37]
 
-[36
+[38
 
 ] (recipes/tomato_soup.tex) (recipes/tomato_bisque.tex
 
-[37
+[39
 
-]) (recipes/chicken_enchilada_soup.tex
+]) (recipes/chicken_noodle_soup.tex
 
-[38]) (recipes/chicken_orzo_soup.tex
+[40]) (recipes/chicken_enchilada_soup.tex
 
-[39]) (recipes/chicken_and_dumplings.tex
+[41]) (recipes/chicken_orzo_soup.tex
 
-[40])
+[42]) (recipes/chicken_and_dumplings.tex
 
-[41]
+[43])
 
-[42
+[44]
+
+[45
 
 ] (recipes/chili.tex) (recipes/chili_2.tex
 
-[43
+[46
 
 ]) (recipes/pedernales_river_chili.tex
 
-[44]) (recipes/fettuccine_alfredo.tex
+[47]) (recipes/fettuccine_alfredo.tex
 
-[45]) (recipes/blackened_catfish.tex
+[48]) (recipes/blackened_catfish.tex
 
-[46]) (recipes/chicken_tacos.tex
+[49]) (recipes/chicken_tacos.tex
 
-[47]) (recipes/carne_asada.tex
+[50]) (recipes/carne_asada.tex
 
-[48]) (recipes/chicken_spaghetti.tex
+[51]) (recipes/chicken_spaghetti.tex
 
-[49]) (recipes/spaghetti-stuffed_sandwiches.tex
+[52]) (recipes/spaghetti-stuffed_sandwiches.tex
 
-[50]) (recipes/spaghetti_and_meatballs.tex
+[53]) (recipes/spaghetti_and_meatballs.tex
 
-[51]
+[54]
 
-[52]) (recipes/spaghetti_with_meatballs.tex
+[55]) (recipes/spaghetti_with_meatballs.tex
 
-[53]) (recipes/lemon_garlic_shrimp_pasta.tex
+[56]) (recipes/lasagna.tex
 
-[54]) (recipes/chorizo_tacos.tex
+[57]) (recipes/lemon_garlic_shrimp_pasta.tex
 
-[55]) (recipes/cheesy_bacon_chicken.tex
+[58]) (recipes/chorizo_tacos.tex
 
-[56]) (recipes/ground_beef_bulgogi.tex
+[59]) (recipes/cheesy_bacon_chicken.tex
 
-[57]) (recipes/pork_katsu.tex
+[60]) (recipes/ground_beef_bulgogi.tex
 
-[58]) (recipes/mojo_pulled_pork.tex
+[61]) (recipes/pork_katsu.tex
 
-[59]) (recipes/chicken_katsu.tex
+[62]) (recipes/mojo_pulled_pork.tex
 
-[60]) (recipes/butter_chicken.tex
+[63]) (recipes/chicken_katsu.tex
 
-[61]
+[64]) (recipes/butter_chicken.tex
 
-[62]) (recipes/oven_swiss_steak.tex
+[65]
 
-[63]
-<images/gran/IMG_7447.jpg, id=233, 1013.7875pt x 760.8425pt>
+[66]) (recipes/oven_swiss_steak.tex
+
+[67]
+<images/gran/IMG_7447.jpg, id=246, 1013.7875pt x 760.8425pt>
 File: images/gran/IMG_7447.jpg Graphic file (type jpg)
 <use images/gran/IMG_7447.jpg>
 Package pdftex.def Info: images/gran/IMG_7447.jpg  used on input line 27.
 (pdftex.def)             Requested size: 180.67499pt x 135.58742pt.
 ) (recipes/poverty_meatloaf.tex
 
-[64 <./images/gran/IMG_7447.jpg>]) (recipes/mexican_corn_casserole.tex
+[68 <./images/gran/IMG_7447.jpg>]) (recipes/mexican_corn_casserole.tex
 
-[65]) (recipes/broccolli_casserole.tex
+[69]) (recipes/broccolli_casserole.tex
 
-[66])
+[70])
 
-[67]
+[71]
 
-[68
+[72
 
-] (recipes/creme_brulee.tex) (recipes/chocolate_chip_cookies.tex
+] (recipes/creme_brulee.tex) (recipes/bananas_foster.tex
 
-[69
+[73
 
-]) (recipes/popcorn_balls.tex
+]) (recipes/fruit_tarts.tex
 
-[70]) (recipes/raspberry_lemon_ice_cream.tex
+[74]) (recipes/independence_day_pizza.tex
 
-[71]) (recipes/sopapilla_cheesecake.tex
+[75]) (recipes/chocolate_chip_cookies.tex
 
-[72]) (recipes/frosted_brownies.tex
+[76]) (recipes/popcorn_balls.tex
 
-[73]) (recipes/browned_butter_brownies.tex
+[77]) (recipes/raspberry_lemon_ice_cream.tex
 
-[74]) (recipes/vanilla_pudding.tex
+[78]) (recipes/sopapilla_cheesecake.tex
 
-[75]) (recipes/pecan_pie.tex
+[79]) (recipes/frosted_brownies.tex
 
-[76]) (recipes/apple_pie.tex
+[80]) (recipes/browned_butter_brownies.tex
 
-[77]) (recipes/never-fail_meringue.tex
+[81]) (recipes/vanilla_pudding.tex
 
-[78]) (recipes/best-ever_lemon_pie.tex
+[82]) (recipes/pecan_pie.tex
 
-[79]) (recipes/buttermilk_pie.tex
+[83]) (recipes/apple_pie.tex
 
-[80]) (recipes/lemon_jello_cake.tex
+[84]) (recipes/never-fail_meringue.tex
 
-[81]) (recipes/sour_cream_pound_cake.tex
+[85]) (recipes/best-ever_lemon_pie.tex
 
-[82])
+[86]) (recipes/buttermilk_pie.tex
 
-[83] (cook_book.aux)
+[87]) (recipes/lemon_jello_cake.tex
+
+[88]) (recipes/sour_cream_pound_cake.tex
+
+[89])
+
+[90] (cook_book.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 4967 strings out of 473899
- 92597 string characters out of 5726500
+ 5009 strings out of 473899
+ 94031 string characters out of 5726500
  486329 words of memory out of 5000000
- 27602 multiletter control sequences out of 15000+600000
+ 27623 multiletter control sequences out of 15000+600000
  564984 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  72i,13n,79p,419b,364s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\gage1\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\gage1\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0700.pk><C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on cook_book.pdf (89 pages, 370919 bytes).
+Output written on cook_book.pdf (96 pages, 382308 bytes).
 PDF statistics:
- 355 PDF objects out of 1000 (max. 8388607)
+ 377 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
