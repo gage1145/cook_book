@@ -78,10 +78,11 @@
 \contentsline {subsection}{Frosted Brownies}{81}{}%
 \contentsline {subsection}{Browned Butter Brownies}{82}{}%
 \contentsline {subsection}{Vanilla Pudding}{83}{}%
-\contentsline {subsection}{Pecan Pie}{84}{}%
-\contentsline {subsection}{Apple Pie}{85}{}%
-\contentsline {subsection}{Never-Fail Meringue}{86}{}%
-\contentsline {subsection}{Best-Ever Lemon Pie}{87}{}%
-\contentsline {subsection}{Buttermilk Pie}{88}{}%
-\contentsline {subsection}{Lemon Jello Cake}{89}{}%
-\contentsline {subsection}{Sour Cream Pound Cake}{90}{}%
+\contentsline {subsection}{Strawberry Cheesecake}{84}{}%
+\contentsline {subsection}{Pecan Pie}{85}{}%
+\contentsline {subsection}{Apple Pie}{86}{}%
+\contentsline {subsection}{Never-Fail Meringue}{87}{}%
+\contentsline {subsection}{Best-Ever Lemon Pie}{88}{}%
+\contentsline {subsection}{Buttermilk Pie}{89}{}%
+\contentsline {subsection}{Lemon Jello Cake}{90}{}%
+\contentsline {subsection}{Sour Cream Pound Cake}{91}{}%

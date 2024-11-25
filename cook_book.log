@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.18)  24 NOV 2024 17:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.18)  24 NOV 2024 20:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -508,40 +508,42 @@ Package pdftex.def Info: images/gran/IMG_7447.jpg  used on input line 27.
 
 [81]) (recipes/vanilla_pudding.tex
 
-[82]) (recipes/pecan_pie.tex
+[82]) (recipes/strawberry_cheesecake.tex
 
-[83]) (recipes/apple_pie.tex
+[83]) (recipes/pecan_pie.tex
 
-[84]) (recipes/never-fail_meringue.tex
+[84]) (recipes/apple_pie.tex
 
-[85]) (recipes/best-ever_lemon_pie.tex
+[85]) (recipes/never-fail_meringue.tex
 
-[86]) (recipes/buttermilk_pie.tex
+[86]) (recipes/best-ever_lemon_pie.tex
 
-[87]) (recipes/lemon_jello_cake.tex
+[87]) (recipes/buttermilk_pie.tex
 
-[88]) (recipes/sour_cream_pound_cake.tex
+[88]) (recipes/lemon_jello_cake.tex
 
-[89])
+[89]) (recipes/sour_cream_pound_cake.tex
 
-[90] (cook_book.aux)
+[90])
+
+[91] (cook_book.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 5009 strings out of 473899
- 94031 string characters out of 5726500
- 486329 words of memory out of 5000000
- 27623 multiletter control sequences out of 15000+600000
+ 5016 strings out of 473899
+ 94286 string characters out of 5726500
+ 486356 words of memory out of 5000000
+ 27627 multiletter control sequences out of 15000+600000
  564984 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  72i,13n,79p,419b,364s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\gage1\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\gage1\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0700.pk><C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on cook_book.pdf (96 pages, 382308 bytes).
+Output written on cook_book.pdf (97 pages, 385856 bytes).
 PDF statistics:
- 377 PDF objects out of 1000 (max. 8388607)
+ 381 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -317,6 +317,9 @@ INPUT recipes\browned_butter_brownies.tex
 INPUT .\recipes\vanilla_pudding.tex
 INPUT .\recipes\vanilla_pudding.tex
 INPUT recipes\vanilla_pudding.tex
+INPUT .\recipes\strawberry_cheesecake.tex
+INPUT .\recipes\strawberry_cheesecake.tex
+INPUT recipes\strawberry_cheesecake.tex
 INPUT .\recipes\pecan_pie.tex
 INPUT .\recipes\pecan_pie.tex
 INPUT recipes\pecan_pie.tex
