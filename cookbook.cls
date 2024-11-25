@@ -211,6 +211,16 @@
     \endgroup
 }
 
+\newcommand{\submethod}[1]{
+    \par
+    \begingroup
+    \medskip\leftskip-0.2em
+    \everypar={}
+    \textbf{#1}
+    \par
+    \endgroup
+}
+
 \AtBeginDocument{
   \pagestyle{plain}
 }
