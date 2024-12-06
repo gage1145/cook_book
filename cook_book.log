@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.18)  24 NOV 2024 20:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.18)  6 DEC 2024 10:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -307,243 +307,247 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 [1
 
-] (recipes/cubano_bread.tex
+] (recipes/dinner_rolls.tex
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <14.4> on input line 1.
 
 
 [2
 
-]) (recipes/browned_butter_cornbread.tex
+]) (recipes/cubano_bread.tex
 
-[3]) (recipes/banana_bread.tex
+[3]
 
-[4])
+[4]) (recipes/browned_butter_cornbread.tex
 
-[5]
+[5]) (recipes/banana_bread.tex
 
-[6
+[6])
+
+[7]
+
+[8
 
 ] (recipes/boss_guac.tex) (recipes/gage_salsa.tex
 
-[7
+[9
 
 ]) (recipes/spinach_dip.tex
 
-[8])
+[10])
 
-[9]
+[11]
 
-[10
+[12
 
 ] (recipes/spaghetti_sauce.tex) (recipes/texmex_enchilada_gravy.tex
 
-[11
+[13
 
 ]) (recipes/pan_gravy.tex
 
-[12]) (recipes/japanese_curry.tex
+[14]) (recipes/japanese_curry.tex
 
-[13]) (recipes/katsu_sauce.tex
+[15]) (recipes/katsu_sauce.tex
 
-[14]) (recipes/creamy_mexican_dipping_sauce.tex
+[16]) (recipes/creamy_mexican_dipping_sauce.tex
 
-[15]) (recipes/tartar_sauce.tex
+[17]) (recipes/tartar_sauce.tex
 
-[16]) (recipes/plum_preserves.tex
+[18]) (recipes/plum_preserves.tex
 
-[17]) (recipes/apricot_preserves.tex
+[19]) (recipes/apricot_preserves.tex
 
-[18]) (recipes/raspberry_jam.tex
+[20]) (recipes/raspberry_jam.tex
 
-[19]) (recipes/jalapeno_jam.tex
+[21]) (recipes/jalapeno_jam.tex
 
-[20]) (recipes/pickled_red_cabbage.tex
+[22]) (recipes/pickled_red_cabbage.tex
 
-[21]) (recipes/dill_pickles.tex
+[23]) (recipes/dill_pickles.tex
 
-[22])
+[24])
 
-[23]
+[25]
 
-[24
+[26
 
 ] (recipes/buttermilk_pancakes.tex) (recipes/huevos_rancheros.tex
 
-[25
+[27
 
 ])
 
-[26]
+[28]
 
-[27
+[29
 
 ] (recipes/deviled_eggs.tex) (recipes/onion_rings.tex
 
-[28
+[30
 
 ]) (recipes/thanksgiving_dressing.tex
 
-[29]) (recipes/carrots_and_kale.tex
+[31]) (recipes/carrots_and_kale.tex
 
-[30]) (recipes/brussels_sprouts.tex
+[32]) (recipes/brussels_sprouts.tex
 
-[31]) (recipes/coleslaw.tex
+[33]) (recipes/coleslaw.tex
 
-[32]) (recipes/white_rice.tex
+[34]) (recipes/white_rice.tex
 
-[33]) (recipes/stuffed_potatoes.tex
+[35]) (recipes/stuffed_potatoes.tex
 
-[34]) (recipes/mac_and_cheese.tex
+[36]) (recipes/mac_and_cheese.tex
 
-[35]) (recipes/grape_salad.tex
+[37]) (recipes/grape_salad.tex
 
-[36])
+[38])
 
-[37]
+[39]
 
-[38
+[40
 
 ] (recipes/tomato_soup.tex) (recipes/tomato_bisque.tex
 
-[39
+[41
 
 ]) (recipes/chicken_noodle_soup.tex
 
-[40]) (recipes/chicken_enchilada_soup.tex
+[42]) (recipes/chicken_enchilada_soup.tex
 
-[41]) (recipes/chicken_orzo_soup.tex
+[43]) (recipes/chicken_orzo_soup.tex
 
-[42]) (recipes/chicken_and_dumplings.tex
+[44]) (recipes/chicken_and_dumplings.tex
 
-[43])
+[45])
 
-[44]
+[46]
 
-[45
+[47
 
 ] (recipes/chili.tex) (recipes/chili_2.tex
 
-[46
+[48
 
 ]) (recipes/pedernales_river_chili.tex
 
-[47]) (recipes/fettuccine_alfredo.tex
+[49]) (recipes/fettuccine_alfredo.tex
 
-[48]) (recipes/blackened_catfish.tex
+[50]) (recipes/blackened_catfish.tex
 
-[49]) (recipes/chicken_tacos.tex
+[51]) (recipes/chicken_tacos.tex
 
-[50]) (recipes/carne_asada.tex
+[52]) (recipes/carne_asada.tex
 
-[51]) (recipes/chicken_spaghetti.tex
+[53]) (recipes/chicken_spaghetti.tex
 
-[52]) (recipes/spaghetti-stuffed_sandwiches.tex
+[54]) (recipes/spaghetti-stuffed_sandwiches.tex
 
-[53]) (recipes/spaghetti_and_meatballs.tex
+[55]) (recipes/spaghetti_and_meatballs.tex
 
-[54]
+[56]
 
-[55]) (recipes/spaghetti_with_meatballs.tex
+[57]) (recipes/spaghetti_with_meatballs.tex
 
-[56]) (recipes/lasagna.tex
+[58]) (recipes/lasagna.tex
 
-[57]) (recipes/lemon_garlic_shrimp_pasta.tex
+[59]) (recipes/lemon_garlic_shrimp_pasta.tex
 
-[58]) (recipes/chorizo_tacos.tex
+[60]) (recipes/chorizo_tacos.tex
 
-[59]) (recipes/cheesy_bacon_chicken.tex
+[61]) (recipes/cheesy_bacon_chicken.tex
 
-[60]) (recipes/ground_beef_bulgogi.tex
+[62]) (recipes/ground_beef_bulgogi.tex
 
-[61]) (recipes/pork_katsu.tex
+[63]) (recipes/pork_katsu.tex
 
-[62]) (recipes/mojo_pulled_pork.tex
+[64]) (recipes/mojo_pulled_pork.tex
 
-[63]) (recipes/chicken_katsu.tex
+[65]) (recipes/chicken_katsu.tex
 
-[64]) (recipes/butter_chicken.tex
-
-[65]
-
-[66]) (recipes/oven_swiss_steak.tex
+[66]) (recipes/butter_chicken.tex
 
 [67]
-<images/gran/IMG_7447.jpg, id=246, 1013.7875pt x 760.8425pt>
+
+[68]) (recipes/oven_swiss_steak.tex
+
+[69]
+<images/gran/IMG_7447.jpg, id=252, 1013.7875pt x 760.8425pt>
 File: images/gran/IMG_7447.jpg Graphic file (type jpg)
 <use images/gran/IMG_7447.jpg>
 Package pdftex.def Info: images/gran/IMG_7447.jpg  used on input line 27.
 (pdftex.def)             Requested size: 180.67499pt x 135.58742pt.
 ) (recipes/poverty_meatloaf.tex
 
-[68 <./images/gran/IMG_7447.jpg>]) (recipes/mexican_corn_casserole.tex
+[70 <./images/gran/IMG_7447.jpg>]) (recipes/mexican_corn_casserole.tex
 
-[69]) (recipes/broccolli_casserole.tex
+[71]) (recipes/broccolli_casserole.tex
 
-[70])
+[72])
 
-[71]
+[73]
 
-[72
+[74
 
 ] (recipes/creme_brulee.tex) (recipes/bananas_foster.tex
 
-[73
+[75
 
 ]) (recipes/fruit_tarts.tex
 
-[74]) (recipes/independence_day_pizza.tex
+[76]) (recipes/independence_day_pizza.tex
 
-[75]) (recipes/chocolate_chip_cookies.tex
+[77]) (recipes/chocolate_chip_cookies.tex
 
-[76]) (recipes/popcorn_balls.tex
+[78]) (recipes/popcorn_balls.tex
 
-[77]) (recipes/raspberry_lemon_ice_cream.tex
+[79]) (recipes/raspberry_lemon_ice_cream.tex
 
-[78]) (recipes/sopapilla_cheesecake.tex
+[80]) (recipes/sopapilla_cheesecake.tex
 
-[79]) (recipes/frosted_brownies.tex
+[81]) (recipes/frosted_brownies.tex
 
-[80]) (recipes/browned_butter_brownies.tex
+[82]) (recipes/browned_butter_brownies.tex
 
-[81]) (recipes/vanilla_pudding.tex
+[83]) (recipes/vanilla_pudding.tex
 
-[82]) (recipes/strawberry_cheesecake.tex
+[84]) (recipes/strawberry_cheesecake.tex
 
-[83]) (recipes/pecan_pie.tex
+[85]) (recipes/pecan_pie.tex
 
-[84]) (recipes/apple_pie.tex
+[86]) (recipes/apple_pie.tex
 
-[85]) (recipes/never-fail_meringue.tex
+[87]) (recipes/never-fail_meringue.tex
 
-[86]) (recipes/best-ever_lemon_pie.tex
+[88]) (recipes/best-ever_lemon_pie.tex
 
-[87]) (recipes/buttermilk_pie.tex
+[89]) (recipes/buttermilk_pie.tex
 
-[88]) (recipes/lemon_jello_cake.tex
+[90]) (recipes/lemon_jello_cake.tex
 
-[89]) (recipes/sour_cream_pound_cake.tex
+[91]) (recipes/sour_cream_pound_cake.tex
 
-[90])
+[92])
 
-[91] (cook_book.aux)
+[93] (cook_book.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 5016 strings out of 473899
- 94286 string characters out of 5726500
+ 5022 strings out of 473899
+ 94478 string characters out of 5726500
  486356 words of memory out of 5000000
- 27627 multiletter control sequences out of 15000+600000
+ 27630 multiletter control sequences out of 15000+600000
  564984 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  72i,13n,79p,419b,364s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\gage1\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\gage1\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0700.pk><C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on cook_book.pdf (97 pages, 385856 bytes).
+Output written on cook_book.pdf (99 pages, 390354 bytes).
 PDF statistics:
- 381 PDF objects out of 1000 (max. 8388607)
+ 387 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -87,12 +87,16 @@ INPUT C:\Users\gage1\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx10.tf
 INPUT C:\Users\gage1\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti10.tfm
 OUTPUT cook_book.toc
 INPUT C:\Users\gage1\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
-INPUT .\recipes\cubano_bread.tex
-INPUT .\recipes\cubano_bread.tex
-INPUT recipes\cubano_bread.tex
+INPUT .\recipes\dinner_rolls.tex
+INPUT .\recipes\dinner_rolls.tex
+INPUT recipes\dinner_rolls.tex
 INPUT C:\Users\gage1\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\gage1\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
 INPUT C:\Users\gage1\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
+INPUT C:\Users\gage1\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbxti10.tfm
+INPUT .\recipes\cubano_bread.tex
+INPUT .\recipes\cubano_bread.tex
+INPUT recipes\cubano_bread.tex
 INPUT .\recipes\browned_butter_cornbread.tex
 INPUT .\recipes\browned_butter_cornbread.tex
 INPUT recipes\browned_butter_cornbread.tex
@@ -155,7 +159,6 @@ INPUT recipes\buttermilk_pancakes.tex
 INPUT .\recipes\huevos_rancheros.tex
 INPUT .\recipes\huevos_rancheros.tex
 INPUT recipes\huevos_rancheros.tex
-INPUT C:\Users\gage1\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbxti10.tfm
 INPUT .\recipes\deviled_eggs.tex
 INPUT .\recipes\deviled_eggs.tex
 INPUT recipes\deviled_eggs.tex
