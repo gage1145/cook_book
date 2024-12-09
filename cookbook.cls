@@ -154,14 +154,15 @@
     \fi
 }
 
-\newcommand{\recipeSection}[1]{
+\newcommand{\recipeSection}[2][]{
     \clearpage
     \begin{center}
         \hspace{0pt}\vfill
         \begin{minipage}{\textwidth}
             \centering
-            \section[#1]{\huge#1}
-        \end{minipage}
+            \section[#2]{\fontsize{30pt}{30pt}\selectfont #2}
+            \includegraphics[width=3in]{#1}
+        \end{minipage}  
         \vfill\hspace{0pt}
     \end{center}
     \clearpage

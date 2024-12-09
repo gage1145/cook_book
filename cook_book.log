@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.18)  7 DEC 2024 10:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.18)  8 DEC 2024 19:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -199,20 +199,20 @@ File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 ) (cook_book.aux)
 \openout1 = `cook_book.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
  (C:\Users\gage1\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count288
@@ -270,17 +270,17 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 21.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 21.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 21.
+<images/bread.jpg, id=1, 706.3188pt x 474.0912pt>
+File: images/bread.jpg Graphic file (type jpg)
+<use images/bread.jpg>
+Package pdftex.def Info: images/bread.jpg  used on input line 53.
+(pdftex.def)             Requested size: 289.07999pt x 194.03142pt.
 
 
 [1
 
-{C:/Users/gage1/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+
+{C:/Users/gage1/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./images/bread.jpg>]
 
 [2
 
@@ -305,9 +305,19 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 ]
 
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <30> not available
+(Font)              size <24.88> substituted on input line 77.
+
+<images/breads.jpg, id=27, 721.9773pt x 741.972pt>
+File: images/breads.jpg Graphic file (type jpg)
+<use images/breads.jpg>
+Package pdftex.def Info: images/breads.jpg  used on input line 77.
+(pdftex.def)             Requested size: 216.81pt x 222.80843pt.
+
+
 [1
 
-] (recipes/dinner_rolls.tex
+ <./images/breads.jpg>] (recipes/dinner_rolls.tex
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <14.4> on input line 1.
 
@@ -327,10 +337,16 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 [7])
 
 [8]
+<images/apps.jpg, id=59, 439.6425pt x 502.0356pt>
+File: images/apps.jpg Graphic file (type jpg)
+<use images/apps.jpg>
+Package pdftex.def Info: images/apps.jpg  used on input line 91.
+(pdftex.def)             Requested size: 216.81pt x 247.57765pt.
+
 
 [9
 
-] (recipes/boss_guac.tex) (recipes/gage_salsa.tex
+ <./images/apps.jpg>] (recipes/boss_guac.tex) (recipes/gage_salsa.tex
 
 [10
 
@@ -341,10 +357,16 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 [12])
 
 [13]
+<images/jam.jpg, id=76, 648.9846pt x 577.6782pt>
+File: images/jam.jpg Graphic file (type jpg)
+<use images/jam.jpg>
+Package pdftex.def Info: images/jam.jpg  used on input line 102.
+(pdftex.def)             Requested size: 216.81pt x 192.9879pt.
+
 
 [14
 
-] (recipes/spaghetti_sauce.tex) (recipes/texmex_enchilada_gravy.tex
+ <./images/jam.jpg>] (recipes/spaghetti_sauce.tex) (recipes/texmex_enchilada_gravy.tex
 
 [15
 
@@ -373,10 +395,16 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 [26])
 
 [27]
+<images/breakfast.jpg, id=123, 239.9364pt x 238.0092pt>
+File: images/breakfast.jpg Graphic file (type jpg)
+<use images/breakfast.jpg>
+Package pdftex.def Info: images/breakfast.jpg  used on input line 131.
+(pdftex.def)             Requested size: 216.81pt x 215.0779pt.
+
 
 [28
 
-] (recipes/buttermilk_pancakes.tex) (recipes/blueberry_muffins.tex
+ <./images/breakfast.jpg>] (recipes/buttermilk_pancakes.tex) (recipes/blueberry_muffins.tex
 
 [29
 
@@ -385,10 +413,16 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 [30])
 
 [31]
+<images/side.jpg, id=137, 1829.6355pt x 872.7807pt>
+File: images/side.jpg Graphic file (type jpg)
+<use images/side.jpg>
+Package pdftex.def Info: images/side.jpg  used on input line 140.
+(pdftex.def)             Requested size: 216.81pt x 103.41072pt.
+
 
 [32
 
-] (recipes/deviled_eggs.tex) (recipes/onion_rings.tex
+ <./images/side.jpg>] (recipes/deviled_eggs.tex) (recipes/onion_rings.tex
 
 [33
 
@@ -421,10 +455,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--20
 [41])
 
 [42]
+<images/soup.jpg, id=172, 334.851pt x 426.1521pt>
+File: images/soup.jpg Graphic file (type jpg)
+<use images/soup.jpg>
+Package pdftex.def Info: images/soup.jpg  used on input line 163.
+(pdftex.def)             Requested size: 216.81pt x 275.92915pt.
+
 
 [43
 
-] (recipes/tomato_soup.tex) (recipes/tomato_bisque.tex
+ <./images/soup.jpg>] (recipes/tomato_soup.tex) (recipes/tomato_bisque.tex
 
 [44
 
@@ -439,10 +479,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--20
 [48])
 
 [49]
+<images/main.jpg, id=196, 492.1587pt x 277.9986pt>
+File: images/main.jpg Graphic file (type jpg)
+<use images/main.jpg>
+Package pdftex.def Info: images/main.jpg  used on input line 178.
+(pdftex.def)             Requested size: 216.81pt x 122.46397pt.
+
 
 [50
 
-] (recipes/chili.tex) (recipes/chili_2.tex
+ <./images/main.jpg>] (recipes/chili.tex) (recipes/chili_2.tex
 
 [51
 
@@ -493,7 +539,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--20
 [73]) (recipes/oven_swiss_steak.tex
 
 [74]
-<images/gran/IMG_7447.jpg, id=268, 1013.7875pt x 760.8425pt>
+<images/gran/IMG_7447.jpg, id=276, 1013.7875pt x 760.8425pt>
 File: images/gran/IMG_7447.jpg Graphic file (type jpg)
 <use images/gran/IMG_7447.jpg>
 Package pdftex.def Info: images/gran/IMG_7447.jpg  used on input line 27.
@@ -507,10 +553,16 @@ Package pdftex.def Info: images/gran/IMG_7447.jpg  used on input line 27.
 [77])
 
 [78]
+<images/dessert.jpg, id=289, 255.354pt x 188.8656pt>
+File: images/dessert.jpg Graphic file (type jpg)
+<use images/dessert.jpg>
+Package pdftex.def Info: images/dessert.jpg  used on input line 237.
+(pdftex.def)             Requested size: 216.81pt x 160.36359pt.
+
 
 [79
 
-] (recipes/creme_brulee.tex) (recipes/bananas_foster.tex
+ <./images/dessert.jpg>] (recipes/creme_brulee.tex) (recipes/bananas_foster.tex
 
 [80
 
@@ -557,19 +609,24 @@ Package pdftex.def Info: images/gran/IMG_7447.jpg  used on input line 27.
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
  ***********
+
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 5.12pt have occurred.
+
  ) 
 Here is how much of TeX's memory you used:
- 5058 strings out of 473899
- 95684 string characters out of 5726500
- 485358 words of memory out of 5000000
- 27648 multiletter control sequences out of 15000+600000
- 564984 words of font info for 58 fonts, out of 8000000 for 9000
+ 5110 strings out of 473899
+ 96984 string characters out of 5726500
+ 486224 words of memory out of 5000000
+ 27705 multiletter control sequences out of 15000+600000
+ 563171 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  72i,13n,79p,419b,364s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\gage1\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\gage1\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0700.pk><C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on cook_book.pdf (105 pages, 402193 bytes).
+ <C:\Users\gage1\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\gage1\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0700.pk><C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/gage1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on cook_book.pdf (105 pages, 9254801 bytes).
 PDF statistics:
- 406 PDF objects out of 1000 (max. 8388607)
+ 415 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 

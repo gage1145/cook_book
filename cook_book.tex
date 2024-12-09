@@ -1,24 +1,72 @@
 \documentclass{cookbook}
 
-\title{The Family Cookbook}
-\author{
-    Rowden, Gage\and
-    Rowden, Stacy (Shug)\and
-    Rowden, J (Boss)\and
-    Humphries, Jacy\and
-    Rowden, Reese\and
-    Rowden, Kelsey\and
-    Rowden, Elizabeth (Gran)\and
-    Rowden, Lewayne (Papa)\and
-    Pope, Cathy (Mimi)\and
-    Pope, Leon (Pop)
-}
+% \title{\huge{\textbf{The Family Cookbook}}}
+% \author{
+%     Rowden, Gage
+%     % Rowden, Stacy (Shug)\and
+%     % Rowden, J (Boss)\and
+%     % Humphries, Jacy\and
+%     % Rowden, Reese\and
+%     % Rowden, Kelsey\and
+%     % Rowden, Elizabeth (Gran)\and
+%     % Rowden, Lewayne (Papa)\and
+%     % Pope, Cathy (Mimi)\and
+%     % Pope, Leon (Pop)
+% }
+% \date{\today}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
 
-\maketitle
+\clearpage
+%% temporary titles
+% command to provide stretchy vertical space in proportion
+\newcommand\nbvspace[1][3]{\vspace*{\stretch{#1}}}
+% allow some slack to avoid under/overfull boxes
+% \newcommand\nbstretchyspace{\spaceskip0.5em plus 0.25em minus 0.25em}
+% To improve spacing on title pages
+\newcommand{\nbtitlestretch}{\spaceskip0.6em}
+\pagestyle{empty}
+\begin{center}
+\bfseries
+\nbvspace[1]
+\Huge
+{\nbtitlestretch\huge
+THE FAMILY COOKBOOK}
+
+\nbvspace[1]
+\normalsize
+
+Delicious recipes made with love\\
+from generations of home cooks.\\
+
+\nbvspace[1]
+\small RECIPES BY\\
+\Large The Rowden\\
+\medskip\small AND\\
+\Large Pope Families\\
+\medskip\footnotesize AUTHORED BY GAGE ROWDEN
+
+% \nbvspace[2]
+
+\includegraphics[width=4in]{images/bread.jpg}
+% \nbvspace[3]
+\normalsize
+
+CONTRIBUTORS\\
+\small
+Lewayne ``Papa'' \& Elizabeth ``Gran'' Rowden,\\
+Leon ``Pop'' \& Cathy ``Mimi'' Pope,\\
+J ``Boss'' \& Stacy ``Shug'' Rowden,\\
+Gage Rowden \& Laramie Lindsey,\\
+Reese, Kelsey, Presley, \& Sawyer Rowden,\\
+Jacy \& Cade Humphries
+
+\nbvspace[1]
+\end{center}
+
+% \maketitle
 
 \frontmatter
 \tableofcontents
@@ -26,7 +74,8 @@
 \mainmatter{}
 
 
-\recipeSection{Breads}
+\recipeSection[images/breads.jpg]{Breads\\\&\\Baked Goods}
+% \includegraphics[width=4in]{images/soup.jpg}
 % Dinner Rolls
 \input{recipes/dinner_rolls.tex}
 % Cubano Bread
@@ -39,7 +88,7 @@
 \input{recipes/zucchini_bread.tex}
 
 
-\recipeSection{Appetizers \& Snacks}
+\recipeSection[images/apps.jpg]{Appetizers\\\&\\Snacks}
 % Boss' Guacamole
 \input{recipes/boss_guac.tex}
 % Gage's Salsa
@@ -50,7 +99,7 @@
 \input{recipes/spinach_dip.tex}
 
 
-\recipeSection{Sauces, Jams, \& Canned Goods}
+\recipeSection[images/jam.jpg]{Sauces, Jams,\\\&\\Canned Goods}
 % Spaghetti Sauce
 \input{recipes/spaghetti_sauce.tex}
 % Tex-Mex Enchilada Gravy
@@ -79,7 +128,7 @@
 \input{recipes/dill_pickles.tex}
 
 
-\recipeSection{Breakfast}
+\recipeSection[images/breakfast.jpg]{Breakfast}
 % Buttermilk Pancakes
 \input{recipes/buttermilk_pancakes.tex}
 % Blueberry Muffins
@@ -88,7 +137,7 @@
 \input{recipes/huevos_rancheros.tex}
 
 
-\recipeSection{Side Dishes}
+\recipeSection[images/side.jpg]{Side Dishes}
 % Deviled Eggs
 \input{recipes/deviled_eggs.tex}
 % Onion Rings
@@ -111,7 +160,7 @@
 \input{recipes/grape_salad.tex}
 
 
-\recipeSection{Soups}
+\recipeSection[images/soup.jpg]{Soups}
 % Tomato Soup
 \input{recipes/tomato_soup.tex}
 % Tomato Bisque
@@ -126,7 +175,7 @@
 \input{recipes/chicken_and_dumplings.tex}
 
 
-\recipeSection{Mains}
+\recipeSection[images/main.jpg]{Mains}
 % Chili
 \input{recipes/chili.tex}
 % Chili 2.0
@@ -185,7 +234,7 @@
 \input{recipes/broccolli_casserole.tex}
 
 
-\recipeSection{Desserts}
+\recipeSection[images/dessert.jpg]{Desserts}
 % Creme Brulee
 \input{recipes/creme_brulee.tex}
 % Bananas Foster

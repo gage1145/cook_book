@@ -1,15 +1,15 @@
-\contentsline {section}{Breads}{1}{}%
+\contentsline {section}{Breads\\\&\\Baked Goods}{1}{}%
 \contentsline {subsection}{Dinner Rolls}{2}{}%
 \contentsline {subsection}{Cubano Bread}{4}{}%
 \contentsline {subsection}{Browned Butter Cornbread}{6}{}%
 \contentsline {subsection}{Banana Bread}{7}{}%
 \contentsline {subsection}{Zucchini Bread}{8}{}%
-\contentsline {section}{Appetizers \& Snacks}{9}{}%
+\contentsline {section}{Appetizers\\\&\\Snacks}{9}{}%
 \contentsline {subsection}{Guacamole}{10}{}%
 \contentsline {subsection}{Salsa}{11}{}%
 \contentsline {subsection}{Shrimp Ceviche}{12}{}%
 \contentsline {subsection}{Spinach Dip}{13}{}%
-\contentsline {section}{Sauces, Jams, \& Canned Goods}{14}{}%
+\contentsline {section}{Sauces, Jams,\\\&\\Canned Goods}{14}{}%
 \contentsline {subsection}{Spaghetti Sauce}{15}{}%
 \contentsline {subsection}{Tex-Mex Enchilada Gravy}{16}{}%
 \contentsline {subsection}{Pan Gravy}{17}{}%
