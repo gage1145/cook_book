@@ -70,16 +70,17 @@
 \definecolor{makeaheadcolor}{rgb}{0.5,0.5,0.5}
 
 % \dishtype colors
-\definecolor{breadcolor}{rgb}{0.5, 0.1, 0.2}
-\definecolor{appcolor}{rgb}{0.2, 0.05, 0.5}
-\definecolor{saucecolor}{rgb}{0.2, 0.5, 0.1}
-\definecolor{preservecolor}{rgb}{0.0, 0.2, 0.4}
-\definecolor{picklecolor}{rgb}{0.0, 0.5, 0.1}
+\definecolor{breadcolor}    {rgb}{0.5, 0.1, 0.2}
+\definecolor{appcolor}      {rgb}{0.2, 0.05, 0.5}
+\definecolor{saucecolor}    {rgb}{0.2, 0.5, 0.1}
+\definecolor{preservecolor} {rgb}{0.0, 0.2, 0.4}
+\definecolor{picklecolor}   {rgb}{0.0, 0.5, 0.1}
 \definecolor{breakfastcolor}{rgb}{0.4, 0.2, 0.1}
-\definecolor{sidecolor}{rgb}{0.2, 0.5, 0.5}
-\definecolor{soupcolor}{rgb}{0, 0.05, 0.4}
-\definecolor{maincolor}{rgb}{0.5, 0.0, 0.05}
-\definecolor{dessertcolor}{rgb}{0.5,0.2,0.1}
+\definecolor{sidecolor}     {rgb}{0.2, 0.5, 0.5}
+\definecolor{soupcolor}     {rgb}{0, 0.05, 0.4}
+\definecolor{maincolor}     {rgb}{0.5, 0.0, 0.05}
+\definecolor{dessertcolor}  {rgb}{0.5, 0.2, 0.1}
+\definecolor{methodcolor}   {rgb}{0.7, 0, 0}
 
 %% Thanks to alephzero for the excellent start:
 \newcommand{\recipe}[3][]{
@@ -147,7 +148,7 @@
 %% Optional argument for a  heading within the ingredients section
 \newcommand{\ingredients}[1][]{%
     \if###1##{
-        \color{red}\Large\textbf{Ingredients}
+        \color{methodcolor}\Large\textbf{Ingredients}
     }
     \else
         \emph{\textbf{#1:}}
@@ -160,7 +161,7 @@
         \hspace{0pt}\vfill
         \begin{minipage}{\textwidth}
             \centering
-            \section[#2]{\fontsize{30pt}{30pt}\selectfont #2}
+            \section[#2]{\fontsize{24.88pt}{24.88pt}\selectfont #2}
             \includegraphics[width=3in]{#1}
         \end{minipage}  
         \vfill\hspace{0pt}
@@ -193,7 +194,7 @@
 \newenvironment{method}[1][]{
     \setcounter{stepnum}{0}
     \noindent
-    {\color{red}\Large\textbf{Instructions}}
+    {\color{methodcolor}\Large\textbf{Instructions}}
     \par
     \smallskip
     \if#1
