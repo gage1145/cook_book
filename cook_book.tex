@@ -1,72 +1,53 @@
 \documentclass{cookbook}
 
-% \title{\huge{\textbf{The Family Cookbook}}}
-% \author{
-%     Rowden, Gage
-%     % Rowden, Stacy (Shug)\and
-%     % Rowden, J (Boss)\and
-%     % Humphries, Jacy\and
-%     % Rowden, Reese\and
-%     % Rowden, Kelsey\and
-%     % Rowden, Elizabeth (Gran)\and
-%     % Rowden, Lewayne (Papa)\and
-%     % Pope, Cathy (Mimi)\and
-%     % Pope, Leon (Pop)
-% }
-% \date{\today}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 \begin{document}
 
 \clearpage
-%% temporary titles
-% command to provide stretchy vertical space in proportion
-\newcommand\nbvspace[1][3]{\vspace*{\stretch{#1}}}
-% allow some slack to avoid under/overfull boxes
-% \newcommand\nbstretchyspace{\spaceskip0.5em plus 0.25em minus 0.25em}
-% To improve spacing on title pages
-\newcommand{\nbtitlestretch}{\spaceskip0.6em}
+
 \pagestyle{empty}
+
 \begin{center}
-\bfseries
-\nbvspace[1]
-\Huge
-{\nbtitlestretch\huge
-THE FAMILY COOKBOOK}
 
-\nbvspace[1]
-\normalsize
+    \bfseries
+    \nbvspace[1]
+    \Huge
+    {\nbtitlestretch{THE FAMILY COOKBOOK}}
 
-Delicious recipes made with love\\
-from generations of home cooks.\\
+    \nbvspace[1]
 
-\nbvspace[1]
-\small RECIPES BY\\
-\Large The Rowden\\
-\medskip\small AND\\
-\Large Pope Families\\
-\medskip\footnotesize AUTHORED BY GAGE ROWDEN
+    \normalsize{
+        Delicious recipes made with love\\
+        from generations of home cooks.\\
+    }
+    
+    \nbvspace[2]
 
-\nbvspace[3]
+    \small Recipes by\\
+    \Large\uppercase{The Rowden}\\
+    \medskip\normalsize and\\
+    \Large\uppercase{Pope Families}\\
+    \medskip\footnotesize Authored by\\GAGE ROWDEN
 
-\includegraphics[width=4in]{images/bread.png}
-\nbvspace[2]
-\normalsize
+    \nbvspace[3]
 
-CONTRIBUTORS\\
-\small
-Lewayne ``Papa'' \& Elizabeth ``Gran'' Rowden,\\
-Leon ``Pop'' \& Cathy ``Mimi'' Pope,\\
-J ``Boss'' \& Stacy ``Shug'' Rowden,\\
-Gage Rowden \& Laramie Lindsey,\\
-Reese, Kelsey, Presley, \& Sawyer Rowden,\\
-Jacy \& Cade Humphries
+    \includegraphics[width=4in]{images/bread.png}
+    \nbvspace[2]
+    \normalsize
 
-\nbvspace[1]
+    Contributors\\
+    \nbvspace[2]
+    \small
+    \uppercase{
+        Lewayne ``Papa'' \& Elizabeth ``Gran'' Rowden,\\
+        Leon ``Pop'' \& Cathy ``Mimi'' Pope,\\
+        J ``Boss'' \& Stacy ``Shug'' Rowden,\\
+        Gage Rowden \& Laramie Lindsey,\\
+        Reese, Kelsey, Presley, \& Sawyer Rowden,\\
+        Jacy \& Cade Humphries
+    }
+
+    \nbvspace[1]
 \end{center}
-
-% \maketitle
 
 \frontmatter
 \tableofcontents
@@ -75,205 +56,113 @@ Jacy \& Cade Humphries
 
 
 \recipeSection[images/breads.png]{Breads \& Baked Goods}
-% \includegraphics[width=4in]{images/soup.jpg}
-% Dinner Rolls
 \input{recipes/dinner_rolls.tex}
-% Cubano Bread
 \input{recipes/cubano_bread.tex}
-% Browned Butter Cornbread
 \input{recipes/browned_butter_cornbread.tex}
-% Banana Bread
 \input{recipes/banana_bread.tex}
-% Zucchini Bread
 \input{recipes/zucchini_bread.tex}
 
 
 \recipeSection[images/apps.png]{Appetizers \& Snacks}
-% Boss' Guacamole
 \input{recipes/boss_guac.tex}
-% Gage's Salsa
 \input{recipes/gage_salsa.tex}
-% Boss's Ceviche
 \input{recipes/ceviche.tex}
-% Spinach Dip
 \input{recipes/spinach_dip.tex}
 
 
 \recipeSection[images/jam.png]{Sauces, Jams, \& Canned Goods}
-% Spaghetti Sauce
 \input{recipes/spaghetti_sauce.tex}
-% Tex-Mex Enchilada Gravy
 \input{recipes/texmex_enchilada_gravy.tex}
-% Pan Gravy
 \input{recipes/pan_gravy.tex}
-% Japanese Curry
 \input{recipes/japanese_curry.tex}
-% Katsu Sauce
 \input{recipes/katsu_sauce.tex}
-% Creamy Mexican Dipping Sauce
 \input{recipes/creamy_mexican_dipping_sauce.tex}
-% Boss' Tartar Sauce
 \input{recipes/tartar_sauce.tex}
-% Plum Preserves
 \input{recipes/plum_preserves.tex}
-% Apricot Preserves
 \input{recipes/apricot_preserves.tex}
-% Raspberry Jam
 \input{recipes/raspberry_jam.tex}
-% Jalapeno Jam
 \input{recipes/jalapeno_jam.tex}
-% Pickled Red Cabbage
 \input{recipes/pickled_red_cabbage.tex}
-% Dill Pickles
 \input{recipes/dill_pickles.tex}
 
 
 \recipeSection[images/breakfast.png]{Breakfast}
-% Buttermilk Pancakes
 \input{recipes/buttermilk_pancakes.tex}
-% Blueberry Muffins
 \input{recipes/blueberry_muffins.tex}
-% Huevos Rancheros
 \input{recipes/huevos_rancheros.tex}
 
 
 \recipeSection[images/side.png]{Side Dishes}
-% Deviled Eggs
 \input{recipes/deviled_eggs.tex}
-% Onion Rings
 \input{recipes/onion_rings.tex}
-% Thanksgiving Dressing
 \input{recipes/thanksgiving_dressing.tex}
-% Carrots & Kale
 \input{recipes/carrots_and_kale.tex}
-% Brussels Sprouts
 \input{recipes/brussels_sprouts.tex}
-% Coleslaw
 \input{recipes/coleslaw.tex}
-% White Rice
 \input{recipes/white_rice.tex}
-% Stuffed Potatoes
 \input{recipes/stuffed_potatoes.tex}
-% Mac & Cheese
 \input{recipes/mac_and_cheese.tex}
-% Grape Salad
 \input{recipes/grape_salad.tex}
 
 
 \recipeSection[images/soup.png]{Soups}
-% Tomato Soup
 \input{recipes/tomato_soup.tex}
-% Tomato Bisque
 \input{recipes/tomato_bisque.tex}
-% Chicken Noodle Soup
 \input{recipes/chicken_noodle_soup.tex}
-% Chicken Enchilada Soup
 \input{recipes/chicken_enchilada_soup.tex}
-% Chicken Orzo Soup
 \input{recipes/chicken_orzo_soup.tex}
-% Chicken & Dumplings
 \input{recipes/chicken_and_dumplings.tex}
 
 
 \recipeSection[images/main.png]{Mains}
-% Chili
 \input{recipes/chili.tex}
-% Chili 2.0
 \input{recipes/chili_2.tex}
-% Pedernales River Chili
 \input{recipes/pedernales_river_chili.tex}
-% Western Burgers
 \input{recipes/western_burgers.tex}
-% Fettuccine Alfredo
 \input{recipes/fettuccine_alfredo.tex}
-% Blackened Catfish
 \input{recipes/blackened_catfish.tex}
-% Chicken Tacos
 \input{recipes/chicken_tacos.tex}
-% Catfish Tacos
 \input{recipes/fish_tacos.tex}
-% Carne Asada
 \input{recipes/carne_asada.tex}
-% Chicken Spaghetti
 \input{recipes/chicken_spaghetti.tex}
-% Spaghetti-Stuffed Sandwiches
 \input{recipes/spaghetti-stuffed_sandwiches.tex}
-% Spaghetti and Meatballs
 \input{recipes/spaghetti_and_meatballs.tex}
-% Spaghetti with Meatballs
 \input{recipes/spaghetti_with_meatballs.tex}
-% Lasagna
 \input{recipes/lasagna.tex}
-% Lemon Garlic Shrimp Pasta
 \input{recipes/lemon_garlic_shrimp_pasta.tex}
-% Chorizo Tacos with Plantains
 \input{recipes/chorizo_tacos.tex}
-% Cheesy, Bacon Chicken
 \input{recipes/cheesy_bacon_chicken.tex}
-% Ground Beef Bulgogi
 \input{recipes/ground_beef_bulgogi.tex}
-% Pork Katsu
 \input{recipes/pork_katsu.tex}
-% Mojo Pulled Pork
 \input{recipes/mojo_pulled_pork.tex}
-% Chicken Katsu
 \input{recipes/chicken_katsu.tex}
-% Butter Chicken
 \input{recipes/butter_chicken.tex}
-% Oven Swiss Steak
 \input{recipes/oven_swiss_steak.tex}
-% Poverty Meatloaf
 \input{recipes/poverty_meatloaf.tex}
-
-% This one needs more details.
-% Mexican Casserole
-
-% Mexican Corn Casserole
 \input{recipes/mexican_corn_casserole.tex}
-% Broccolli Casserole
 \input{recipes/broccolli_casserole.tex}
 
 
 \recipeSection[images/dessert.png]{Desserts}
-% Creme Brulee
 \input{recipes/creme_brulee.tex}
-% Bananas Foster
 \input{recipes/bananas_foster.tex}
-% Fruit Tarts
 \input{recipes/fruit_tarts.tex}
-% Independence Day Pizza
 \input{recipes/independence_day_pizza.tex}
-% Chocolate Chip Cookies
 \input{recipes/chocolate_chip_cookies.tex}
-% Popcorn Balls
 \input{recipes/popcorn_balls.tex}
-% Raspberry Lemon Ice Cream
 \input{recipes/raspberry_lemon_ice_cream.tex}
-% Key Lime Ice Cream
 \input{recipes/key_lime_ice_cream.tex}
-% Sopapilla Cheesecake
 \input{recipes/sopapilla_cheesecake.tex}
-% Frosted Brownies
 \input{recipes/frosted_brownies.tex}
-% Browned Butter Brownies
 \input{recipes/browned_butter_brownies.tex}
-% Vanilla Pudding
 \input{recipes/vanilla_pudding.tex}
-% Strawberry Cheesecake
 \input{recipes/strawberry_cheesecake.tex}
-% Pecan Pie
 \input{recipes/pecan_pie.tex}
-% Apple Pie
 \input{recipes/apple_pie.tex}
-% Never-Fail Meringue
 \input{recipes/never-fail_meringue.tex}
-% Best-Ever Lemon Pie
 \input{recipes/best-ever_lemon_pie.tex}
-% Buttermilk Pie
 \input{recipes/buttermilk_pie.tex}
-% Lemon Jello Cake
 \input{recipes/lemon_jello_cake.tex}
-% Sour Cream Pound Cake
 \input{recipes/sour_cream_pound_cake.tex}
 
 \end{document}

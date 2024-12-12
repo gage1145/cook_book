@@ -50,6 +50,15 @@
   \fi
 }
 
+%% temporary titles
+% command to provide stretchy vertical space in proportion
+\newcommand\nbvspace[1][3]{\vspace*{\stretch{#1}}}
+
+% allow some slack to avoid under/overfull boxes
+% \newcommand\nbstretchyspace{\spaceskip0.5em plus 0.25em minus 0.25em}
+% To improve spacing on title pages
+\newcommand{\nbtitlestretch}{\spaceskip0.6em}
+
 % Borrowed from book.cls
 \newcommand\frontmatter{%
     \cleardoublepage{}
