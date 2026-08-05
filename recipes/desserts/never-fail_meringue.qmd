@@ -1,0 +1,38 @@
+---
+title: "Never-Fail Meringue"
+author: "Gran"
+description: "It hasn't failed me yet! Great for topping pies."
+categories: ["Dessert", "Vegetarian"]
+image: "/images/dessert.png"
+---
+
+::: {.recipe-meta}
+**Serves:** 8–10\
+**Prep time:** 15 minutes\
+**Cook time:** 20 minutes
+
+[Dessert]{.badge .badge-dessert} [Vegetarian]{.badge .badge-vegetarian}
+:::
+
+*It hasn't failed me yet! Great for topping pies.*
+
+## Ingredients
+
+- 1 tbsp cornstarch
+- 2 tbsp cold water
+- ½ cup boiling water
+- 3 egg whites
+- 6 tbsp sugar
+- 1 tsp vanilla extract
+- pinch of salt
+
+## Instructions
+
+1. Blend the cornstarch and cold water in a saucepan.
+2. Add boiling water and cook until clear and thickened.
+3. Let stand until COMPLETELY cold.
+4. With an electric beater at high speed, beat the egg whites until foamy.
+5. Gradually add sugar and beat until STIFF, but not dry.
+6. Turn mixer to low and add the salt and vanilla.
+7. Gradually beat in the cold cornstarch mixture.
+8. Turn mixer again to high speed and beat well.

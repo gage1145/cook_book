@@ -1,0 +1,33 @@
+---
+title: "Boss' Tartar Sauce"
+author: "Boss"
+description: "Enjoy with any fish or just by the spoonful."
+categories: ["Sauce", "Vegetarian"]
+image: "/images/jam.png"
+---
+
+::: {.recipe-meta}
+**Serves:** 4\
+**Prep time:** 5 minutes
+
+[Sauce]{.badge .badge-sauce} [Vegetarian]{.badge .badge-vegetarian}
+:::
+
+*Enjoy with any fish or just by the spoonful.*
+
+## Ingredients
+
+- 1 cup real mayo
+- ½ cup onion (finely chopped)
+- 2 tsp dill relish
+- 2 tsp sweet relish
+- ½ jalapeno
+- ¼ tsp thyme
+- ½ lemon (juice)
+- Salt
+- Pepper
+
+## Instructions
+
+1. Mix all ingredients together in a bowl.
+2. Season to taste.

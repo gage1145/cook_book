@@ -1,0 +1,44 @@
+---
+title: "Chicken Noodle Soup"
+author: "Kelsey"
+description: "Cure your cold with this one."
+categories: ["Soup"]
+image: "/images/soup.png"
+---
+
+::: {.recipe-meta}
+**Serves:** 4\
+**Prep time:** 15 minutes\
+**Cook time:** 45 minutes
+
+[Soup]{.badge .badge-soup}
+:::
+
+*Cure your cold with this one.*
+
+## Ingredients
+
+- 1 tbsp olive olive
+- 1 tbsp butter
+- 1 yellow onion (diced)
+- 3 celery stalks (diced)
+- 2 carrots (thin sliced or chopped)
+- 6 garlic cloves
+- 12 cups chicken broth
+- 4 thyme sprigs
+- 2 bay leaves
+- 2 lbs chicken breast
+- salt (to taste)
+- black pepper (to taste)
+- egg noodles
+
+## Instructions
+
+1. Heat the butter and oil in a Dutch oven.
+2. Add onions, carrots and celery. Cook for 5 minutes then stir in the garlic.
+3. Pour in your chicken broth and add in your thyme and bay leaves bring to a simmer.
+4. Add your chicken and let cook for 25–30 minutes or until chicken is fully cooked.
+5. Take chicken out and cut it into pieces.
+6. Add egg noodles to the broth and cook for 7 minutes.
+7. Take out the sprigs and bay leaves and add back in your chicken with your noodles.
+8. Add salt and pepper to taste and enjoy.

@@ -1,0 +1,38 @@
+---
+title: "Bananas Foster"
+author: "Gage"
+description: "Try to keep your eyebrows on."
+categories: ["Dessert", "Vegetarian"]
+image: "/images/dessert.png"
+---
+
+::: {.recipe-meta}
+**Serves:** 4\
+**Prep time:** 5 minutes\
+**Cook time:** 10 minutes
+
+[Dessert]{.badge .badge-dessert} [Vegetarian]{.badge .badge-vegetarian}
+:::
+
+*Try to keep your eyebrows on.*
+
+## Ingredients
+
+- ¼ cup butter
+- ⅔ cup brown sugar
+- 3½ tbsp rum
+- ½ tsp ground cinnamon
+- 3 bananas (peeled, halved lengthwise)
+- 1 pint vanilla ice cream
+
+## Instructions
+
+*Preheat oven to 350°F.*
+
+1. Melt the butter and brown sugar together over medium heat.
+2. Once hot add the bananas to the pan.
+3. Coat both sides of the banana with the mixture.
+4. After about 2½ minutes, lower the burner to low and add in the rum.
+5. Flambé the bananas with the boiling rum.
+6. For extra flair, sprinkle in the cinnamon while the flame is still going.
+7. Serve over a bowl of ice cream.

@@ -1,0 +1,21 @@
+project:
+  type: website
+
+website:
+  title: "Cook Book"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: recipes.qmd
+        text: Recipes
+      - about.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+

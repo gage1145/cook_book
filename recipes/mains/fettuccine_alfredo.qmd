@@ -1,0 +1,38 @@
+---
+title: "Fettuccine Alfredo"
+author: "Jacy"
+description: "It slaps."
+categories: ["Main"]
+image: "/images/main.png"
+---
+
+::: {.recipe-meta}
+**Serves:** 4\
+**Prep time:** 5 minutes\
+**Cook time:** 25 minutes
+
+[Main]{.badge .badge-main}
+:::
+
+*It slaps.*
+
+## Ingredients
+
+- ½ cup butter
+- 1 ½ cup heavy whipping cream
+- 2 tsp minced garlic
+- ½ tsp italian seasoning
+- ½ tsp salt
+- ¼ tsp pepper
+- 2 cups grated parmesan cheese
+- 1 bag fettuccine noodles
+- 1 lb chicken breast or shrimp
+
+## Instructions
+
+1. Add butter and cream to a large skillet.
+2. Simmer over low for 2 minutes.
+3. Whisk in garlic and seasonings for one minute.
+4. Whisk in parmesan until melted.
+5. Mix in with noodles and your choice of chicken or shrimp.
+6. Simmer until the meat is cooked.

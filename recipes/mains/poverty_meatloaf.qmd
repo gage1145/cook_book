@@ -1,0 +1,37 @@
+---
+title: "Poverty Meatloaf"
+author: "Gran"
+description: "You actually don't have to be poor to make this."
+categories: ["Main"]
+image: "/images/main.png"
+---
+
+::: {.recipe-meta}
+**Serves:** 8\
+**Prep time:** 20 minutes\
+**Cook time:** 1½ hours
+
+[Main]{.badge .badge-main}
+:::
+
+*You actually don't have to be poor to make this.*
+
+## Ingredients
+
+- 2 lbs ground beef
+- bread (chopped)
+- 1 onion (diced)
+- 1 can tomatoes
+- 1 eggs
+- garlic powder
+- salt
+- black pepper
+- ketchup
+
+## Instructions
+
+*Preheat the oven to 350°F.*
+
+1. Mix all the ingredients except for the ketchup together until homogeneous.
+2. Top with the ketchup.
+3. Bake for 1½ hours.

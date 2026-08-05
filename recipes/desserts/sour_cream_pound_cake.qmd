@@ -1,0 +1,35 @@
+---
+title: "Sour Cream Pound Cake"
+author: "Mimi"
+description: "Dense and melt-in-your-mouth."
+categories: ["Dessert", "Vegetarian"]
+image: "/images/dessert.png"
+---
+
+::: {.recipe-meta}
+**Serves:** 8–10\
+**Prep time:** 10 minutes\
+**Cook time:** 1 hour
+
+[Dessert]{.badge .badge-dessert} [Vegetarian]{.badge .badge-vegetarian}
+:::
+
+*Dense and melt-in-your-mouth.*
+
+## Ingredients
+
+- 3 cups sugar
+- 6 eggs
+- 2 sticks butter
+- 1 cup sour cream
+- 3 cups flour
+- ¼ tsp baking powder
+- 1½ tsp vanilla extract
+
+## Instructions
+
+*Preheat the oven to 325°F.*
+
+1. Mix all the ingredients together.
+2. Add mixture to a baking pan.
+3. Bake for 1 hour.

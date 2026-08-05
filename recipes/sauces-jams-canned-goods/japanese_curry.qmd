@@ -1,0 +1,50 @@
+---
+title: "Japanese Curry"
+author: "Gage"
+description: "Try it with the pork katsu."
+categories: ["Sauce", "Vegetarian"]
+image: "/images/jam.png"
+---
+
+::: {.recipe-meta}
+**Serves:** 4\
+**Prep time:** 20 minutes\
+**Cook time:** 1 hour
+
+[Sauce]{.badge .badge-sauce} [Vegetarian]{.badge .badge-vegetarian}
+:::
+
+*Try it with the pork katsu.*
+
+## Ingredients
+
+- ¼ cup of butter (1st)
+- ½ cup butter (2nd)
+- 1½ tbsp butter (3rd)
+- 3 onions (julienned)
+- 1-quart chicken stock
+- 4 dried shiitake mushroom
+- 1 apple (peeled & grated)
+- 1 tbsp tomato paste
+- ½ cup all-purpose flour
+- 1 tbsp garam masala
+- ¼ cup curry powder
+- 2 tsp MSG
+- 1 tbsp soy sauce
+- 2 tbsp Worcestershire sauce
+- 1 tbsp honey or sugar
+
+## Instructions
+
+1. Add the 1st butter measurement to a large sauce-pot and melt over medium-high heat.
+2. Add the julienned onions and cook for 30 to 45 minutes, stirring often, and adjusting the temperature between medium and low accordingly; if onions start to stick to the bottom, add a splash of water to de-glaze.
+3. Bring 1 cup of the chicken stock to a boil and add the shitake mushrooms; after two minutes, remove your mushrooms or until entirely hydrated. Set aside.
+4. Once the onions are a medium-dark color, add the grated apple and tomato paste to the onions. Stir and cook for 3–4 minutes or until the apple softens. Remove and place it aside.
+5. Over medium-high heat (using the same pot), add the 2nd butter measurement.
+6. Once melted, add the flour, constantly whisk for 30 seconds.
+7. Add the garam masala (optional), curry powder, and MSG.
+8. Whisk vigorously, and let toast for about 1 minute.
+9. Add back the onions along with the soy sauce, Worcestershire sauce, honey (or sugar), and one quart of chicken shiitake stock, stirring often until thickened
+10. Let simmer for 2 minutes.
+11. Blend the mix until completely smooth, then add the 3rd butter measurement while blending.
+12. Serve with rice and pork katsu.

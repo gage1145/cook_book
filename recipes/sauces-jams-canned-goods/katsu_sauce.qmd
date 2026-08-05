@@ -1,0 +1,29 @@
+---
+title: "Katsu Sauce"
+author: "Gage"
+description: "Sweet, tangy, and savory. Perfect for dipping fried food!"
+categories: ["Sauce", "Vegetarian"]
+image: "/images/jam.png"
+---
+
+::: {.recipe-meta}
+**Serves:** 4\
+**Prep time:** 5 minutes
+
+[Sauce]{.badge .badge-sauce} [Vegetarian]{.badge .badge-vegetarian}
+:::
+
+*Sweet, tangy, and savory. Perfect for dipping fried food!*
+
+## Ingredients
+
+- 6 tbsp ketchup
+- 2 tbsp Worcestershire sauce
+- 2 tbsp oyster sauce
+- 2 tbsp miso paste (optional)
+- 2 tsp honey
+
+## Instructions
+
+1. In a small bowl, stir together all of the ingredients until fully incorporated.
+2. Use or store in an airtight container in the refrigerator for up to 1 month.

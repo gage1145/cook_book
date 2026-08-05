@@ -1,0 +1,31 @@
+---
+title: "Fruit Tarts"
+author: "Sawyer"
+description: "Don't let his age fool you. Sawyer makes a mean dessert!"
+categories: ["Dessert", "Vegetarian"]
+image: "/images/dessert.png"
+---
+
+::: {.recipe-meta}
+**Serves:** 8\
+**Prep time:** 10 minutes\
+**Cook time:** 30 minutes
+
+[Dessert]{.badge .badge-dessert} [Vegetarian]{.badge .badge-vegetarian}
+:::
+
+*Don't let his age fool you. Sawyer makes a mean dessert!*
+
+## Ingredients
+
+- 2 rolls sugar cookie dough
+- ½–⅔ cup preferred jam
+
+## Instructions
+
+*Preheat the oven to 350°F.*
+
+1. Spread 1 cookie dough roll out on a baking pan.
+2. Spread the jam thoroughly over the dough.
+3. Place the other roll of cookie dough over the top.
+4. Bake according to the dough's manufacturer's specifications.

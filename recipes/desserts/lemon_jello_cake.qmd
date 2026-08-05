@@ -1,0 +1,44 @@
+---
+title: "Lemon Jello Cake"
+author: "Gran"
+description: "Honestly this one also feels like a Depression-era recipe."
+categories: ["Dessert", "Vegetarian"]
+image: "/images/dessert.png"
+---
+
+::: {.recipe-meta}
+**Serves:** 8–10\
+**Prep time:** 10 minutes\
+**Cook time:** 45 minutes
+
+[Dessert]{.badge .badge-dessert} [Vegetarian]{.badge .badge-vegetarian}
+:::
+
+*Honestly this one also feels like a Depression-era recipe.*
+
+## Ingredients
+
+### Cake
+
+- 4 eggs
+- 1 yellow cake Mix
+- 1 pkg lemon Jello
+- 1 cup water
+- ½ cup vegetable oil
+- 2 tsp lemon extract
+
+### Glaze
+
+- 1 cup powdered sugar
+- ½ cup lemon juice
+- zest of 1 lemon
+
+## Instructions
+
+*Preheat the oven to 325°F.*
+
+1. Mix all the cake ingredients together until homogeneous.
+2. Add the mixture to a floured tube pan.
+3. Bake for 45 minutes.
+4. Meanwhile, mix the glaze ingredients together until homogeneous.
+5. Pour generously over the cake once done baking.

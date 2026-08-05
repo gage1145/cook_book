@@ -1,0 +1,12 @@
+---
+title: "The Family Cookbook"
+---
+
+::: {style="text-align: center;"}
+Delicious recipes made with love\
+from generations of home cooks.
+
+![](images/bread.png){width="4in"}
+:::
+
+Browse all the recipes on the [Recipes](recipes.qmd) page, or learn more about who they come from on the [About](about.qmd) page.

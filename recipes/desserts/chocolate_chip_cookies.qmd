@@ -1,0 +1,43 @@
+---
+title: "Chocolate Chip Cookies"
+author: "Gran"
+description: "Everyone's got a chocolate chip cookie recipe."
+categories: ["Dessert"]
+image: "/images/dessert.png"
+---
+
+::: {.recipe-meta}
+**Serves:** 12\
+**Prep time:** 15 minutes\
+**Cook time:** 10 minutes
+
+[Dessert]{.badge .badge-dessert}
+:::
+
+*Everyone's got a chocolate chip cookie recipe.*
+
+## Ingredients
+
+- ½ cup butter
+- ½ cup shortening
+- ¾ cup white sugar
+- ¾ cup brown sugar
+- 1 tsp vanilla extract
+- 2 eggs
+- 2¼ cups flour
+- 1 tsp baking soda
+- 1 tsp salt
+- 2 cups chocolate chips
+- 1 cup chopped nuts (optional)
+
+## Instructions
+
+*Preheat the oven to 375°F*
+
+1. Cream butter, shortening, sugar, and vanilla.
+2. Add eggs and mix well.
+3. Add the dry ingredients and stir until thoroughly mixed.
+4. Stir in chocolate chips and nuts.
+5. Drop by the heaping teaspoonful onto un-greased cookie sheet.
+6. bake for 8–10 minutes or until golden brown.
+7. Remove from tray and cool.

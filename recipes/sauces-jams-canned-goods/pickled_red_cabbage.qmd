@@ -1,0 +1,32 @@
+---
+title: "Pickled Red Cabbage"
+author: "Gage"
+description: "Simple slaw, great for dressing up any recipe."
+categories: ["Pickle", "Vegetarian"]
+image: "/images/jam.png"
+---
+
+::: {.recipe-meta}
+**Serves:** 4\
+**Prep time:** 15 minutes
+
+[Pickle]{.badge .badge-pickle} [Vegetarian]{.badge .badge-vegetarian}
+:::
+
+*Simple slaw, great for dressing up any recipe.*
+
+## Ingredients
+
+- ½ red cabbage (thinly sliced)
+- 1½ cups rice vinegar
+- 1 cup water
+- 2 tbsp sugar
+- 1 tbsp salt
+- 1 tbsp furikake (optional)
+
+## Instructions
+
+1. Place the sliced cabbage into a large container.
+2. In a medium sauce-pot, place the vinegar, water, sugar, furikake, and salt.
+3. Bring it to a boil and pour it over the cabbage.
+4. Seal the jar and refrigerate.

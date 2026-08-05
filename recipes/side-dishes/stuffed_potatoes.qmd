@@ -1,0 +1,35 @@
+---
+title: "Stuffed Potatoes"
+author: "Great Shug"
+description: "It's cheesy potatoes. No need to question it."
+categories: ["Side"]
+image: "/images/side.png"
+---
+
+::: {.recipe-meta}
+**Serves:** 6\
+**Prep time:** 5 minutes\
+**Cook time:** 45 minutes
+
+[Side]{.badge .badge-side}
+:::
+
+*It's cheesy potatoes. No need to question it.*
+
+## Ingredients
+
+- 6 Russet potatoes
+- 1 stick butter
+- 1 cup cheddar (shredded)
+- 1 can mushrooms
+- green onions (chopped)
+- sour cream
+- fried bacon chips
+
+## Instructions
+
+1. Boil the potatoes in the skins until tender.
+2. Remove the skins and chop the potatoes into a large bowl.
+3. Melt the butter into the potatoes.
+4. Add in the cheese, mushrooms, bacon, and green onions.
+5. Add sour cream while mixing until you are happy with the consistency.

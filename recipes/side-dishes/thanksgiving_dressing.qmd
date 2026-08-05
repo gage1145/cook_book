@@ -1,0 +1,35 @@
+---
+title: "Thanksgiving Dressing"
+author: "Great Shug"
+description: "Throwback to the OG Shug."
+categories: ["Side", "Vegetarian"]
+image: "/images/side.png"
+---
+
+::: {.recipe-meta}
+**Serves:** 4\
+**Prep time:** 15 minutes\
+**Cook time:** 45 minutes
+
+[Side]{.badge .badge-side} [Vegetarian]{.badge .badge-vegetarian}
+:::
+
+*Throwback to the OG Shug.*
+
+## Ingredients
+
+- 1 cup chopped onion
+- 1 cup chopped celery
+- 1 stick butter (melted)
+- 2–3 packages baked cornbread
+- 1 can baked biscuits
+- 1 container chicken broth
+- 1 can cream of celery, mushroom, or chicken soup
+
+## Instructions
+
+*Preheat oven to 375°F.*
+
+1. Mix cornbread, biscuits, onion, celery, and butter together.
+2. Add chicken broth and soup to get the consistency you want.
+3. Bake until golden brown on top (use the broiler if desired).

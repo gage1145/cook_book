@@ -1,0 +1,43 @@
+---
+title: "Chicken Katsu"
+author: "Gage"
+description: "It's fried chicken my boy."
+categories: ["Main"]
+image: "/images/main.png"
+---
+
+::: {.recipe-meta}
+**Serves:** 4\
+**Prep time:** 20 minutes\
+**Cook time:** 15 minutes
+
+[Main]{.badge .badge-main}
+:::
+
+*It's fried chicken my boy.*
+
+## Ingredients
+
+- 1½ cups all-purpose flour
+- 3 large eggs
+- 2 tbsp water
+- 2 cups panko
+- 4 boneless, skinless chicken breasts/thighs
+- 2 cups high-heat oil
+- kosher salt
+
+## Instructions
+
+1. Place the chicken breasts between two pieces of plastic wrap and pound to an even thickness of ~½″. Season with salt.
+2. Prepare 3 separate shallow bowls for the breading station. In the first, place the flour. In the second, whisk together the eggs and water. In the last, place the panko.
+3. Thoroughly coat each piece of chicken in the flour, shaking off any excess.
+4. Coat evenly in the egg, making sure no dry spots remain.
+5. Finally, coat the chicken on all sides in the panko, pressing to make sure it's thoroughly coated.
+6. Set aside on a piece of parchment paper, and separate each breast with a new layer of parchment.
+7. Fill a large deep cast-iron skillet or heavy-bottomed pot with the oil, and heat over high heat until just shimmering, or about 325–350°F.
+8. Carefully place the chicken breast in the oil one at a time.
+9. Fry for 3–5 minutes, or until crispy golden brown.
+10. Flip and fry for an additional 3–5 minutes, or until it reaches an internal temp of 165°F.
+11. Place on a wire rack in a rimmed baking sheet, season again with salt and let drain and cool.
+12. Repeat with the remaining chicken breasts.
+13. Serve sliced, with a side of spicy cabbage slaw, and drizzled with katsu sauce and Sriracha.

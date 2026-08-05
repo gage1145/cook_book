@@ -1,0 +1,67 @@
+---
+title: "Butter Chicken"
+author: "Gage"
+description: "Raleigh's favorite meal of all time."
+categories: ["Main"]
+image: "/images/main.png"
+---
+
+::: {.recipe-meta}
+**Serves:** 4\
+**Prep time:** 30 minutes\
+**Cook time:** 30 minutes
+
+[Main]{.badge .badge-main}
+:::
+
+*Raleigh's favorite meal of all time.*
+
+## Ingredients
+
+### Marinade
+
+- 1½ lbs chicken thighs (1″ pieces)
+- ¾ cup (145g) yogurt
+- 2½ tsp (6g) chili powder
+- 1 tsp (2g) turmeric
+- 2 tsp lemon juice
+- 1 tsp (2g) cumin
+- 1 tbsp (7g) Garam masala
+- 2 teaspoons (10g) fine sea salt
+- 2-inch knob ginger
+
+### Curry Sauce
+
+- 1 onion, thinly sliced
+- 5 garlic cloves, chopped
+- 1 tsp (2g) garam masala
+- 1 tsp (2g) chili powder
+- ½ tsp (1g) turmeric
+- ½ tsp (1g) fenugreek
+- 1 tbsp (13g) sugar
+- 2 tbsp (28g) ghee
+- 1 tbsp (15g) grated ginger
+- 1 large can crushed tomatoes
+- ¾ cup (177ml) heavy cream
+- 2 tbsp (28g) unsalted butter
+- fresh cilantro for garnish
+- salt to taste
+
+## Instructions
+
+*Requires >30 minutes of marination.*
+
+1. Place your chicken thighs in a bowl along with the rest of the marinade ingredients and mix thoroughly, ensuring the chicken gets completely coated with the marinade.
+2. Cover with plastic wrap and reserve in the refrigerator.
+3. Heat a 12″ nonstick skillet over medium-high heat and add the ghee.
+4. Once melted, add your marinated chicken pieces and sear them on all sides until golden brown. It is okay if it does not get cooked all the way through.
+5. Remove your chicken, place it in a large bowl, and reserve.
+6. Add the onions, season with salt, and cook until just translucent.
+7. Add the garlic and ginger and cook for another 30 seconds.
+8. Stirring often, add the garam masala, chili powder, turmeric, fenugreek, and sugar.
+9. Add in your crushed tomatoes and reduce for 2 minutes.
+10. Place the onion mix in the blender and blend on high until smooth.
+11. Place the sauce back in the pan, add your chicken, cover with a lid and simmer for seven minutes.
+12. Add the heavy cream and simmer until thickened.
+13. Cut the heat, stir in butter, and season with salt to taste.
+14. Serve your chicken over rice, and garnished with cilantro.

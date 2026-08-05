@@ -1,0 +1,71 @@
+/* Category colors, carried over from the print cookbook's LaTeX color definitions
+   (cookbook.cls \definecolor{...}) so recipe badges keep the same palette. */
+:root {
+  --color-vegetarian: #006633;
+  --color-freeze: #0000ff;
+  --color-makeahead: #808080;
+  --color-bread: #801a33;
+  --color-apps: #330d80;
+  --color-sauce: #33801a;
+  --color-preserve: #003366;
+  --color-pickle: #00801a;
+  --color-breakfast: #66331a;
+  --color-side: #338080;
+  --color-soup: #000d66;
+  --color-main: #80000d;
+  --color-dessert: #80331a;
+  --color-method: #b20000;
+}
+
+/* Category badges/pills, e.g. [Main]{.badge .badge-main} */
+.badge {
+  display: inline-block;
+  padding: 0.2em 0.65em;
+  margin-right: 0.25em;
+  border-radius: 999px;
+  font-size: 0.8em;
+  font-weight: 600;
+  color: #fff;
+  background-color: #6c757d;
+}
+
+.badge-vegetarian { background-color: var(--color-vegetarian); }
+.badge-freeze { background-color: var(--color-freeze); }
+.badge-makeahead { background-color: var(--color-makeahead); }
+.badge-bread { background-color: var(--color-bread); }
+.badge-apps { background-color: var(--color-apps); }
+.badge-sauce { background-color: var(--color-sauce); }
+.badge-preserve { background-color: var(--color-preserve); }
+.badge-pickle { background-color: var(--color-pickle); }
+.badge-breakfast { background-color: var(--color-breakfast); }
+.badge-side { background-color: var(--color-side); }
+.badge-soup { background-color: var(--color-soup); }
+.badge-main { background-color: var(--color-main); }
+.badge-dessert { background-color: var(--color-dessert); }
+
+/* Recipe metadata card (serves / prep / cook time + badges) */
+.recipe-meta {
+  border: 1px solid #dee2e6;
+  border-radius: 0.5rem;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1rem;
+  background-color: #f8f9fa;
+  display: inline-block;
+}
+
+.recipe-meta p:last-child {
+  margin-bottom: 0;
+}
+
+/* Ingredients / Instructions headings, matching the print \methodcolor.
+   Scoped to recipe pages only (identified by the presence of .recipe-meta)
+   so it doesn't recolor headings elsewhere on the site. */
+body:has(.recipe-meta) h2 {
+  color: var(--color-method);
+}
+
+/* Recipe listing grid cards */
+.quarto-listing .card-img-top {
+  object-fit: cover;
+  height: 180px;
+}

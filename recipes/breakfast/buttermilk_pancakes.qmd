@@ -1,0 +1,39 @@
+---
+title: "Buttermilk Pancakes"
+author: "Shug"
+description: "Make these every Christmas morning."
+categories: ["Breakfast", "Vegetarian"]
+image: "/images/breakfast.png"
+---
+
+::: {.recipe-meta}
+**Serves:** 4\
+**Prep time:** 5 minutes\
+**Cook time:** 15 minutes
+
+[Breakfast]{.badge .badge-breakfast} [Vegetarian]{.badge .badge-vegetarian}
+:::
+
+*Make these every Christmas morning.*
+
+## Ingredients
+
+- 2 eggs, separated
+- 2 cups buttermilk
+- 2 cups flour
+- ¼ tsp salt
+- ½ cup sugar
+- 3 tsp baking powder
+- ¼ tsp baking soda
+- 2 tbsp vegetable oil
+- 1 tsp vanilla
+
+## Instructions
+
+1. Separate eggs, beat egg whites until stiff, and set aside.
+2. Mix egg yolks with buttermilk.
+3. Mix dry ingredients and oil.
+4. Add egg yolks and buttermilk to the dry mixture. Mix well.
+5. Stir in vanilla.
+6. Fold in the egg whites.
+7. Cook on medium-high griddle.

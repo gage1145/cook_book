@@ -1,0 +1,43 @@
+---
+title: "Chicken & Dumplings"
+author: "Shug"
+description: "Perfect for those cold dreadful days."
+categories: ["Soup"]
+image: "/images/soup.png"
+---
+
+::: {.recipe-meta}
+**Serves:** 4\
+**Prep time:** 10 minutes\
+**Cook time:** 8–9 hours
+
+[Soup]{.badge .badge-soup}
+:::
+
+*Perfect for those cold dreadful days.*
+
+## Ingredients
+
+- 3–4 chicken breasts
+- 1 medium onion (diced)
+- 2 stalks of celery (chopped)
+- 3–4 carrots (sliced or diced)
+- 2 cans cream of chicken soup
+- 1 box chicken broth
+- 3 tbsp butter
+- garlic powder
+- parsley
+- poultry seasoning
+- black pepper
+- 1 cup half & half
+- 1 can Pillsbury® buttermilk biscuits
+
+## Instructions
+
+1. Place chicken in the crock-pot.
+2. Stir together all other ingredients except for the half & half and biscuits and pour over the chicken.
+3. Cook on low for 7–8 hours.
+4. Take out the chicken and pull apart.
+5. Cut the raw biscuits into small ¾″ pieces and place in the crock-pot.
+6. Add the half & half. *You can add how ever much you want.*
+7. Put the chicken back in and cook on high for another hour.

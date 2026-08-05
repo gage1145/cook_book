@@ -1,0 +1,34 @@
+---
+title: "Salsa"
+author: "Gage"
+description: "A family favorite enjoyed by those that like spice."
+categories: ["Appetizer", "Vegetarian"]
+image: "/images/apps.png"
+---
+
+::: {.recipe-meta}
+**Serves:** 4\
+**Prep time:** 10 minutes
+
+[Appetizer]{.badge .badge-apps} [Vegetarian]{.badge .badge-vegetarian}
+:::
+
+*A family favorite enjoyed by those that like spice.*
+
+## Ingredients
+
+- 1 can diced tomatoes
+- ½ onion
+- 3 jalapeños
+- 1 bunch cilantro
+- 1 lemon (juice)
+- 2 tsp garlic salt
+- 1 tsp cumin
+- ½ tsp cayenne pepper
+- back pepper (to taste)
+
+## Instructions
+
+1. Cut the onions and jalapeños into large chunks and place into a food processor.
+2. Add the rest of the ingredients.
+3. Blend to desired consistency.

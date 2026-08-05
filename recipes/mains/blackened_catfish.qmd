@@ -1,0 +1,29 @@
+---
+title: "Blackened Catfish"
+author: "Boss"
+description: "Simple, easy, delicious."
+categories: ["Main"]
+image: "/images/main.png"
+---
+
+::: {.recipe-meta}
+**Serves:** 4\
+**Prep time:** 5 minutes\
+**Cook time:** 10 minutes
+
+[Main]{.badge .badge-main}
+:::
+
+*Simple, easy, delicious.*
+
+## Ingredients
+
+- 2 catfish filets
+- 1½ tsp garlic salt
+- 1½ tsp paprika
+- black pepper (to taste)
+
+## Instructions
+
+1. Season fish to your liking on both sides. Use pepper generously.
+2. Cook on medium-high heat in olive oil for approximately 3 minutes on each side, or until done. Cast iron skillet will produce the best results.

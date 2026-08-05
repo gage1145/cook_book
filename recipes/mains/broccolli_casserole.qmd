@@ -1,0 +1,34 @@
+---
+title: "Broccolli Casserole"
+author: "Gran"
+description: "A warm, vegetarian option for the winter."
+categories: ["Main", "Vegetarian"]
+image: "/images/main.png"
+---
+
+::: {.recipe-meta}
+**Serves:** 8\
+**Prep time:** 10 minutes\
+**Cook time:** 1¼ hours
+
+[Main]{.badge .badge-main} [Vegetarian]{.badge .badge-vegetarian}
+:::
+
+*A warm, vegetarian option for the winter.*
+
+## Ingredients
+
+- 1 lb frozen broccoli
+- ½ cup butter
+- 1 can cream of mushroom soup
+- 1 can cream of chicken soup
+- 1 jar of Cheez Whiz®
+- 3–4 cups cooked rice
+
+## Instructions
+
+*Preheat the oven to 350°F.*
+
+1. In a 6 quart casserole dish, melt the butter and cook the frozen broccoli until done.
+2. Add the rest of the ingredients and mix thoroughly.
+3. Bake for 1 hour.

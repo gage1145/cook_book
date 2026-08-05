@@ -1,0 +1,44 @@
+---
+title: "Oven Swiss Steak"
+author: "Gran"
+description: "A classic enjoyed during harvest. Apparently the only thing little Boss included in his cookbook for Great Gran."
+categories: ["Main"]
+image: "/images/gran/IMG_7447.jpg"
+---
+
+::: {.recipe-meta}
+**Serves:** 4\
+**Prep time:** 20 minutes\
+**Cook time:** 1 hour
+
+[Main]{.badge .badge-main}
+:::
+
+*A classic enjoyed during harvest. Apparently the only thing little Boss included in his cookbook for Great Gran.*
+
+## Ingredients
+
+- 4 round steaks
+- 2 carrots (chopped)
+- 2 celery stalks (chopped)
+- ½ onion (chopped)
+- 1 can stewed tomatoes
+- 1–2 cloves garlic (minced)
+- 1 can cream of mushroom soup
+- beef broth (or water)
+- flour with favorite seasonings
+
+## Instructions
+
+*Preheat the oven to 350°F.*
+
+1. Coat the steaks evenly with the seasoned flour.
+2. Add the steaks to a ripping hot pan and brown on each side in olive oil (about 5 minute each side).
+3. Place in a Pyrex® dish.
+4. Mix the fresh vegetables together and pour over the steaks.
+5. Stir tomatoes and soup together and pour on steaks/veggies.
+6. Add a little water or beef broth.
+7. Cover with foil and bake about for about and hour.
+8. *Note: Boss likes to brown the steak in a cast iron skillet then transfer it to the oven.*
+
+![This note is from the cover of a cookbook that Boss made for his Gran when he was young. The only recipe in the cookbook was oven Swiss steak.](/images/gran/IMG_7447.jpg){width="2.5in"}

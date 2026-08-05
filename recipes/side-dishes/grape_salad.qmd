@@ -1,0 +1,31 @@
+---
+title: "Donna's Grape Salad"
+author: "Gran"
+description: "Who the heck is Donna?"
+categories: ["Side", "Vegetarian"]
+image: "/images/side.png"
+---
+
+::: {.recipe-meta}
+**Serves:** 8\
+**Prep time:** 10 minutes
+
+[Side]{.badge .badge-side} [Vegetarian]{.badge .badge-vegetarian}
+:::
+
+*Who the heck is Donna?*
+
+## Ingredients
+
+- 4 cups grapes
+- 1 cup nuts (pecans)
+- 1 cup sour cream
+- 1 cup brown sugar
+- 1½ tsp almond extract
+
+## Instructions
+
+1. Mix the sour cream, brown sugar, and almond extract.
+2. Pour the mixture over the grapes and nuts.
+3. Mix until completely covered.
+4. Chill and serve.

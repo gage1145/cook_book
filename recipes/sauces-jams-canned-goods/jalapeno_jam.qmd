@@ -1,0 +1,37 @@
+---
+title: "Jalapeño Jelly"
+author: "Shug"
+description: "Delicious with cream cheese and crackers!"
+categories: ["Preserve", "Vegetarian"]
+image: "/images/jam.png"
+---
+
+::: {.recipe-meta}
+**Serves:** 4\
+**Prep time:** 5 minutes\
+**Cook time:** 15 minutes
+
+[Preserve]{.badge .badge-preserve} [Vegetarian]{.badge .badge-vegetarian}
+:::
+
+*Delicious with cream cheese and crackers!*
+
+## Ingredients
+
+- 1 red bell pepper
+- 1 green bell pepper
+- 10 jalapeños
+- 1½ cups white vinegar
+- ½ tsp salt
+- 6 cups sugar
+- 1 pouch liquid fruit pectin
+
+## Instructions
+
+1. In food processor, finely chop the peppers.
+2. Place peppers in large pot with vinegar, salt, and sugar.
+3. Boil for 10 minutes, stirring often (be careful…it will boil over QUICK!).
+4. Add pectin pouch and boil 1 more minute.
+5. Fill canning jars.
+6. Add to boiling hot water bath for 10 minutes.
+7. Wait a day or so for jelly to set.

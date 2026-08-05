@@ -1,0 +1,46 @@
+---
+title: "Spaghetti Sauce"
+author: "Mimi"
+description: "Copied straight from Italy."
+categories: ["Sauce"]
+image: "/images/jam.png"
+---
+
+::: {.recipe-meta}
+**Serves:** 8\
+**Prep time:** 10 minutes\
+**Cook time:** 30 minutes
+
+[Sauce]{.badge .badge-sauce}
+:::
+
+*Copied straight from Italy.*
+
+## Ingredients
+
+- 1 tbsp olive oil
+- 1 lb Italian sausage
+- ½ cup red wine
+- 1 onion (diced)
+- 2 cloves garlic (minced)
+- 1 can fire roasted tomatoes
+- 2 cans stewed tomatoes w/basil
+- 1 cup tomato paste w/garlic
+- salt (to taste)
+- black pepper (to taste)
+- pasta water
+
+## Instructions
+
+*It helps to have pasta water made ahead. Otherwise just use regular water.*
+
+1. Heat the olive oil on medium-high heat and add the Italian sausage.
+2. Cook until browned and a layer of fond has formed in the pan.
+3. Remove the meat and add in the onion.
+4. Sauté the onions until translucent.
+5. Add the garlic and continue to sauté for another 30 seconds.
+6. De-glaze the pan with the red wine. Simmer until slightly reduced.
+7. Add in the tomato ingredients and season with salt and pepper.
+8. Add back in the cooked italian sausage.
+9. Simmer for at least 20 minutes.
+10. Adjust the consistency with reserved pasta water.

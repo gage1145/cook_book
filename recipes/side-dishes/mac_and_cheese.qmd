@@ -1,0 +1,46 @@
+---
+title: "Macaroni & Cheese"
+author: "Gran"
+description: "This is just a little bit better than Kraft."
+categories: ["Side", "Vegetarian"]
+image: "/images/side.png"
+---
+
+::: {.recipe-meta}
+**Serves:** 6\
+**Prep time:** 10 minutes\
+**Cook time:** 1 hour
+
+[Side]{.badge .badge-side} [Vegetarian]{.badge .badge-vegetarian}
+:::
+
+*This is just a little bit better than Kraft.*
+
+## Ingredients
+
+- 1 package elbow macaroni
+- ¼ cup butter
+- ¼ cup all-purpose flour
+- 2 cups milk
+- 1 tsp salt
+- 2 cups shredded cheddar
+- 1 egg (beaten)
+- paprika
+
+## Instructions
+
+*Preheat the oven to 350°F. Bring water to boil beforehand.*
+
+1. Cook the macaroni according the the package directions, omitting salt.
+2. Drain the pasta completely.
+3. Melt the butter in a heavy saucepan over low heat.
+4. Add flour, stirring until smooth.
+5. Cook for 1 minute, stirring constantly.
+6. Gradually add the milk, cook over medium heat, stirring constantly until thickened and bubbly.
+7. Stir in the salt and cheese until the cheese melts.
+8. Gradually stir about ¼ of hot mixture into the egg.
+9. Add the egg mixture back into the cheese mixture, stirring constantly.
+10. Stir the macaroni into the cheese sauce.
+11. Pour into a lightly greased 1¾ quart baking dish.
+12. Sprinkle with paprika.
+13. Bake for 35 minutes.

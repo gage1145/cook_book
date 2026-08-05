@@ -1,0 +1,30 @@
+---
+title: "Plum Preserves"
+author: "Shug"
+description: "For when your plum tired of life."
+categories: ["Preserve", "Vegetarian"]
+image: "/images/jam.png"
+---
+
+::: {.recipe-meta}
+**Serves:** 4\
+**Prep time:** 5 minutes\
+**Cook time:** 30 minutes
+
+[Preserve]{.badge .badge-preserve} [Vegetarian]{.badge .badge-vegetarian}
+:::
+
+*For when your plum tired of life.*
+
+## Ingredients
+
+- 8 cups plums (pitted/cut)
+- 4 cups sugar
+
+## Instructions
+
+1. Put plums and sugar in the instant pot.
+2. Sauté for on medium-high for 3 minutes.
+3. Pressure cook on high for 1 minute.
+4. Slow release for 10 minutes, then quick release.
+5. Mash and stir on the sauté setting until thick but pourable (stirring every 5 minutes).

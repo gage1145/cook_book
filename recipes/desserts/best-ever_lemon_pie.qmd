@@ -1,0 +1,41 @@
+---
+title: "Best-Ever Lemon Pie"
+author: "Gran"
+description: "It really is the best ever."
+categories: ["Dessert", "Vegetarian"]
+image: "/images/dessert.png"
+---
+
+::: {.recipe-meta}
+**Serves:** 8–10\
+**Prep time:** 15 minutes\
+**Cook time:** 30–40 minutes
+
+[Dessert]{.badge .badge-dessert} [Vegetarian]{.badge .badge-vegetarian}
+:::
+
+*It really is the best ever.*
+
+## Ingredients
+
+- 1 baked 9″ pie shell
+- 1¼ cups sugar
+- 6 tbsp cornstarch
+- 2 cups water
+- ⅓ cup lemon juice
+- 3 eggs (separated)
+- 3 tbsp butter
+- 1½ tsp lemon extract
+- 2 tsp vinegar
+
+## Instructions
+
+*Preheat the oven to 350°F or use a blowtorch. Top with Never-Fail Meringue.*
+
+1. Mix the sugar and cornstarch together in a double boiler, then add the water.
+2. Combine the egg yolks and lemon juice and beat until smooth.
+3. Slowly add to the rest of the mixture, making sure not to curdle the eggs.
+4. Cook until thick over boiling water for 25 minutes.
+5. Add the lemon extract, butter, and vinegar and stir thoroughly.
+6. Pour into a deep, 9″ pie shell and let cool to room temperature.
+7. Cover with meringue and brown in the oven or with a blowtorch.

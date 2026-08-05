@@ -1,0 +1,45 @@
+---
+title: "Huevos Rancheros"
+author: "Papa"
+description: "It's not Christmas if Papa doesn't make these!"
+categories: ["Breakfast", "Vegetarian"]
+image: "/images/breakfast.png"
+---
+
+::: {.recipe-meta}
+**Serves:** 6–8\
+**Prep time:** 10 minutes\
+**Cook time:** 15 minutes
+
+[Breakfast]{.badge .badge-breakfast} [Vegetarian]{.badge .badge-vegetarian}
+:::
+
+*It's not Christmas if Papa doesn't make these!*
+
+## Ingredients
+
+### Ranchero sauce
+
+- 1 tbsp vegetable oil
+- ¼ onion (minced)
+- 1 clove garlic (minced)
+- 2 cans tomato sauce (8 oz)
+- 1 tbsp parsley
+- 1 tbsp chili powder
+- ¼ tsp salt
+- ⅛ tsp black pepper
+- vegetable oil
+- 8 corn tortillas
+- 8 eggs
+- 1 avocado (optional)
+
+## Instructions
+
+*Heat the frying oil for the tortillas and eggs ahead of time.*
+
+1. Heat the oil for the sauce until shimmering.
+2. Add the onion and garlic until tender.
+3. Add the tomato sauce and the seasonings and simmer for >10 minutes.
+4. Fry the tortillas for 30 seconds on each side. Set aside on a paper towel.
+5. Using the same pan, fry the eggs to desired tenderness. Over-easy-medium is ideal.
+6. On a plate, add the tortilla, then egg, and spoon as much sauce as you desire on top. Serve with sliced avocado.

@@ -1,0 +1,47 @@
+---
+title: "Apple Pie"
+author: "Gran"
+description: "A is for apple…America's first choice in pie."
+categories: ["Dessert", "Vegetarian"]
+image: "/images/dessert.png"
+---
+
+::: {.recipe-meta}
+**Serves:** 8–10\
+**Prep time:** 15 minutes\
+**Cook time:** 1 hour
+
+[Dessert]{.badge .badge-dessert} [Vegetarian]{.badge .badge-vegetarian}
+:::
+
+*A is for apple…America's first choice in pie.*
+
+## Ingredients
+
+### For 9″ pie
+
+- ¾–1 cup sugar
+- 1 tsp cinnamon or nutmeg
+- 6–7 cups apples (sliced, pared)
+- 1½ tbsp butter (melted)
+
+### For 8″ pie
+
+- ½–¾ cup sugar
+- ¾ tsp cinnamon or nutmeg
+- 4–5 cups apples (sliced, pared)
+- 1 tbsp butter (melted)
+
+## Instructions
+
+*Preheat the oven to 425°F.*
+
+1. Mix the sugar and cinnamon/nutmeg.
+2. Mix lightly through the apples.
+3. Heat up in pastry-lined pie pan.
+4. Dot with butter.
+5. Cover with top crust which has slits cut in it.
+6. Seal and flute.
+7. Cover edge with a strip of aluminum foil to prevent excessive browning.
+8. Bake 50–60 minutes, or until crust is nicely browned and apples are cooked through (test with a fork).
+9. Serve warm or cold with a heaping scoop of vanilla ice cream.

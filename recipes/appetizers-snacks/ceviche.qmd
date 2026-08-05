@@ -1,0 +1,37 @@
+---
+title: "Shrimp Ceviche"
+author: "Boss"
+description: "Fresh, light, and bursting with flavor."
+categories: ["Appetizer"]
+image: "/images/apps.png"
+---
+
+::: {.recipe-meta}
+**Serves:** 8\
+**Prep time:** 10 minutes
+
+[Appetizer]{.badge .badge-apps}
+:::
+
+*Fresh, light, and bursting with flavor.*
+
+## Ingredients
+
+- 1–2 cups popcorn shrimp (frozen)
+- ½ cup onion (diced)
+- cilantro (chopped)
+- 1 lemon (juice)
+- 1 avocado (diced)
+- ½ tomato (diced)
+- 1–2 tsp apple cider vinegar
+- 1–2 cups spicy V8
+- garlic salt (to taste)
+- paprika (to taste)
+- cayenne (to taste)
+- cumin (to taste)
+- black pepper (to taste)
+
+## Instructions
+
+1. Mix all ingredients together and chill.
+2. Best if marinated overnight.

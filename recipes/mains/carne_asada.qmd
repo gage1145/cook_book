@@ -1,0 +1,43 @@
+---
+title: "Carne Asada"
+author: "Gage"
+description: "Throw these on a quesadilla, and you'll be in heaven."
+categories: ["Main"]
+image: "/images/main.png"
+---
+
+::: {.recipe-meta}
+**Serves:** 4\
+**Prep time:** 20 minutes\
+**Cook time:** 10–15 minutes
+
+[Main]{.badge .badge-main}
+:::
+
+*Throw these on a quesadilla, and you'll be in heaven.*
+
+## Ingredients
+
+- 2 lbs skirt steak
+- olive oil (to coat the steak)
+- 2 tbsp soy sauce
+- 1 orange (juice and zest)
+- 2 limes (juice and zest)
+- 6 cloves garlic (crushed)
+- 1 handful of cilantro (chopped)
+- ⅔ tbsp chili powder
+- 1 tbsp garlic powder
+- 2 tsp cumin
+- 1 heavy pinch oregano
+- ⅔ tbsp kosher salt
+
+## Instructions
+
+*A flame grill is ideal, but a ripping hot flat iron will also work.*
+
+1. In a bowl, add the skirt steak, and coat with olive oil.
+2. Add the soy sauce, citrus, garlic, cilantro, and seasonings, and mix together to fully coat the steak.
+3. Marinate in the refrigerator for >1 hour.
+4. Add the steaks to the grill, and allow each side to get some char marks ($~$5 minutes on each side).
+5. Remove the steaks from the grill and let rest for >5 minutes.
+6. Cut the steaks against the grain, and serve.

@@ -1,0 +1,41 @@
+---
+title: "50 Yard Line Blueberry Muffins"
+author: "Shug"
+description: "Skip the bakery and make these yourself."
+categories: ["Breakfast", "Vegetarian"]
+image: "/images/breakfast.png"
+---
+
+::: {.recipe-meta}
+**Serves:** 8\
+**Prep time:** 15 minutes\
+**Cook time:** 20 minutes
+
+[Breakfast]{.badge .badge-breakfast} [Vegetarian]{.badge .badge-vegetarian}
+:::
+
+*Skip the bakery and make these yourself.*
+
+## Ingredients
+
+- 1 stick butter (melted)
+- ½ cup Mazola oil
+- 2 eggs
+- 1 tbsp Butavan
+- 1 can blueberries (drained, save juice)
+- 1¾ cups sugar
+- 3 cups flour
+- 1 cup buttermilk
+- 1 tbsp baking powder
+- 1 tsp baking soda
+
+## Instructions
+
+*Preheat the oven to 400°F*
+
+1. Mix the flour, baking powder, and baking soda together in a large bowl.
+2. In a stand mixer equipped with the whisk attachment, mix the butter, oil, sugar, and eggs.
+3. Slowly add in the dry ingredients and mix until incorporated.
+4. Add Butavan, buttermilk, blueberries, and ¼ cup blueberry juice.
+5. Spray muffin pan and fill with the batter.
+6. Bake for 18–20 minutes.

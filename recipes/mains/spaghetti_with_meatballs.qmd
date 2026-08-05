@@ -1,0 +1,46 @@
+---
+title: "Spaghetti *with* Meatballs"
+author: "Gran"
+description: "It's different from the other recipe. I swear!"
+categories: ["Main"]
+image: "/images/main.png"
+---
+
+::: {.recipe-meta}
+**Serves:** 4\
+**Prep time:** 30 minutes\
+**Cook time:** 40 minutes
+
+[Main]{.badge .badge-main}
+:::
+
+*It's different from the other recipe. I swear!*
+
+## Ingredients
+
+- ½ cup onion (chopped)
+- 2 tbsp butter (melted)
+- 1 can tomato paste (6 oz)
+- 1 tbsp chopped fresh parsley
+- ¼ tsp black pepper
+- dash of ground oregano
+- 1 lb ground beef
+- 2 tbsp onion (grated)
+- ½ tsp salt
+- ¼ tsp pepper
+- 2 tbsp vegetable oil
+- spaghetti
+
+## Instructions
+
+*Prepare the meatballs before making the sauce.*
+
+1. Sauté the chopped onion in the butter in a large skillet.
+2. Add tomatoes, parsley, black pepper, and oregano.
+3. Cook over medium heat for 20 minutes, stirring occasionally.
+4. Combine the ground beef, grated onion, salt, and black pepper.
+5. Shape into 1½″ meatballs.
+6. Cook in oil over medium heat until no longer pink; drain.
+7. Add meatballs to the sauce.
+8. Cook over low heat for 15 minutes.
+9. Serve sauce over spaghetti.

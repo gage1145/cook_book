@@ -1,0 +1,47 @@
+---
+title: "Spaghetti-Stuffed Sandwiches"
+author: "Jacy"
+description: "As delicious as it is unhinged."
+categories: ["Main"]
+image: "/images/main.png"
+---
+
+::: {.recipe-meta}
+**Serves:** 4\
+**Prep time:** 10 minutes\
+**Cook time:** 30 minutes
+
+[Main]{.badge .badge-main}
+:::
+
+*As delicious as it is unhinged.*
+
+## Ingredients
+
+- 1 pound ground beef
+- 1 can tomato sauce
+- 2½ cups beef broth
+- 16 oz spaghetti
+- Italian loaf bread
+- ¼ cup butter
+- ½ tbsp minced garlic (for compound butter)
+- 1 tbsp minced garlic (for sauce)
+- garlic salt
+- black pepper
+- Italian seasoning
+
+## Instructions
+
+*Preheat the oven to a broil.*
+
+1. Cut the ends off of the Italian loaf bread and hollow them out.
+2. Melt the butter, and add ½ tbsp of minced garlic, italian seasoning, and salt and pepper to the melted butter.
+3. Use a brush to spread the butter mixture on the outside of the hollowed out Italian loaf, and set aside.
+4. Brown the ground beef in a pot on high heat.
+5. Add the tomato sauce, beef broth, 1 tbsp minced garlic, and seasonings, and stir.
+6. Add the spaghetti, and cover the pot.
+7. Cook on a simmer until spaghetti is done.
+8. Stir every now and then to ensure it doesn't stick.
+9. Break up the pieces of spaghetti when you stir.
+10. Put your Italian loaves under the broiler, cut-side-up, to toast them.
+11. Stuff the hollowed out loafs with the spaghetti.

@@ -1,0 +1,35 @@
+---
+title: "Chicken Tacos"
+author: "Shug"
+description: "No need to stress yourself out with these other fancy recipes."
+categories: ["Main"]
+image: "/images/main.png"
+---
+
+::: {.recipe-meta}
+**Serves:** 4\
+**Prep time:** 5 minutes\
+**Cook time:** 4–6 hours
+
+[Main]{.badge .badge-main}
+:::
+
+*No need to stress yourself out with these other fancy recipes.*
+
+## Ingredients
+
+- 4 chicken breasts
+- 1 chicken taco seasoning packet
+- 1 jar Kylito's salsa
+- 1 can corn, drained (optional)
+- 2 small cans green chiles (optional)
+
+## Instructions
+
+*Feel free to substitute with pre-cooked chicken.*
+
+1. Place chicken in a crock-pot.
+2. Sprinkle chicken taco seasoning packet over all the chicken.
+3. Pour in salsa, corn, and green chiles.
+4. Cook on high for 4 hours, or low for 6 hours.
+5. Shred and stir. Serve with tortillas.

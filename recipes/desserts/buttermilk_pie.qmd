@@ -1,0 +1,39 @@
+---
+title: "Buttermilk Pie"
+author: "Gran"
+description: "Just because it was devised in the Depression doesn't mean it isn't delicious!"
+categories: ["Dessert", "Vegetarian"]
+image: "/images/dessert.png"
+---
+
+::: {.recipe-meta}
+**Serves:** 8–10\
+**Prep time:** 15 minutes\
+**Cook time:** 45 minutes
+
+[Dessert]{.badge .badge-dessert} [Vegetarian]{.badge .badge-vegetarian}
+:::
+
+*Just because it was devised in the Depression doesn't mean it isn't delicious!*
+
+## Ingredients
+
+- 3 eggs
+- 1½ cups sugar
+- 1 tbsp flour
+- 6 tsp butter (melted)
+- 1 tsp lemon extract
+- ½ cup buttermilk
+- dash of salt
+- ground cinnamon
+- ground nutmeg
+
+## Instructions
+
+*Preheat the oven to 350°F.*
+
+1. Beat the eggs and add the sugar, flour, butter, salt, and lemon extract.
+2. Add the buttermilk to the mixture and mix.
+3. Pour the mixture into an uncooked pie shell.
+4. Dust the top of the pie with cinnamon and nutmeg.
+5. Bake for 45 minutes.

@@ -1,60 +1,77 @@
 # The Family Cookbook
 
+A Quarto website. The original LaTeX book (`latex_src/`) is archived and no longer the primary workflow.
+
 ## Recipe Organization
-*   Recipes should be saved as their own $\TeX$ files.
-*   Save each file in the recipes/ directory.
+*   Recipes are saved as their own `.qmd` files.
+*   Save each file in `recipes/<category>/`, where `<category>` is one of the existing folders (`breads-baked-goods`, `appetizers-snacks`, `sauces-jams-canned-goods`, `breakfast`, `side-dishes`, `soups`, `mains`, `desserts`) or a new one if it doesn't fit.
+*   The `recipes.qmd` listing page picks up every `.qmd` under `recipes/` automatically — no need to register new recipes anywhere else.
 
 ### Example Recipe File
-``` LaTeX
-% Apple Pie
+```markdown
+---
+title: "Apple Pie"
+author: "Gran"
+description: "A is for apple…America's first choice in pie."
+categories: ["Dessert", "Vegetarian"]
+image: "/images/dessert.png"
+---
 
-% Required arguments are the recipe name and original author.
-% Optionally include a brief description. 
-\recipe[A is for apple; America's first choice in pie.]{Apple Pie}{Gran}
+::: {.recipe-meta}
+**Serves:** 8–10\
+**Prep time:** 15 minutes\
+**Cook time:** 1 hour
 
-% Number of servings.
-\serves{8--10}
+[Dessert]{.badge .badge-dessert} [Vegetarian]{.badge .badge-vegetarian}
+:::
 
-% Prep and cook time.
-\preptime{15 minutes}
-\cooktime{1 hour}
+*A is for apple…America's first choice in pie.*
 
-% Optional functions for more description to include.
-% See cookbook.cls for available args.
-\dishtype{\dessert}
-\dishother{\vegetarian}
+## Ingredients
 
-% Ingredient section. \ingredients function is optional if subheadings are needed.
-\begin{ingreds}
-    \ingredients[For 9'' pie]
-        $\frac{3}{4}$--1 cup sugar
-        1 tsp cinnamon or nutmeg
-        6--7 cups apples (sliced, pared)
-        1$\frac{1}{2}$ tbsp butter (melted)
-    \ingredients[For 8'' pie]
-        $\frac{1}{2}$--$\frac{3}{4}$ cup sugar
-        $\frac{3}{4}$ tsp cinnamon or nutmeg
-        4--5 cups apples (sliced, pared)
-        1 tbsp butter (melted)
-\end{ingreds}
+### For 9″ pie
 
-% Protocol section. Each step must be separated by a paragraph.
-% This is done with \par or a double enter.
-\begin{method}[Preheat the oven to \temp{425}.]
-    Mix the sugar and cinnamon/nutmeg.\par
-    Mix lightly through the apples.\par
-    Heat up in pastry-lined pie pan.\par
-    Dot with butter.\par
-    Cover with top crust which has slits cut in it.\par
-    Seal and flute.\par
-    Cover edge with a strip of aluminum foil to prevend excessive browning.\par
-    Bake 50--60 minutes, or until crust is nicely browned and apples are cooked through (test with a fork).\par
-    Serve warm or cold with a heaping scoop of vanilla ice cream.    
-\end{method}
+- ¾–1 cup sugar
+- 1 tsp cinnamon or nutmeg
+- 6–7 cups apples (sliced, pared)
+- 1½ tbsp butter (melted)
+
+### For 8″ pie
+
+- ½–¾ cup sugar
+- ¾ tsp cinnamon or nutmeg
+- 4–5 cups apples (sliced, pared)
+- 1 tbsp butter (melted)
+
+## Instructions
+
+*Preheat the oven to 425°F.*
+
+1. Mix the sugar and cinnamon/nutmeg.
+2. Mix lightly through the apples.
+3. Heat up in pastry-lined pie pan.
+4. Dot with butter.
+5. Cover with top crust which has slits cut in it.
+6. Seal and flute.
+7. Cover edge with a strip of aluminum foil to prevent excessive browning.
+8. Bake 50–60 minutes, or until crust is nicely browned and apples are cooked through (test with a fork).
+9. Serve warm or cold with a heaping scoop of vanilla ice cream.
 ```
 
-## Adding recipes to the main document
-Within the main body of the document, add the following line which will refer to the recipe file saved in the /recipes/ directory.
-``` LaTeX
-\input{recipes/apple_pie.tex}
+Notes:
+*   `categories` drives both the badge colors and the filter list on the Recipes page. Available badge classes (`badge-<slug>`) are defined in `styles.css`: dish types (`bread`, `apps`, `sauce`, `preserve`, `pickle`, `breakfast`, `side`, `soup`, `main`, `dessert`) and dish traits (`vegetarian`, `freeze`, `makeahead`).
+*   `image` is shown as the card thumbnail on the Recipes listing page; reuse one of the existing section images in `images/` unless the recipe has its own photo.
+*   Ingredient/instruction subheadings (`### Heading`) are optional — omit them for a flat list.
+*   Numbered instruction steps can use explicit start numbers (e.g. `4. ...`) to keep numbering continuous across subheadings.
+
+## Rendering the site
 ```
+quarto preview
+```
+or
+```
+quarto render
+```
+
+## Legacy LaTeX build
+The original LaTeX sources are preserved under `latex_src/` for reference and can still be built into a PDF with a standard LaTeX toolchain (`latexmk latex_src/cook_book.tex`), but they are not kept in sync with `recipes/` going forward. `scripts/convert_recipes.py` was the one-time script used to migrate `latex_src/recipes/*.tex` into `recipes/*.qmd`.

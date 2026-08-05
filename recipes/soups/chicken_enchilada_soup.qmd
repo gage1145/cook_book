@@ -1,0 +1,46 @@
+---
+title: "Chicken Enchilada Soup"
+author: "Shug"
+description: "This just might cure your cold."
+categories: ["Soup"]
+image: "/images/soup.png"
+---
+
+::: {.recipe-meta}
+**Serves:** 4\
+**Prep time:** 15 minutes\
+**Cook time:** 1 minutes
+
+[Soup]{.badge .badge-soup}
+:::
+
+*This just might cure your cold.*
+
+## Ingredients
+
+- 2 tbsp olive oil
+- 1 small onion (diced)
+- 2 stalks celery (diced)
+- 1 garlic clove (sliced)
+- 1 can green chilis (4 oz)
+- 1 can Rotel tomatoes
+- 1 can beef broth (16 oz)
+- 1 can chicken broth (16 oz)
+- 1 can cream of chicken soup
+- 1½ cups water
+- 1 tbsp A1 steak sauce
+- ¼ tsp pepper
+- 2 tbsp Worcestershire sauce
+- 1 tbsp cumin
+- 1 tbsp chili powder
+- 2–3 cups cooked white rice
+- 1 rotisserie chicken (pulled)
+
+## Instructions
+
+*For cooked rice, see the recipe in the side dish section.*
+
+1. In a large pot, sauté the onion and garlic in olive oil.
+2. Add all of the ingredients to the pot, excluding the rice.
+3. Bring to a boil, then lower the heat and simmer for 1 hour.
+4. Add the cooked rice, and serve.

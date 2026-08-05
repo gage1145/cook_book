@@ -1,0 +1,43 @@
+---
+title: "Chili"
+author: "Boss"
+description: "Make this every fall."
+categories: ["Main"]
+image: "/images/main.png"
+---
+
+::: {.recipe-meta}
+**Serves:** 4\
+**Prep time:** 5 minutes\
+**Cook time:** 2–4 hours
+
+[Main]{.badge .badge-main}
+:::
+
+*Make this every fall.*
+
+## Ingredients
+
+- 1 lb ground beef
+- 1 onion
+- 3 garlic cloves
+- 2 jalapenos
+- 1 can stewed tomatoes (16 oz.)
+- 1 can tomato sauce (16 oz.)
+- 3 tbsp chili powder (at least)
+- 1 tbsp pepper
+- 1 tbsp cumin
+- 1 tbsp garlic salt
+- 1 tsp paprika
+- ¼ tsp coriander
+- 2 tsp rosemary
+- 2 cups water
+
+## Instructions
+
+1. Saute onion, garlic, and jalapenos with olive oil.
+2. In a separate pan, brown the meat.
+3. Once browned, drain the grease, and add to the sauteed vegetables.
+4. Add all other ingredients.
+5. Simmer for 2–4 hours.
+6. Seasoning does not have to be exact, just add to your liking.

@@ -1,0 +1,63 @@
+---
+title: "Strawberry Cheesecake"
+author: "Mimi"
+description: "The best way to improve a cheesecake is to make it a strawberry cheesecake."
+categories: ["Dessert", "Vegetarian"]
+image: "/images/dessert.png"
+---
+
+::: {.recipe-meta}
+**Serves:** 8–12\
+**Prep time:** 15 minutes\
+**Cook time:** 45 minutes
+
+[Dessert]{.badge .badge-dessert} [Vegetarian]{.badge .badge-vegetarian}
+:::
+
+*The best way to improve a cheesecake is to make it a strawberry cheesecake.*
+
+## Ingredients
+
+### Cheesecake
+
+- 4 pkg cream cheese (softened)
+- ¾ cups sugar
+- 3 eggs
+- ½ tsp vanilla extract
+- 1 unbaked graham cracker pie crust (9″)
+
+### Sour Cream Topping
+
+- 1 cup sour cream
+- ½ cup sugar
+- ½ tsp vanilla extract
+
+### Strawberry Topping
+
+- 1 pkg frozen strawberries
+- 2 tbsp cornstarch
+- ½ cup sugar
+
+## Instructions
+
+*Preheat the oven to 350°F.*
+
+### Cheesecake
+
+1. Combine the cream cheese, vanilla, and sugar and beat until smooth.
+2. Add the eggs, one at a time, beating well after each.
+3. Pour into the graham cracker crust.
+4. Bake for 30 minutes. Cool for 10 minutes before adding the sour cream topping.
+
+### Sour Cream Topping
+
+5. While the cheesecake bakes, mix the ingredients for the sour cream topping together until completely homogenous.
+6. Pour on top of the cheesecake.
+7. Bake for another 15 minutes.
+
+### Strawberry Topping
+
+8. Mix all the ingredients together until homogenous.
+9. Cook in the microwave or on the stove until thickened.
+10. Spread the topping onto the cheesecake.
+11. Chill completely before serving.

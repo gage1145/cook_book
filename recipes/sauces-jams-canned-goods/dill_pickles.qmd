@@ -1,0 +1,36 @@
+---
+title: "Dill Pickles"
+author: "Gage"
+description: "You can put them on a sandwich, but I know you'll just eat them out of the jar."
+categories: ["Pickle", "Vegetarian"]
+image: "/images/jam.png"
+---
+
+::: {.recipe-meta}
+**Serves:** 8\
+**Prep time:** 15 minutes
+
+[Pickle]{.badge .badge-pickle} [Vegetarian]{.badge .badge-vegetarian}
+:::
+
+*You can put them on a sandwich, but I know you'll just eat them out of the jar.*
+
+## Ingredients
+
+- cucumber (sliced or speared)
+- 1 cup vinegar
+- 1 cup water
+- 2 tbsp sugar
+- 1½ tbsp kosher salt
+- 2 garlic bulbs (crushed)
+- 1 bunch dill
+- black pepper (to taste)
+- crushed red pepper (optional)
+
+## Instructions
+
+1. Cut the cucumber to your desired shape.
+2. Place the cucumber, garlic, dill, black pepper, and red pepper into a mason jar.
+3. Boil the water, vinegar, and salt.
+4. Pour the boiling liquid over the contents in the jar.
+5. Seal the jar, and allow to cool before enjoying.

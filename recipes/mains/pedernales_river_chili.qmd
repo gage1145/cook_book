@@ -1,0 +1,38 @@
+---
+title: "Pedernales River Chili"
+author: "Gran"
+description: "Apparently a favorite of Lyndon B. Johnson."
+categories: ["Main"]
+image: "/images/main.png"
+---
+
+::: {.recipe-meta}
+**Serves:** 8\
+**Prep time:** 10 minutes\
+**Cook time:** 1½ hours
+
+[Main]{.badge .badge-main}
+:::
+
+*Apparently a favorite of Lyndon B. Johnson.*
+
+## Ingredients
+
+- 4 lbs ground beef (chuck)
+- 1 large onion (chopped)
+- 2 cloves garlic (minced)
+- 1 tsp oregano
+- 1 tsp cumin
+- 6 tsp chili powder (more if needed)
+- 2 cans whole tomatoes
+- salt to taste
+- 2 cups hot water
+
+## Instructions
+
+1. Put the meat, onion, and garlic in a large, heavy boiler or skillet.
+2. Sear until lightly colored.
+3. Add oregano, cumin, chili powder, tomatoes, salt to taste, and hot water.
+4. Bring to a boil, then lower heat and simmer for 1 hour.
+5. As fat renders, skim with a ladle.
+6. Serve with a side of cornbread.

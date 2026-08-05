@@ -1,0 +1,39 @@
+---
+title: "Lemon Garlic Shrimp Pasta"
+author: "Boss"
+description: "Lemon, garlic, shrimp? Name a better combo!"
+categories: ["Main"]
+image: "/images/main.png"
+---
+
+::: {.recipe-meta}
+**Serves:** 4\
+**Prep time:** 5–15 minutes\
+**Cook time:** 15 minutes
+
+[Main]{.badge .badge-main}
+:::
+
+*Lemon, garlic, shrimp? Name a better combo!*
+
+## Ingredients
+
+- 1 lb shrimp
+- 1 lemon (juice)
+- 1 tbsp minced garlic (or 4 garlic cloves)
+- 2 tbsp butter (for sautéing)
+- 4 tbsp butter (for sauce)
+- 2 tbsp water
+- pasta of choice
+- salt (to taste)
+- black pepper (to taste)
+
+## Instructions
+
+1. Melt 2 tbsp butter in a large skillet on medium-high heat.
+2. Add the garlic and cook for about 1 minute.
+3. Fry the shrimp, cooking for 2 minutes on each side.
+4. Add salt and pepper to taste and stir occasionally.
+5. Add in the remaining butter, lemon juice, and water.
+6. Cook until the butter melts and the shrimp have cooked fully.
+7. Take off heat, add more salt and pepper if needed, and serve on your preferred pasta.

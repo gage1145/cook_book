@@ -1,0 +1,35 @@
+---
+title: "Guacamole"
+author: "Boss"
+description: "Made at every family get-together."
+categories: ["Appetizer", "Vegetarian"]
+image: "/images/apps.png"
+---
+
+::: {.recipe-meta}
+**Serves:** 4\
+**Prep time:** 15 minutes
+
+[Appetizer]{.badge .badge-apps} [Vegetarian]{.badge .badge-vegetarian}
+:::
+
+*Made at every family get-together.*
+
+## Ingredients
+
+- 4 Avocados
+- ⅓ onion
+- ½ jalapeno
+- ¼ cup cilantro
+- 1 tbsp mayo
+- 2 tsp vinegar
+- ½ lemon
+- garlic salt
+- pepper
+- tomatoes (optional)
+- stuffed olives (optional)
+- cucumbers (optional)
+
+## Instructions
+
+1. Mix and mash all the ingredients together.

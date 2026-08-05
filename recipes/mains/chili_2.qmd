@@ -1,0 +1,54 @@
+---
+title: "Chili 2.0"
+author: "Gage"
+description: "Gage's rendition on Boss' chili."
+categories: ["Main"]
+image: "/images/main.png"
+---
+
+::: {.recipe-meta}
+**Serves:** 4\
+**Prep time:** 5 minutes\
+**Cook time:** 2–4 hours
+
+[Main]{.badge .badge-main}
+:::
+
+*Gage's rendition on Boss' chili.*
+
+## Ingredients
+
+- 1 tbsp peanut oil
+- 1 lb ground beef
+- 1 lb breakfast sausage
+- 4 strips of bacon sliced
+- 1 onion finely diced
+- 3 garlic cloves crushed
+- 3 jalapeños finely diced
+- ¼ cup flour
+- ⅓ cup red wine (optional)
+- 1 large can crushed tomatoes
+- ≥3 tbsp chili powder
+- 1 tbsp pepper
+- 1 tbsp cumin
+- 1 tbsp garlic powder
+- 1 tsp paprika
+- ¼ tsp coriander
+- 2 tsp rosemary
+- Salt (to taste)
+- 2 cups water
+
+## Instructions
+
+1. In a large pot, add the oil and heat over high until shimmering.
+2. Add the bacon and cook until lightly browned.
+3. Add the beef and breakfast sausage.
+4. Cook over high until browned.
+5. Remove the meat and add the onions and jalapeños.
+6. Cook until translucent.
+7. Add the flour and thoroughly mix.
+8. Cook until lightly browned.
+9. Add the garlic, and continue to mix for another 30 sec.
+10. De-glaze with the wine or beef stock, then add the crushed tomatoes and all the spices.
+11. Mix thoroughly, and add water to desired thickness.
+12. Cover, reduce heat to low, and simmer for 2–4 hours.

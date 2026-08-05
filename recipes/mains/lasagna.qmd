@@ -1,0 +1,57 @@
+---
+title: "Lasagna"
+author: "Mimi"
+description: "The definition of Italian comfort food."
+categories: ["Main"]
+image: "/images/main.png"
+---
+
+::: {.recipe-meta}
+**Serves:** 8\
+**Prep time:** 15 minutes\
+**Cook time:** 45 minutes
+
+[Main]{.badge .badge-main}
+:::
+
+*The definition of Italian comfort food.*
+
+## Ingredients
+
+### Meat Sauce
+
+- 1 lb ground beef
+- 1 small onion (diced)
+- 1 tbsp minced garlic
+- 1 can mushrooms (diced)
+- 1 can tomato sauce
+- 1 can tomato paste
+- 1 tsp oregano/Italian spices
+- salt (to taste)
+- black pepper (to taste)
+
+### Cheese Mixture
+
+- 1 pack cheddar cheese (grated)
+- 1 pack Swiss cheese (grated)
+- 1 pack mozzarella (grated)
+- 1 carton ricotta cheese
+
+### Extra
+
+- parmesan (for topping)
+- lasagna noodles
+
+## Instructions
+
+*Preheat the oven to 350°F. Bring a large pot of water to boil if using traditional lasagna noodles.*
+
+1. Brown the meat with the onions, mushrooms, and garlic.
+2. Add the tomato sauce and tomato paste.
+3. Add the seasonings and mix completely.
+4. Mix all the cheeses together in a separate bowl.
+5. Boil the noodles following manufacturer's specifications.
+6. Add a layer of meat sauce, then noodles, then cheese. Repeat until complete.
+7. Add a generous layer of parmesan on top.
+8. Bake for 25 minutes.
+9. Broil for the last 5 minutes for a nice browned top crust.

@@ -1,0 +1,59 @@
+---
+title: "Western Burgers"
+author: "Shug"
+description: "These are a favorite from school cafeterias in the 70s–80s Created by a cafeteria worker named Emaline Anderson in Wichita Falls, TX."
+categories: ["Main"]
+image: "/images/main.png"
+---
+
+::: {.recipe-meta}
+**Serves:** 4\
+**Prep time:** 30 minutes\
+**Cook time:** 15 minutes
+
+[Main]{.badge .badge-main}
+:::
+
+*These are a favorite from school cafeterias in the 70s–80s Created by a cafeteria worker named Emaline Anderson in Wichita Falls, TX.*
+
+## Ingredients
+
+### Dough
+
+- 4 cups flour
+- 4 tbsp shortening
+- 1 tsp salt
+- 4 tbsp sugar
+- 1½–2 cups hot water
+- 3 (¼ oz) packages Quick Rise Yeast
+
+### Meat
+
+- 1–1½ lbs ground beef
+- ½ onion (chopped)
+- ¼ cup mustard
+- ½ cup mayonnaise
+- 1 cup cheese (American, velveeta, etc., NOT cheddar)
+- salt and black pepper (to taste)
+
+## Instructions
+
+*Preheat the oven to 350°F.*
+
+### Dough
+
+1. Mix four, salt, sugar, and yeast. Mix well.
+2. Add shortening and mix until crumbly.
+3. Add hot water a little at a time until a soft ball forms.
+4. While the dough is rising, make the meat mixture.
+
+### Burgers
+
+5. Brown meat over medium-high heat and drain.
+6. Add remaining ingredients and mix well.
+7. Roll dough into balls on lightly floured surface.
+8. Flatten dough (not too thin).
+9. Place ~⅓ cup of the meat in the middle of each flattened ball.
+10. Bring the dough up around the meat and pinch together.
+11. Turn over and flatten with hand.
+12. Place on an un-creased cookie sheet and bake until golden brown (about 12 minutes).

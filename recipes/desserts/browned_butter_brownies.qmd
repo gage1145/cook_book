@@ -1,0 +1,50 @@
+---
+title: "Browned Butter Brownies"
+author: "Gage"
+description: "It has coffee, so eat it for the energy."
+categories: ["Dessert", "Vegetarian"]
+image: "/images/dessert.png"
+---
+
+::: {.recipe-meta}
+**Serves:** 4\
+**Prep time:** 30 minutes\
+**Cook time:** 30 minutes
+
+[Dessert]{.badge .badge-dessert} [Vegetarian]{.badge .badge-vegetarian}
+:::
+
+*It has coffee, so eat it for the energy.*
+
+## Ingredients
+
+- 1½ sticks unsalted butter
+- 4 oz (113 grams) semisweet chocolate (chopped)
+- ½ cup (100 grams) sugar
+- ½ cup (100 grams) light brown sugar
+- 3 large eggs
+- 1 tsp vanilla extract
+- ½ cup (64 grams) all-purpose flour
+- ½ cup (43 grams) unsweetened cocoa powder
+- ½ teaspoon instant espresso powder
+- ½ teaspoon fine salt
+- 1 cup (170 grams) semisweet chocolate chips
+
+## Instructions
+
+*Preheat the oven to 350°F.*
+
+1. Grease a glass 8″ square pan.
+2. In a small saucepan set over medium low heat, melt the butter.
+3. Swirling the pan occasionally, continue to cook the butter, increasing the heat to medium. It should become foamy with audible crackling and popping noises.
+4. Once the crackling stops, continue to swirl the pan until the butter develops a nutty aroma and brown bits start to form at the bottom. Do not allow the bits to burn!
+5. Once the bits are amber in color, (~2–3 minutes after the popping stops) remove from heat and pour into a mixing bowl, scraping the brown bits into the bowl.
+6. Quickly add in the chopped chocolate and stir until melted.
+7. In the bowl of an electric mixer fitted with the whisk attachment, combine the sugar, brown sugar, eggs, and vanilla.
+8. Beat on high speed until completely thickened and fluffy in texture and lightened in color, ~8 minutes.
+9. On low speed, gradually pour in the butter/chocolate mixture.
+10. Using a rubber spatula, fold in the flour, cocoa, espresso, and salt until just combined.
+11. Fold in the chocolate chips.
+12. Pour into the prepared pan and smooth out with a spatula.
+13. Bake for 22–25 minutes, or until set but not overbaked.
+14. Let cool completely before slicing and serving.

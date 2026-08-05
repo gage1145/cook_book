@@ -1,0 +1,39 @@
+---
+title: "Banana Bread"
+author: "Shug"
+description: "This will make anyone's day batter."
+categories: ["Bread", "Vegetarian"]
+image: "/images/breads.png"
+---
+
+::: {.recipe-meta}
+**Serves:** 4\
+**Prep time:** 15 minutes\
+**Cook time:** 1 hour, 10 minutes
+
+[Bread]{.badge .badge-bread} [Vegetarian]{.badge .badge-vegetarian}
+:::
+
+*This will make anyone's day batter.*
+
+## Ingredients
+
+- 3 medium overripe bananas
+- 2 Large eggs
+- 1 cup buttermilk
+- 1 tsp vanilla
+- ½ cup vegetable oil
+- 1 cup sugar
+- 2½ cups flour
+- 1½ tsp baking powder
+- 1 tsp baking soda
+- 1 tsp salt
+
+## Instructions
+
+*Preheat oven to 350°F.*
+
+1. Grease a bread pan and set aside.
+2. Mix all wet ingredients.
+3. Mix in the dry ingredients.
+4. Bake for 1 hour and 10 minutes.

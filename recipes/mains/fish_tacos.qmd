@@ -1,0 +1,44 @@
+---
+title: "Catfish Tacos"
+author: "Boss"
+description: "You can use any type of white fish for this recipe, but catfish makes it more relatable."
+categories: ["Main"]
+image: "/images/main.png"
+---
+
+::: {.recipe-meta}
+**Serves:** 4\
+**Prep time:** 10 minutes\
+**Cook time:** 10 minutes
+
+[Main]{.badge .badge-main}
+:::
+
+*You can use any type of white fish for this recipe, but catfish makes it more relatable.*
+
+## Ingredients
+
+### Fish
+
+- 1 catfish filet
+- 1 tbsp butter
+- 1 tbsp olive oil
+- garlic salt (to taste)
+- black pepper (to taste)
+- cumin (to taste)
+- cayenne (to taste)
+- paprika (to taste)
+
+### Garnish
+
+- ¼ onion (diced)
+- 1 small tomato (diced)
+- fresh cilantro (chopped)
+
+## Instructions
+
+1. Season the catfish on both sides.
+2. Sear the catfish in olive oil over medium high heat, 4 minutes on each side.
+3. Mix in the butter and baste for 1 minute.
+4. Chop the catfish in the pan.
+5. Serve on a corn tortilla and garnish with onion, tomato, and cilantro.

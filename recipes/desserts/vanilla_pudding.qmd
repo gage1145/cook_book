@@ -1,0 +1,37 @@
+---
+title: "Vanilla Pudding"
+author: "Shug"
+description: "It's vanilla pudding!"
+categories: ["Dessert", "Vegetarian"]
+image: "/images/dessert.png"
+---
+
+::: {.recipe-meta}
+**Serves:** 4\
+**Prep time:** 10 minutes\
+**Cook time:** 15 minutes
+
+[Dessert]{.badge .badge-dessert} [Vegetarian]{.badge .badge-vegetarian}
+:::
+
+*It's vanilla pudding!*
+
+## Ingredients
+
+- ½ cup sugar
+- 2 tbsp cornstarch
+- ½ tsp salt
+- 2 cups milk
+- 2 large egg yolks (slightly beaten)
+- 2 tbsp butter (softened)
+- 2 tsp vanilla
+
+## Instructions
+
+1. In a 2-quart saucepan, mix the sugar, cornstarch, and salt.
+2. Gradually stir in the milk.
+3. Cook over medium heat, stirring constantly, until mixture thickens and boils.
+4. Boil and stir for 1 minute.
+5. Gradually stir ≥½ of the hot mixture into the egg yolks to temper them, then stir back into hot mixture in saucepan.
+6. Boil and stir for another minute.
+7. Remove from heat and stir in the butter and vanilla.

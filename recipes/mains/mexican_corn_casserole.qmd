@@ -1,0 +1,39 @@
+---
+title: "Mexican Corn Casserole"
+author: "Mimi"
+description: "Use spicier chilis depending on your mood."
+categories: ["Main", "Vegetarian"]
+image: "/images/main.png"
+---
+
+::: {.recipe-meta}
+**Serves:** 8\
+**Prep time:** 15 minutes\
+**Cook time:** 1 hour
+
+[Main]{.badge .badge-main} [Vegetarian]{.badge .badge-vegetarian}
+:::
+
+*Use spicier chilis depending on your mood.*
+
+## Ingredients
+
+- 4 eggs (beaten)
+- 2 cans cream corn
+- 1½ tsp garlic salt
+- 1 cup corn meal
+- 2 small cans mild chilis
+- ½ lb cheddar (shredded)
+- 1 tbsp oil
+- 1 tsp salt
+
+## Instructions
+
+*Preheat the oven to 350°F.*
+
+1. Mix the eggs, cream corn, oil, salt, garlic salt, and corn meal together.
+2. Pour half of the mixture into a greased casserole dish.
+3. Layer on the mild chilis and most of the cheddar.
+4. Pour the remaining mixture on top.
+5. Top with the remaining cheddar.
+6. Bake for 1 hour.

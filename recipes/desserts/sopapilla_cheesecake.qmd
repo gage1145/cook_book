@@ -1,0 +1,44 @@
+---
+title: "Sopapilla Cheesecake"
+author: "Shug"
+description: "The most addicting thing ever devised."
+categories: ["Dessert", "Vegetarian"]
+image: "/images/dessert.png"
+---
+
+::: {.recipe-meta}
+**Serves:** 4\
+**Prep time:** 30 minutes\
+**Cook time:** 1 hour
+
+[Dessert]{.badge .badge-dessert} [Vegetarian]{.badge .badge-vegetarian}
+:::
+
+*The most addicting thing ever devised.*
+
+## Ingredients
+
+- 2 packages cream cheese (softened)
+- 1¼ sticks butter (softened, divided)
+- 1½ cups sugar (divided)
+- 2 tsp vanilla (divided)
+- 2 packages Pillsbury® crescent rolls
+- ½ tsp ground cinnamon
+
+## Instructions
+
+*Preheat the oven to 350°F.*
+
+1. Grease a 13×9″ pan and set aside.
+2. Combine cream cheese and 4 tbsp butter in large bowl.
+3. Beat until mixture is creamy.
+4. Gradually beat in 1 cup of sugar and 1 tsp vanilla.
+5. Unroll the package of crescent rolls and lay in the prepared pan (do not separate the rolls).
+6. Stretch the dough to the edges of the pan and seal the perforations.
+7. Spread the cream cheese mixture evenly over the dough.
+8. Place the remaining package of crescent rolls on the top of the cream cheese mixture.
+9. Pinch the dough together at the perforations to seal.
+10. Melt the remaining 6 tbsp butter.
+11. Stir in the remaining sugar and vanilla as well as the cinnamon.
+12. Pour mixture evenly over dough.
+13. Bake for 30 minutes or until the cheesecake is slightly puffed and golden brown.

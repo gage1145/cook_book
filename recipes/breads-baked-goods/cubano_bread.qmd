@@ -1,0 +1,49 @@
+---
+title: "Cubano Bread"
+author: "Gage"
+description: "Perfect for making Cubano sandwiches."
+categories: ["Bread", "Vegetarian"]
+image: "/images/breads.png"
+---
+
+::: {.recipe-meta}
+**Serves:** 4\
+**Prep time:** 2 hours\
+**Cook time:** 35 minutes
+
+[Bread]{.badge .badge-bread} [Vegetarian]{.badge .badge-vegetarian}
+:::
+
+*Perfect for making Cubano sandwiches.*
+
+## Ingredients
+
+- 1¼ cups water (100°F)
+- 1 tbsp instant dry yeast
+- 3½ cups (500g) unbleached bread flour
+- 1 tbsp (13g) granulated sugar
+- 2 tsp (12g) fine sea salt
+- 2½ tbsp lard, solidified
+
+## Instructions
+
+*Preheat the oven to 400°F.*
+
+1. In a small bowl, stir together the warm water and yeast. Cover with plastic wrap and let sit for 10 min. The mixture should get slightly foamy, and the yeast should dissolve.
+2. In a stand mixer bowl, add the flour, sugar, and salt. Mix together thoroughly. With the dough hook attachment, start mixing on medium-low speed. Slowly add the warm yeast mixture and the lard. Mix until combined. Once a cohesive dough is formed, keep mixing for another 3 to 5 minutes, or until smooth.
+3. Shape the dough into a ball, and place in a greased bowl covered with greased plastic wrap. Let rise at room temp for 45 min to 1 hr, or until doubled in size.
+4. Punch down the dough to release the gas and place on a lightly floured surface. Divide the dough into 2 even pieces. Cover with a damp towel, and let them rest right where they are for 10 minutes.
+5. Flatten out 1 piece of dough into about a ½-inch thick rectangle, with the long edge ~10″ long.
+6. From the long edge, tightly roll the dough and close the seams at the bottom and sides.
+7. Carefully roll the log while applying pressure outward to slightly taper the ends. The log should be ~15″ long.
+8. Repeat with the other piece of dough.
+9. Place the loaves onto a parchment-lined baking sheet 4–6″ apart. Cover with another baking sheet.
+10. Let the dough proof for >30 minutes at room temperature.
+11. About 10 minutes before the dough is done proofing, bring a 10″ oven-proof skillet of water to a boil.
+12. Using a spray bottle, lightly spray the dough with water.
+13. Using a razor blade or an extremely sharp knife, score a shallow seam along the length of the loaves.
+14. Place the skillet of boiling water on the bottom rack of the oven.
+15. Place the baking sheet with the dough in the middle of the oven on a separate rack above the water.
+16. Spray the inside of the oven with a little water to generate steam.
+17. Let the bread steam for 8–10 minutes. Reduce the heat to 375°F, remove the skillet of water, and let the bread bake for another 20–22 minutes, or until lightly browned.
+18. Let cool completely on a wire rack. Slice and serve. Store on the counter loosely wrapped in a kitchen towel for up to 2 days and then in a resealable bag for 1 more day. Freeze in an airtight container for up to 2 months.

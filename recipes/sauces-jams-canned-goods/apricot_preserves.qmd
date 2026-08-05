@@ -1,0 +1,31 @@
+---
+title: "Apricot Preserves"
+author: "Shug"
+description: "Perfect pairing for white bread and peanut butter."
+categories: ["Preserve", "Vegetarian"]
+image: "/images/jam.png"
+---
+
+::: {.recipe-meta}
+**Serves:** 4\
+**Prep time:** 5 minutes\
+**Cook time:** 30 minutes
+
+[Preserve]{.badge .badge-preserve} [Vegetarian]{.badge .badge-vegetarian}
+:::
+
+*Perfect pairing for white bread and peanut butter.*
+
+## Ingredients
+
+- 8 cups apricots (pitted/cut)
+- 6 cups sugar
+- ¼ cup lemon juice
+
+## Instructions
+
+1. Put apricots and sugar in the instant pot.
+2. Sauté on medium-high for 3 minutes.
+3. Pressure cook on high for 1 minute.
+4. Slow release for 10 minutes, then quick release.
+5. Mash and stir on the sauté setting until thick but pourable (stirring every 5 minutes).

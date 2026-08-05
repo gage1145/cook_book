@@ -1,0 +1,38 @@
+---
+title: "Popcorn Balls"
+author: "Gran"
+description: "Make into interesting shapes for kiddies."
+categories: ["Dessert", "Vegetarian"]
+image: "/images/dessert.png"
+---
+
+::: {.recipe-meta}
+**Serves:** 12–15\
+**Prep time:** 15 minutes\
+**Cook time:** 10 minutes
+
+[Dessert]{.badge .badge-dessert} [Vegetarian]{.badge .badge-vegetarian}
+:::
+
+*Make into interesting shapes for kiddies.*
+
+## Ingredients
+
+- 7 cups popped corn
+- 1 cup sugar
+- ⅓ cup water
+- ⅓ cup corn syrup
+- 1 tsp salt
+- ¼ cup butter
+- 1 tsp vanilla extract
+
+## Instructions
+
+*Preheat the oven to 375°F*
+
+1. Put popped corn in a large bowl.
+2. Mix the sugar, water, syrup, salt, and butter in a saucepan.
+3. Cook to 250°F or until a few drops form a hard ball when dropped into cold water.
+4. Remove from heat and add in the vanilla.
+5. Pour in a thin stream over the popped corn while stirring constantly to mix well.
+6. Shape the mixture into balls or whatever shape you like.

@@ -1,0 +1,52 @@
+---
+title: "Chicken Orzo Soup"
+author: "Gage"
+description: "Why fuss with rice, if you can just use orzo?"
+categories: ["Soup"]
+image: "/images/soup.png"
+---
+
+::: {.recipe-meta}
+**Serves:** 4\
+**Prep time:** 20 minutes\
+**Cook time:** 45 minutes
+
+[Soup]{.badge .badge-soup}
+:::
+
+*Why fuss with rice, if you can just use orzo?*
+
+## Ingredients
+
+- 1 tbsp olive oil
+- 6 garlic cloves (minced)
+- 1 yellow onion (diced)
+- 2 carrots (thinly sliced)
+- 2 celery stalks (chopped)
+- 1 tbsp fresh ginger
+- 1 tsp cayenne
+- 1 tsp ground turmeric
+- 6 cups chicken broth
+- 1 lb chicken breast/thighs
+- 1 tsp chopped rosemary
+- 1 tsp chopped thyme
+- ½ tsp salt
+- black pepper (to taste)
+- 1 cup orzo pasta
+- ⅔ cup frozen peas
+
+## Instructions
+
+*Feel free to substitute with pre-cooked chicken.*
+
+1. Place a large dutch oven over medium high heat.
+2. Add the olive oil once the pot is ripping hot and add in the chicken making sure not to crowd the pot.
+3. Get a good sear on all sides of the chicken and save for later. There should be a nice fond in the pan at this point.
+4. Add in the onion, carrots and celery.
+5. Cook for a few minutes until the onion becomes translucent.
+6. Add in the ginger, garlic, and turmeric and sauté for 30 seconds.
+7. Add in chicken broth, chicken breast from earlier, and seasonings.
+8. Bring soup to a boil then reduce heat to low and simmer until chicken is fully cooked.
+9. Once chicken is cooked, remove and transfer to a cutting board to shred.
+10. Add chicken back to the pot and stir in frozen peas and orzo.
+11. Cook for another 7–8 minutes until orzo is just barely tender.

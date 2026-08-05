@@ -1,0 +1,13 @@
+---
+title: "Recipes"
+listing:
+  contents: recipes
+  type: grid
+  categories: true
+  sort: "title"
+  sort-ui: [title, date]
+  filter-ui: true
+  fields: [image, title, author, description, categories]
+  image-height: "180px"
+page-layout: full
+---

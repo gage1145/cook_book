@@ -1,0 +1,34 @@
+---
+title: "Carrots & Kale"
+author: "Shug"
+description: "For the rabbits in the family."
+categories: ["Side", "Vegetarian"]
+image: "/images/side.png"
+---
+
+::: {.recipe-meta}
+**Serves:** 4\
+**Prep time:** 15 minutes\
+**Cook time:** 15 minutes
+
+[Side]{.badge .badge-side} [Vegetarian]{.badge .badge-vegetarian}
+:::
+
+*For the rabbits in the family.*
+
+## Ingredients
+
+- 3 large carrots (sliced)
+- 1 bushel of kale (chopped)
+- 1 onion (sliced)
+- 2 tsp garlic salt
+- 1 tsp lemon pepper
+- 1 tbsp olive oil
+- 1 tbsp butter
+
+## Instructions
+
+1. Sear carrots in olive oil and butter for about 5 minutes.
+2. Add the onion and continue searing with the lid on the pan, without stirring, until carrots are dark and caramelized.
+3. Stir, then add chopped kale, turn off the burner, and cover until kale is wilted.
+4. Add the seasonings to taste.

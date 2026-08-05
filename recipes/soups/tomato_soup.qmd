@@ -1,0 +1,38 @@
+---
+title: "Tomato Soup"
+author: "Shug"
+description: "Of course you have to eat it with a grilled cheese!"
+categories: ["Soup"]
+image: "/images/soup.png"
+---
+
+::: {.recipe-meta}
+**Serves:** 4\
+**Prep time:** 10 minutes\
+**Cook time:** 30 minutes
+
+[Soup]{.badge .badge-soup}
+:::
+
+*Of course you have to eat it with a grilled cheese!*
+
+## Ingredients
+
+- ½ onion
+- 6 tbsp butter
+- 1 can diced tomatoes
+- 1 can tomato sauce
+- ¼ cup chicken broth
+- 3 tbsp sugar
+- 1 cup half & half
+- salt and pepper (to taste)
+- 1½ tsp parsley
+- 1½ tsp basil
+
+## Instructions
+
+1. Sauté onions in the butter.
+2. Process the sauteed onions and diced tomatoes in a food processor.
+3. Put back in the pot to mix with tomato sauce and chicken broth.
+4. Bring soup to almost a simmer.
+5. Add sugar, spices, and half & half.

@@ -1,0 +1,50 @@
+---
+title: "Frosted Brownies"
+author: "Mimi"
+description: "Ok, maybe this is the most addicting thing ever devised?"
+categories: ["Dessert", "Vegetarian"]
+image: "/images/dessert.png"
+---
+
+::: {.recipe-meta}
+**Serves:** 4\
+**Prep time:** 20 minutes\
+**Cook time:** 1 hour
+
+[Dessert]{.badge .badge-dessert} [Vegetarian]{.badge .badge-vegetarian}
+:::
+
+*Ok, maybe this is the most addicting thing ever devised?*
+
+## Ingredients
+
+### Brownie Mix
+
+- 2 cups sugar
+- 1½ cups flour
+- ⅓ cup cocoa
+- 1 tsp salt
+- 4 eggs
+- 2 sticks butter
+- 2 tsp vanilla
+
+### Icing
+
+- 1 stick butter
+- ¼ cup cocoa
+- 3½ cups powdered sugar
+- ¼ cup half & half
+
+## Instructions
+
+*Preheat the oven to 350°F.*
+
+1. Grease and flour 9×13″ dish and set aside.
+2. Add the sugar, flour, and salt to a large mixing bowl.
+3. Melt the butter and cocoa in the microwave.
+4. While mixing, add the eggs to the dry ingredients. Once incorporated, add the butter/cocoa mixture and the vanilla.
+5. Bake for 30 minutes. Let cool completely.
+6. For the icing, melt the butter and cocoa.
+7. Add the half & half.
+8. Sift in the powdered sugar. Add more half & half if needed.
+9. Layer the icing on top of the cooled brownies.

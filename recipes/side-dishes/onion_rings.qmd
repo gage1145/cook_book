@@ -1,0 +1,44 @@
+---
+title: "Onion Rings"
+author: "Great Shug"
+description: "You probably weren't expecting onion rings in this book."
+categories: ["Side", "Vegetarian"]
+image: "/images/side.png"
+---
+
+::: {.recipe-meta}
+**Serves:** 3\
+**Prep time:** 30 minutes\
+**Cook time:** 5 minutes
+
+[Side]{.badge .badge-side} [Vegetarian]{.badge .badge-vegetarian}
+:::
+
+*You probably weren't expecting onion rings in this book.*
+
+## Ingredients
+
+### Onion Marinade
+
+- 2 onions (ringed)
+- 1 cup water
+- 1 cup whole milk
+
+### Batter
+
+- 1⅓ cup flour
+- 1 tbsp shortening
+- 2 eggs (separated)
+- ¾ cup water
+- 1 tsp salt
+- ¼ tsp black pepper
+
+## Instructions
+
+*Preheat frying oil to 375°F.*
+
+1. Combine the water and whole milk for the marinade, and add the onions to the mixture. Marinate for $geq$30 minutes.
+2. Beat the egg yolks until smooth and the egg whites until stiff. These are done SEPARATELY!
+3. Mix the yolks, flour, shortening, water, salt, and black pepper.
+4. Fold in the egg whites.
+5. Dip the onion rings in the batter, and fry until golden brown.

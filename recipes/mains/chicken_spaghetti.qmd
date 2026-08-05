@@ -1,0 +1,40 @@
+---
+title: "Chicken Spaghetti"
+author: "Shug"
+description: "Always a popular choice in our house."
+categories: ["Main"]
+image: "/images/main.png"
+---
+
+::: {.recipe-meta}
+**Serves:** 4\
+**Prep time:** 10 minutes\
+**Cook time:** 45 minutes
+
+[Main]{.badge .badge-main}
+:::
+
+*Always a popular choice in our house.*
+
+## Ingredients
+
+- 1 package of spaghetti
+- 3 chicken breasts
+- 2 cups chicken broth
+- ½ stick butter
+- 1 buttermilk ranch packet
+- ½ onion, diced
+- 1 can Rotel tomatoes
+- 1 can cream of chicken soup
+- garlic salt
+- black pepper
+- 1 block cream cheese
+- ⅓ block Velveeta® cheese
+
+## Instructions
+
+1. Add all ingredients to the crock pot, excluding the cream cheese and Velveeta®.
+2. Cook on high for 3½ hours.
+3. Add cream cheese and Velveeta®, then cook an additional 30 minutes.
+4. Shred and stir.
+5. Boil the spaghetti to desired tenderness, strain, and add to the mixture in the crock pot.

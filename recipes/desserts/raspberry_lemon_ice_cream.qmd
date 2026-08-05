@@ -1,0 +1,35 @@
+---
+title: "Raspberry Lemon Ice Cream"
+author: "Boss"
+description: "Try it with a chocolate sauce. Trust me."
+categories: ["Dessert", "Vegetarian"]
+image: "/images/dessert.png"
+---
+
+::: {.recipe-meta}
+**Serves:** 4\
+**Prep time:** 5 minutes\
+**Cook time:** 1–2 hours
+
+[Dessert]{.badge .badge-dessert} [Vegetarian]{.badge .badge-vegetarian}
+:::
+
+*Try it with a chocolate sauce. Trust me.*
+
+## Ingredients
+
+- 1 can Eagle Brand® sweetened condensed milk
+- 2 eggs
+- 2 cups half & half
+- 1 small lemon (juice and zest)
+- 1 tsp vanilla
+- ⅛ tsp almond extract
+- 1 cup fresh raspberries
+
+## Instructions
+
+1. Put the raspberries in the freezer (they don’t have to be frozen, just cold).
+2. Mix together all the ingredients, excluding the raspberries.
+3. Pour mixture into your ice cream maker and turn it on.
+4. About halfway through, when the ice cream is starting to thicken, add the raspberries.
+5. *Note: also works with strawberries.*

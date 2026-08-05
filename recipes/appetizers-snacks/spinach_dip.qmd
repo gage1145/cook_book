@@ -1,0 +1,40 @@
+---
+title: "Spinach Dip"
+author: "Kelsey"
+description: "This will always win the potluck."
+categories: ["Appetizer", "Vegetarian"]
+image: "/images/apps.png"
+---
+
+::: {.recipe-meta}
+**Serves:** 8\
+**Prep time:** 10 minutes\
+**Cook time:** 30 minutes
+
+[Appetizer]{.badge .badge-apps} [Vegetarian]{.badge .badge-vegetarian}
+:::
+
+*This will always win the potluck.*
+
+## Ingredients
+
+- 1 package frozen spinach (thawed, drained)
+- 1 can artichokes (drained, chopped)
+- 1 clove garlic (diced)
+- 1 cup sour cream
+- 1 cup mayo
+- 1 block cream cheese
+- 1 tsp lemon juice
+- ¾ cup green onion (chopped)
+- mozzarella (for topping)
+- salt (to taste)
+- black pepper (to taste)
+
+## Instructions
+
+*Preheat the oven to 350°F.*
+
+1. Mix all the ingredients except the mozzarella together in a baking dish.
+2. Top the mixture with the mozzarella.
+3. Bake until golden brown and bubbling on the sides.
+4. Serve with chips or toasted bread.

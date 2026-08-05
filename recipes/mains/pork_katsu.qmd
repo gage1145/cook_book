@@ -1,0 +1,41 @@
+---
+title: "Pork Katsu"
+author: "Gage"
+description: "It's deep-fried pork. What else needs to be said?"
+categories: ["Main"]
+image: "/images/main.png"
+---
+
+::: {.recipe-meta}
+**Serves:** 4\
+**Prep time:** 20 minutes\
+**Cook time:** 10 minutes
+
+[Main]{.badge .badge-main}
+:::
+
+*It's deep-fried pork. What else needs to be said?*
+
+## Ingredients
+
+- 4 boneless pork loin chops
+- salt to taste
+- 1 pinch MSG
+- ½ cup all-purpose flour
+- 2 eggs plus a splash of water
+- 1½ cups panko breadcrumbs
+- 3–4 cups oil for frying
+
+## Instructions
+
+1. Cut the meat off the bone, and score the fat cap down, so the meat does not curl while cooking.
+2. With a sharp knife, score the meat lightly, on the exposed flesh, in a crosshatch pattern, no more than ¼″ deep.
+3. With a meat mallet, flatten the pork loin portions until they are ½″ thick; season with salt and a pinch of MSG.
+4. Place in the fridge for 30 minutes or overnight.
+5. Set up your breading station by placing the flour, beaten eggs and panko, in separate bowls.
+6. Toss the meat in the flour, coating completely, and shake off the excess
+7. Dip in the egg wash and let it drain slightly
+8. Press it into the panko and make sure everything is well covered.
+9. Repeat with all the chops.
+10. Fill up a large pot with 2½″ of vegetable oil and heat to 340°F.
+11. Fry the pork chops, one or two at a time for 4–6 minutes or until golden brown and crisp (>140°F internal).

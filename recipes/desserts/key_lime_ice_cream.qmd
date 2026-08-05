@@ -1,0 +1,30 @@
+---
+title: "Key Lime Ice Cream"
+author: "Boss"
+description: "Sometimes making a pie is too much effort."
+categories: ["Dessert", "Vegetarian"]
+image: "/images/dessert.png"
+---
+
+::: {.recipe-meta}
+**Serves:** 8\
+**Prep time:** 5 minutes
+
+[Dessert]{.badge .badge-dessert} [Vegetarian]{.badge .badge-vegetarian}
+:::
+
+*Sometimes making a pie is too much effort.*
+
+## Ingredients
+
+- 2 eggs
+- 1 can Eagle Brand condensed milk
+- 2 cups half & half
+- 2 limes (zest and juice)
+- 1 tbsp vanilla extract
+
+## Instructions
+
+1. Mix all the ingredients together.
+2. Add the mixture into the ice cream maker.
+3. Mix to desired consistency.

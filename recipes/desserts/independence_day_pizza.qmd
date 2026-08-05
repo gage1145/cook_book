@@ -1,0 +1,36 @@
+---
+title: "Independence Day Pizza"
+author: "Presley"
+description: "Served every 4th of July with fireworks!"
+categories: ["Dessert", "Vegetarian"]
+image: "/images/dessert.png"
+---
+
+::: {.recipe-meta}
+**Serves:** 8\
+**Prep time:** 10 minutes\
+**Cook time:** 1 hour
+
+[Dessert]{.badge .badge-dessert} [Vegetarian]{.badge .badge-vegetarian}
+:::
+
+*Served every 4th of July with fireworks!*
+
+## Ingredients
+
+- 1 roll sugar cookie dough
+- 1 small tub cheesecake filling
+- 1 small carton strawberries (sliced)
+- 2–3 bananas (sliced)
+- 1 small carton blueberries
+- 1 can whipped cream
+
+## Instructions
+
+*Preheat the oven to 350°F.*
+
+1. Spread the cookie dough out in a flag shape on a baking sheet.
+2. Bake to manufacturer's specifications.
+3. Let the cookie cool, then cover with cheesecake filling.
+4. Get out a picture of Old Glory and arrange your fruit into the best flag.
+5. Top the bananas with whipped cream and use the whipped cream for the stars as well.

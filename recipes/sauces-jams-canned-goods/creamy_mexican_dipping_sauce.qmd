@@ -1,0 +1,27 @@
+---
+title: "Creamy, Spicy Dipping Sauce"
+author: "Gage"
+description: "Perfect for dipping a quesadilla."
+categories: ["Sauce", "Vegetarian"]
+image: "/images/jam.png"
+---
+
+::: {.recipe-meta}
+**Serves:** 4\
+**Prep time:** 5 minutes
+
+[Sauce]{.badge .badge-sauce} [Vegetarian]{.badge .badge-vegetarian}
+:::
+
+*Perfect for dipping a quesadilla.*
+
+## Ingredients
+
+- ⅔ cup of Mexican cream
+- hot sauce (I use Valentina®)
+- 1 lime (juice)
+
+## Instructions
+
+1. Mix all the ingredients together.
+2. Add hot sauce to your desired spice level.

@@ -1,0 +1,37 @@
+---
+title: "Deviled Eggs"
+author: "Gran"
+description: "I've never seen anyone eat just one of these."
+categories: ["Side", "Vegetarian"]
+image: "/images/side.png"
+---
+
+::: {.recipe-meta}
+**Serves:** 3\
+**Prep time:** 15 minutes\
+**Cook time:** 15 minutes
+
+[Side]{.badge .badge-side} [Vegetarian]{.badge .badge-vegetarian}
+:::
+
+*I've never seen anyone eat just one of these.*
+
+## Ingredients
+
+- 6 hard-boiled eggs
+- ¼ cup mayonnaise
+- 1½ tbsp sweet pickle relish
+- 1 tsp mustard
+- ⅛ tsp salt
+- dash of black pepper
+- sprinkle of paprika
+
+## Instructions
+
+*Pre-boil the eggs for 10–12 minutes and allow to cool completely.*
+
+1. Slice the eggs in half lengthwise and carefully remove the yolks.
+2. Mash the yolks with the mayonnaise.
+3. Add the relish, mustard, salt, and pepper; stir well.
+4. Spoon the yolk mixture back into the egg whites.
+5. Sprinkle with paprika.

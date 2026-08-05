@@ -1,0 +1,47 @@
+---
+title: "Pecan Pie"
+author: "Gran"
+description: "A West Texas delicacy."
+categories: ["Dessert", "Vegetarian"]
+image: "/images/dessert.png"
+---
+
+::: {.recipe-meta}
+**Serves:** 4\
+**Prep time:** 10 minutes\
+**Cook time:** 15 minutes
+
+[Dessert]{.badge .badge-dessert} [Vegetarian]{.badge .badge-vegetarian}
+:::
+
+*A West Texas delicacy.*
+
+## Ingredients
+
+### For 9″ pie
+
+- 3 eggs
+- ¾ cups sugar
+- ⅓ tsp salt
+- ⅓ cup butter (melted)
+- 1 cup corn syrup
+- 1 cup pecans (halved)
+
+### For 8″ pie
+
+- 2 eggs
+- ½ cups sugar
+- ¼ tsp salt
+- ¼ cup butter (melted)
+- ¾ cup corn syrup
+- ¾ cup pecans (halved)
+
+## Instructions
+
+*Preheat the oven to 375°F.*
+
+1. Beat the eggs, sugar, salt, butter, and corn syrup together with a rotary beater.
+2. Fold in the pecans.
+3. Pour into a pastry-lined pie pan.
+4. Bake for 40 minutes or until set and pastry is nicely browned.
+5. Cool before serving.

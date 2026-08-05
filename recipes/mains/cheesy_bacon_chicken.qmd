@@ -1,0 +1,38 @@
+---
+title: "Cheesy Bacon Chicken"
+author: "Boss"
+description: "This is just sinful, but we can keep it between us."
+categories: ["Main"]
+image: "/images/main.png"
+---
+
+::: {.recipe-meta}
+**Serves:** 4\
+**Prep time:** 15 minutes\
+**Cook time:** 40 minutes
+
+[Main]{.badge .badge-main}
+:::
+
+*This is just sinful, but we can keep it between us.*
+
+## Ingredients
+
+- Cheddar cheese (slices & grated)
+- 2 large chicken breasts
+- 1 block cream cheese (softened)
+- 1 can corn
+- 1 jalapeño (chopped)
+- ½ onion (chopped)
+- 1 clove garlic (chopped)
+- 6 strips bacon
+
+## Instructions
+
+*Preheat oven to 375°F.*
+
+1. Cut several deep slits lengthwise into the chicken breasts.
+2. Insert bacon and cheddar slices inside each slit.
+3. Mix all other ingredients.
+4. Cover chicken with mixture.
+5. Bake for 40 minutes in a cast iron skillet.
