@@ -182,14 +182,14 @@ ul.task-list li input[type="checkbox"] {
 
   <div class="mb-3">
     <label for="description" class="form-label">Description / details</label>
-    <textarea class="form-control" id="description" rows="5" placeholder="What is it, why should it be added, and any details you already know (ingredients, where it comes from, etc.)" required=""></textarea>
+    <textarea class="form-control" id="description" rows="5" placeholder="What is it, why should it be added, and any details you already know (ingredients, instructions, provenance, etc.)" required=""></textarea>
   </div>
 
   <button type="submit" class="btn btn-primary">Continue to GitHub</button>
 </form>
 
 <noscript>
-  <p><a href="https://github.com/gage1145/cook_book/issues/new?template=recipe-request.yml">Open the recipe request form on GitHub</a> (JavaScript is required for the pre-filled version above).</p>
+  <p><a href="https://github.com/gage1145/cook_book/issues/new/choose">Open the recipe request form on GitHub</a> (JavaScript is required for the pre-filled version above).</p>
 </noscript>
 
 <script>
@@ -202,14 +202,24 @@ document.getElementById("recipe-request-form").addEventListener("submit", functi
   const source = document.getElementById("source").value.trim();
   const description = document.getElementById("description").value.trim();
 
+  const body = [
+    `**Category:** ${category}`,
+    `**Submitted by:** ${submittedBy || "_not provided_"}`,
+    `**Source:** ${source || "_not provided_"}`,
+    "",
+    "### Description",
+    "",
+    description,
+  ].join("\n");
+
+  // GitHub only guarantees prefilling issues via the documented
+  // title/body/labels query params -- per-field prefill of a .yml
+  // issue form's custom fields is undocumented and unreliable, so we
+  // fold everything into a plain issue body instead of using ?template=.
   const params = new URLSearchParams({
-    template: "recipe-request.yml",
     title: `[Recipe Request]: ${recipeName}`,
-    "recipe-name": recipeName,
-    category: category,
-    "submitted-by": submittedBy,
-    source: source,
-    description: description,
+    body: body,
+    labels: "recipe-request",
   });
 
   window.open(`https://github.com/gage1145/cook_book/issues/new?${params.toString()}`, "_blank");
