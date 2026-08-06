@@ -146,12 +146,12 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Know a recipe that belongs in the family cookbook? Fill out the form belowt! It’ll take you to GitHub with everything pre-filled so you just have to hit submit.</p>
-<p>You’ll need a (free) GitHub account to submit the request. If you’d rather send it another way, just email me directly at <a href="mailto:gage.rowden@gmail.com" class="email">gage.rowden@gmail.com</a>.</p>
+<p>Know a recipe that belongs in the family cookbook? Fill out the form below. It’ll take you to GitHub with everything pre-filled so you just have to hit submit.</p>
+<p>You’ll need a (free) GitHub account to submit the request. If you’d prefer not to use GitHub, you can email me directly at <a href="mailto:gage.rowden@gmail.com" class="email">gage.rowden@gmail.com</a>, but I can’t guarantee a response or documentation of the request.</p>
 <form id="recipe-request-form" class="mb-4" style="max-width: 40rem;">
   <div class="mb-3">
     <label for="recipe-name" class="form-label">Recipe name</label>
-    <input type="text" class="form-control" id="recipe-name" placeholder="e.g. Gran's Peach Cobbler" required="">
+    <input type="text" class="form-control" id="recipe-name" placeholder="e.g. Lobster Thermidor" required="">
   </div>
 
   <div class="mb-3">
@@ -182,14 +182,14 @@ ul.task-list li input[type="checkbox"] {
 
   <div class="mb-3">
     <label for="description" class="form-label">Description / details</label>
-    <textarea class="form-control" id="description" rows="5" placeholder="What is it, why should it be added, and any details you already know (ingredients, where it comes from, etc.)" required=""></textarea>
+    <textarea class="form-control" id="description" rows="5" placeholder="What is it, why should it be added, and any details you already know (ingredients, instructions, provenance, etc.)" required=""></textarea>
   </div>
 
   <button type="submit" class="btn btn-primary">Continue to GitHub</button>
 </form>
 
 <noscript>
-  <p><a href="https://github.com/gage1145/cook_book/issues/new?template=recipe-request.yml">Open the recipe request form on GitHub</a> (JavaScript is required for the pre-filled version above).</p>
+  <p><a href="https://github.com/gage1145/cook_book/issues/new/choose">Open the recipe request form on GitHub</a> (JavaScript is required for the pre-filled version above).</p>
 </noscript>
 
 <script>
@@ -202,14 +202,24 @@ document.getElementById("recipe-request-form").addEventListener("submit", functi
   const source = document.getElementById("source").value.trim();
   const description = document.getElementById("description").value.trim();
 
+  const body = [
+    `**Category:** ${category}`,
+    `**Submitted by:** ${submittedBy || "_not provided_"}`,
+    `**Source:** ${source || "_not provided_"}`,
+    "",
+    "### Description",
+    "",
+    description,
+  ].join("\n");
+
+  // GitHub only guarantees prefilling issues via the documented
+  // title/body/labels query params -- per-field prefill of a .yml
+  // issue form's custom fields is undocumented and unreliable, so we
+  // fold everything into a plain issue body instead of using ?template=.
   const params = new URLSearchParams({
-    template: "recipe-request.yml",
     title: `[Recipe Request]: ${recipeName}`,
-    "recipe-name": recipeName,
-    category: category,
-    "submitted-by": submittedBy,
-    source: source,
-    description: description,
+    body: body,
+    labels: "recipe-request",
   });
 
   window.open(`https://github.com/gage1145/cook_book/issues/new?${params.toString()}`, "_blank");
@@ -309,7 +319,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/cookbook\.gagerowden\.com");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

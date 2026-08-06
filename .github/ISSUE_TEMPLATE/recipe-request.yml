@@ -7,7 +7,7 @@ body:
     id: recipe-name
     attributes:
       label: Recipe Name
-      placeholder: "e.g. Gran's Peach Cobbler"
+      placeholder: "e.g. Lobster Thermidor"
     validations:
       required: true
 
@@ -40,7 +40,7 @@ body:
     id: source
     attributes:
       label: Source / who it's from
-      placeholder: "e.g. Gran's recipe box, Mimi, a new find online"
+      placeholder: "e.g. My friend Becky, Gordon Ramsay, etc."
     validations:
       required: false
 
