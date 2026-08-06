@@ -1,5 +1,7 @@
 project:
   type: website
+  resources:
+    - CNAME
 
 website:
   title: "Cook Book"
@@ -10,6 +12,9 @@ website:
       - href: recipes.qmd
         text: Recipes
       - about.qmd
+    right:
+      - href: https://gagerowden.com
+        text: GageRowden.com
 
 format:
   html:
