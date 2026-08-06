@@ -11,6 +11,8 @@ website:
         text: Home
       - href: recipes.qmd
         text: Recipes
+      - href: recipe_submission.qmd
+        text: Request a Recipe
       - about.qmd
     right:
       - href: https://gagerowden.com

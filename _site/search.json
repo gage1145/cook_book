@@ -1853,5 +1853,12 @@
     "title": "Tomato Soup",
     "section": "Instructions",
     "text": "Instructions\n\nSauté onions in the butter.\nProcess the sauteed onions and diced tomatoes in a food processor.\nPut back in the pot to mix with tomato sauce and chicken broth.\nBring soup to almost a simmer.\nAdd sugar, spices, and half & half."
+  },
+  {
+    "objectID": "recipe_submission.html",
+    "href": "recipe_submission.html",
+    "title": "Request a Recipe",
+    "section": "",
+    "text": "Know a recipe that belongs in the family cookbook? Fill out the form belowt! It’ll take you to GitHub with everything pre-filled so you just have to hit submit.\nYou’ll need a (free) GitHub account to submit the request. If you’d rather send it another way, just email me directly at gage.rowden@gmail.com.\n\n  \n    Recipe name\n    \n  \n\n  \n    Category\n    \n      Choose a category…\n      Appetizers & Snacks\n      Breads & Baked Goods\n      Breakfast\n      Desserts\n      Mains\n      Sauces, Jams & Canned Goods\n      Side Dishes\n      Soups\n      Other / not sure\n    \n  \n\n  \n    Submitted by\n    \n  \n\n  \n    Source / who it's from\n    \n  \n\n  \n    Description / details\n    \n  \n\n  Continue to GitHub\n\n\n\n  Open the recipe request form on GitHub (JavaScript is required for the pre-filled version above)."
   }
 ]

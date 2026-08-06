@@ -1,0 +1,77 @@
+---
+title: "Request a Recipe"
+---
+
+Know a recipe that belongs in the family cookbook? Fill out the form belowt! It'll take you to GitHub with everything pre-filled so you just have to hit submit.
+
+You'll need a (free) GitHub account to submit the request. If you'd rather send it another way, just email me directly at <gage.rowden@gmail.com>.
+
+```{=html}
+<form id="recipe-request-form" class="mb-4" style="max-width: 40rem;">
+  <div class="mb-3">
+    <label for="recipe-name" class="form-label">Recipe name</label>
+    <input type="text" class="form-control" id="recipe-name" placeholder="e.g. Lobster Thermidor" required>
+  </div>
+
+  <div class="mb-3">
+    <label for="category" class="form-label">Category</label>
+    <select class="form-select" id="category" required>
+      <option value="" selected disabled>Choose a category&hellip;</option>
+      <option>Appetizers & Snacks</option>
+      <option>Breads & Baked Goods</option>
+      <option>Breakfast</option>
+      <option>Desserts</option>
+      <option>Mains</option>
+      <option>Sauces, Jams & Canned Goods</option>
+      <option>Side Dishes</option>
+      <option>Soups</option>
+      <option>Other / not sure</option>
+    </select>
+  </div>
+
+  <div class="mb-3">
+    <label for="submitted-by" class="form-label">Submitted by</label>
+    <input type="text" class="form-control" id="submitted-by" placeholder="Your name">
+  </div>
+
+  <div class="mb-3">
+    <label for="source" class="form-label">Source / who it's from</label>
+    <input type="text" class="form-control" id="source" placeholder="e.g. Gran's recipe box, Mimi, a new find online">
+  </div>
+
+  <div class="mb-3">
+    <label for="description" class="form-label">Description / details</label>
+    <textarea class="form-control" id="description" rows="5" placeholder="What is it, why should it be added, and any details you already know (ingredients, where it comes from, etc.)" required></textarea>
+  </div>
+
+  <button type="submit" class="btn btn-primary">Continue to GitHub</button>
+</form>
+
+<noscript>
+  <p><a href="https://github.com/gage1145/cook_book/issues/new?template=recipe-request.yml">Open the recipe request form on GitHub</a> (JavaScript is required for the pre-filled version above).</p>
+</noscript>
+
+<script>
+document.getElementById("recipe-request-form").addEventListener("submit", function (event) {
+  event.preventDefault();
+
+  const recipeName = document.getElementById("recipe-name").value.trim();
+  const category = document.getElementById("category").value;
+  const submittedBy = document.getElementById("submitted-by").value.trim();
+  const source = document.getElementById("source").value.trim();
+  const description = document.getElementById("description").value.trim();
+
+  const params = new URLSearchParams({
+    template: "recipe-request.yml",
+    title: `[Recipe Request]: ${recipeName}`,
+    "recipe-name": recipeName,
+    category: category,
+    "submitted-by": submittedBy,
+    source: source,
+    description: description,
+  });
+
+  window.open(`https://github.com/gage1145/cook_book/issues/new?${params.toString()}`, "_blank");
+});
+</script>
+```

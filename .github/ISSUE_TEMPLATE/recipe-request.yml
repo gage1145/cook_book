@@ -1,0 +1,53 @@
+name: Recipe Request
+description: Suggest a recipe to add to the family cookbook
+title: "[Recipe Request]: "
+labels: ["recipe-request"]
+body:
+  - type: input
+    id: recipe-name
+    attributes:
+      label: Recipe Name
+      placeholder: "e.g. Gran's Peach Cobbler"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Appetizers & Snacks
+        - Breads & Baked Goods
+        - Breakfast
+        - Desserts
+        - Mains
+        - Sauces, Jams & Canned Goods
+        - Side Dishes
+        - Soups
+        - Other / not sure
+    validations:
+      required: true
+
+  - type: input
+    id: submitted-by
+    attributes:
+      label: Submitted by
+      placeholder: Your name
+    validations:
+      required: false
+
+  - type: input
+    id: source
+    attributes:
+      label: Source / who it's from
+      placeholder: "e.g. Gran's recipe box, Mimi, a new find online"
+    validations:
+      required: false
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description / details
+      description: What is it, why should it be added, and any details you already know (ingredients, where it comes from, etc.)
+    validations:
+      required: true
